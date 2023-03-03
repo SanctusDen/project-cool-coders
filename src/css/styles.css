@@ -9,14 +9,14 @@
 @import url('./hero.css');
 @import url('./about-complex.css');
 @import url('./restaurants-details.css');
-@import url('welcome-complex.css');
-@import url('hotels-details.css');
+@import url('./welcome-complex.css');
+@import url('./hotels-details.css');
 @import url('./locations.css');
 @import url('./footer.css');
 
-:root {
+/* :root {
 
-}
+} */
 
 body{
   font-family: 'DM Sans', sans-serif; 
