@@ -182,8 +182,8 @@ p {
   }
   .section-title {
     position: absolute;
-    top: 100px;
-    left: 736px;
+    top: 0;
+    left: 700px;
     margin: 0;
     font-weight: 500;
     font-size: 68px;
@@ -193,7 +193,7 @@ p {
   .location {
     padding: 100px 32px;
   }
-  .contacts {
+  .contact {
     display: flex;
     gap: 70px;
   }
