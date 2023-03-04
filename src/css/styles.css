@@ -13,13 +13,19 @@
 @import url('./hotels-details.css');
 @import url('./locations.css');
 @import url('./footer.css');
+@import url('./restaurant-hero.css');
 
-/* :root {
+:root {
+  /* dionisii */
+  --bg-restaurant:#F7F7F7;
+  --color-text:#121212;
+  /*  */
 
-} */
+}
 
 body{
   font-family: 'DM Sans', sans-serif; 
+  margin: 0;
 }
 
 .button {
