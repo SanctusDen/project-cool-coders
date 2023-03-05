@@ -9,10 +9,13 @@ p {
   margin: 0;
 }
 
+<<<<<<< Updated upstream
 p:last-child {
   margin-bottom: 0;
 }
 
+=======
+>>>>>>> Stashed changes
 ul {
   margin: 0;
   padding: 0;

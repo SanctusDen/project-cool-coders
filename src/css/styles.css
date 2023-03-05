@@ -7,7 +7,10 @@
 @import url('./reset.css');
 @import url('./vite-promo.css');
 @import url('./header.css');
+<<<<<<< Updated upstream
 @import url('./restaurant-swipe.css');
+=======
+>>>>>>> Stashed changes
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
