@@ -1,23 +1,24 @@
-.welcome-complex-container {
-  min-width: 320px;
+.welcome-complex {
   padding-top: 64px;
   padding-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-  .welcome-complex-container {
+  .welcome-complex {
     padding-top: 80px;
     padding-bottom: 80px;
   }
 }
 
 @media screen and (min-width: 1440px) {
+  .welcome-complex {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
   .welcome-complex-container {
     display: flex;
     flex-direction: row-reverse;
     column-gap: 32px;
-    padding-top: 100px;
-    padding-bottom: 100px;
   }
   .welcome-complex-wrapper {
     width: 437px;
