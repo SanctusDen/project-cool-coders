@@ -57,7 +57,7 @@ p {
 
 .instagram {
   width: 32px;
-    height: 32px;
+  height: 32px;
   padding: 4px;
   fill: var(--dark-color);
   stroke-width: 0;
@@ -114,7 +114,7 @@ p {
   .footer-item {
     margin-bottom: 32px;
   }
-  .instagram{
+  .instagram {
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -147,7 +147,7 @@ p {
     height: 28px;
     padding: 4px;
   }
-  .instagram{
+  .instagram {
     width: 28px;
     height: 28px;
     padding: 4px;
