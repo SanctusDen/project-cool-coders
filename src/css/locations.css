@@ -174,29 +174,34 @@ p {
   .mobile-map {
     display: none;
   }
+
   .tab-map {
     display: none;
   }
+
   .maps {
     width: 640px;
   }
   .section-title {
     position: absolute;
-    top: 100px;
-    left: 736px;
+    top: 0;
+    left: 700px;
     margin: 0;
     font-weight: 500;
     font-size: 68px;
     line-height: 1;
     text-transform: uppercase;
   }
+
   .location {
     padding: 100px 32px;
   }
-  .contacts {
+
+  .contact {
     display: flex;
     gap: 70px;
   }
+  
   .flex {
     display: flex;
     gap: 12px;
