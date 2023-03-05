@@ -1,0 +1,145 @@
+/* Roman */
+
+@media screen and (max-width: 1439px) {
+    .ghost {
+        display: none;
+    }
+}
+
+.swipe-container.container {
+    margin-top: 64px;
+    /* margin-bottom: 64px; */
+}
+@media screen and (min-width: 768px) {
+    .swipe-container.container {
+        margin-top: 80px;
+        /* margin-bottom: 80px; */
+    }
+}
+@media screen and (min-width: 1440px) {
+    .swipe-container.container {
+        margin-top: 144px;
+        /* margin-bottom: 126px; */
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .swipe-head-section {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.swipe-head {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
+@media screen and (min-width: 768px) {
+    .swipe-head {
+        font-size: 68px;
+    }
+}
+
+.swipe-text-bloc {
+    margin-top: 24px;
+    max-width: 221px;
+}
+@media screen and (min-width: 768px) {
+    .swipe-text-bloc {
+        margin-top: 0px;
+        margin-left: 32px;
+    }
+}
+
+.swipe-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.swipe-img-bloc {
+    margin-top: 32px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+@media screen and (min-width:768px) {
+    .swipe-img-bloc{
+        margin-top: 80px;
+        gap: 32px;
+    }
+    
+}
+@media screen and (min-width: 1400px) {
+    .swipe-img-bloc {
+        margin-top: 125px;
+        justify-content: flex-start;
+        gap: 32px;
+    }
+    .swipe-picture {
+        display: block;
+        width: 266px;
+        height: 309px;
+    }
+    .swipe-picture img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+}
+
+
+
+.swipe-vector-bloc {
+    margin-top: 25px;
+    display: flex;
+    gap: 20px;
+}
+@media screen and (min-width: 768px) {
+    .swipe-vector-bloc {
+        margin-top: 43px;
+    }
+}
+@media screen and (min-width: 1400px) {
+    .swipe-vector-bloc {
+        margin-top: 51px;
+        justify-content: center;
+        margin-bottom: 37px;
+    }
+}
+
+.swipe-buttons {
+    margin-top: 39px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+}
+.swipe-button:focus,
+.swipe-button:hover {
+    color: #F7F7F7;
+    background-color: #121212;
+    border: 0.8px solid #F7F7F7;
+}
+@media screen and (min-width: 1440px) {
+    .swipe-buttons {
+        margin-top: 0;
+        position: absolute;
+        top: 0;
+        right: 32px;
+    }
+}

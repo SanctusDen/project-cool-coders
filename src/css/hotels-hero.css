@@ -1,1 +1,83 @@
 /* sergey */
+
+.hero-hotel.container {
+padding-bottom: 64px;
+} 
+
+
+.left-bloc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-title {
+color: var(--black-color);
+font-weight: 400;
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 24px;
+}
+
+.option-btns {
+display: flex;
+gap: 12px;
+margin-bottom: 40px;
+}
+.text {
+    text-align: left;
+} 
+.cursive {
+font-style: italic;
+}
+
+
+.slider-img-block {
+display: flex;
+flex-direction: column;
+}
+.swiper-slide {
+    min-width: 250px;
+
+}
+.hero-images.list {
+display: flex;
+column-gap: 20px;
+position: relative;
+
+}
+.btn-list.list {
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
+}
+/* 
+.list {
+}
+
+.hero-imge {
+}
+
+.slider-buttons {
+}
+
+.slider-btn {
+}
+
+.btn-arrow {
+}
+
+.btn {
+} */
+
+.swipe-icon {
+    display: block;
+    stroke: rgba(18, 18, 18, 0.3);
+    stroke-width: 2px;
+}
