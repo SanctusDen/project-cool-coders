@@ -6,21 +6,35 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+
 @import url('./hero.css');
 @import url('./about-complex.css');
-@import url('./restaurants-details.css');
+@import url('./restaurant-swipe.css');
 @import url('./welcome-complex.css');
 @import url('./hotels-details.css');
 @import url('./locations.css');
 @import url('./footer.css');
 @import url('./triple-room.css');
 
-/* :root {
+@import url('./hotels-hero.css');
+@import url('./double-room.css');
+@import url('./triple-room.css');
+@import url('./four-seater-room.css');
 
-} */
 
-body {
-  font-family: 'DM Sans', sans-serif;
+
+
+:root {
+  /* dionisii */
+  --bg-restaurant:#F7F7F7;
+  --color-text:#121212;
+  /*  */
+
+}
+
+body{
+  font-family: 'DM Sans', sans-serif; 
+  margin: 0;
 }
 
 .button {
