@@ -66,11 +66,34 @@ body{
 body{
   font-family: 'DM Sans', sans-serif; 
   margin: 0;
+  background-color: #D8D8D8;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #121212;
+  border-color: #F7F7F7;
+}
+.btn-black:hover,
+.btn-black:focus {
+  color: #121212;
+  background-color: #fff;
+}
+.btn-white {
+  color: #121212;
+  background-color: #fff;
+  border-color: #121212;
+}
+.btn-white:hover,
+.btn-white:focus {
+  color: #fff;
+  background-color: #121212;
 }
 
 .button {
   display: flex;
   align-items: center;
+  font-family: 'DM Sans', sans-serif; 
   border: 0.8px solid #121212;
   border-radius: 32px;
   font-style: normal;
@@ -81,8 +104,6 @@ body{
   cursor: pointer;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
-  background-color: #fff;
 }
 @media screen and (min-width: 768px) {
   .button {
