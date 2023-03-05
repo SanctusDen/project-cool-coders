@@ -1,62 +1,61 @@
 /* sergey */
 
-
-/* .hotel-hero-2 {
-} */
-
-
 .hero-hotel.container {
-display: flex;
-/* flex-direction: column; */
-}
+padding-bottom: 64px;
+} 
 
-/* 
+
 .left-bloc {
-} */
-
-
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.content {
+    display: flex;
+    flex-direction: column-reverse;
+}
 .hero-title {
 color: var(--black-color);
 font-weight: 400;
 font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 24px;
 }
 
 .option-btns {
 display: flex;
-flex-direction: row;
+gap: 12px;
+margin-bottom: 40px;
 }
-/* 
-.booking-btn {
-}
-
-.button {
-}
-
-.pointer {
-}
-
-.viewing-btn {
-}
-
 .text {
-} */
-
-
+    text-align: left;
+} 
 .cursive {
 font-style: italic;
 }
 
-/* 
+
 .slider-img-block {
+display: flex;
+flex-direction: column;
+}
+.swiper-slide {
+    min-width: 250px;
 
 }
-.hero-imgs {
-} */
-
-
 .hero-images.list {
 display: flex;
-gap: 20px;
+column-gap: 20px;
+position: relative;
+
+}
+.btn-list.list {
+    display: flex;
+    gap: 32px;
+    justify-content: end;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
 /* 
 .list {
@@ -79,6 +78,6 @@ gap: 20px;
 
 .swipe-icon {
     display: block;
-    stroke: var(--black-color);
+    stroke: rgba(18, 18, 18, 0.3);
     stroke-width: 2px;
 }
