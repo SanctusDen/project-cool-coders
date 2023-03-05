@@ -7,6 +7,9 @@
 @import url('./reset.css');
 @import url('./header.css');
 
+
+
+
 @import url('./hero.css');
 @import url('./about-complex.css');
 @import url('./restaurant-swipe.css');
@@ -33,10 +36,30 @@
 
 
 :root {
+
   /* dionisii */
   --bg-restaurant:#F7F7F7;
   --color-text:#121212;
   /*  */
+
+
+}
+
+body{
+  font-family: 'DM Sans', sans-serif; 
+  margin: 0;
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  font-style: normal;
+
+  font-weight: 400;
+
 
 }
 
