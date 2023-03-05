@@ -7,9 +7,6 @@
 @import url('./reset.css');
 @import url('./header.css');
 
-
-
-
 @import url('./hero.css');
 @import url('./about-complex.css');
 @import url('./restaurant-swipe.css');
@@ -29,39 +26,30 @@
 @import url('./restaurant-kitchen.css');
 @import url('./restaurant-menu.css');
 
-
-
-
-
-
-
 :root {
-
   /* dionisii */
-  --bg-restaurant:#F7F7F7;
-  --color-text:#121212;
+  --bg-restaurant: #f7f7f7;
+  --color-text: #121212;
   /*  */
-
-
 }
 
-body{
-  font-family: 'DM Sans', sans-serif; 
+body {
+  font-family: 'DM Sans', sans-serif;
   margin: 0;
-  background: #F7F7F7;
+  background: #f7f7f7;
 }
 
+<<<<<<< HEAD body {
+  font-family: 'DM Sans', sans-serif;
 
-body{
-  font-family: 'DM Sans', sans-serif; 
   margin: 0;
-  background-color: #D8D8D8;
+  background-color: #d8d8d8;
 }
 
 .btn-black {
   color: #fff;
   background-color: #121212;
-  border-color: #F7F7F7;
+  border-color: #f7f7f7;
 }
 .btn-black:hover,
 .btn-black:focus {
@@ -70,8 +58,8 @@ body{
 }
 .btn-white {
   color: #121212;
-  background-color: #fff;
   border-color: #121212;
+  background-color: #d8d8d8;
 }
 .btn-white:hover,
 .btn-white:focus {
@@ -82,8 +70,8 @@ body{
 .button {
   display: flex;
   align-items: center;
-  font-family: 'DM Sans', sans-serif; 
-  border: 0.8px solid #121212;
+  font-family: 'DM Sans', sans-serif;
+  border: 0.8px solid;
   border-radius: 32px;
   font-style: normal;
   font-weight: 400;
