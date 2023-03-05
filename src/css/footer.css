@@ -56,19 +56,21 @@ p {
 }
 
 .instagram {
+  width: 32px;
+    height: 32px;
   padding: 4px;
   fill: var(--dark-color);
   stroke-width: 0;
-  padding: 4px;
   border: 1px solid transparent;
   border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .soc-icon {
+  width: 32px;
+  height: 32px;
   padding: 4px;
   fill: transparent;
   stroke: var(--dark-color);
-  padding: 4px;
   border: 1px solid transparent;
   border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -92,8 +94,8 @@ p {
     width: 320px;
   }
   .soc-icon {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
   }
   .footer-main {
     margin-right: 43px;
@@ -111,6 +113,11 @@ p {
   }
   .footer-item {
     margin-bottom: 32px;
+  }
+  .instagram{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
   }
 }
 
@@ -135,8 +142,15 @@ p {
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
   }
-  .footer-item {
-    margin-bottom: 32px;
+  .soc-icon {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+  .instagram{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
   }
 }
 
