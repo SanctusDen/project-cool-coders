@@ -38,14 +38,14 @@ p {
 }
 
 
-.section_two {
+.section-two {
     padding-top: 64px;
     padding-bottom: 64px;
 }
 
 /*  tablet screen */
 @media screen and (min-width: 768px) {
-    .section_two {
+    .section-two {
         padding-top: 65px;
         padding-bottom: 65px;
     }
@@ -53,7 +53,7 @@ p {
 
 /* desktop screen  */
 @media screen and (min-width: 1440px) {
-    .section_two {
+    .section-two {
         padding-top: 17px;
         padding-bottom: 17px;
     }
@@ -146,7 +146,7 @@ p {
     position: relative;
 }
 
-.rating_name {
+.rating-name {
     margin-bottom: 7px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -159,7 +159,7 @@ p {
     color: #F7F7F7;
 }
 
-.rating_text {
+.rating-text {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
