@@ -191,6 +191,7 @@ p {
     font-size: 68px;
     line-height: 1;
     text-transform: uppercase;
+    color: var(--dark-color);
   }
 
   .location {
@@ -201,7 +202,7 @@ p {
     display: flex;
     gap: 70px;
   }
-  
+
   .flex {
     display: flex;
     gap: 12px;
