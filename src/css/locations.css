@@ -174,9 +174,11 @@ p {
   .mobile-map {
     display: none;
   }
+
   .tab-map {
     display: none;
   }
+
   .maps {
     width: 640px;
   }
@@ -190,13 +192,16 @@ p {
     line-height: 1;
     text-transform: uppercase;
   }
+
   .location {
     padding: 100px 32px;
   }
+
   .contact {
     display: flex;
     gap: 70px;
   }
+  
   .flex {
     display: flex;
     gap: 12px;
