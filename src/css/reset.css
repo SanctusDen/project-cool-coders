@@ -9,12 +9,19 @@ p {
   margin: 0;
 }
 
+<<<<<<< Updated upstream
+
 *,
 ::before,
 ::after {
 	box-sizing: border-box;
+
 }
 
+
+=======
+
+>>>>>>> Stashed changes
 ul {
   margin: 0;
   padding: 0;

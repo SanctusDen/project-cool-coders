@@ -63,9 +63,9 @@ container {
   .footer-nav {
     display: none;
   }
-  .container {
+  /* .container {
     width: 320px;
-  }
+  } */
   .soc-icon {
     width: 20px;
     height: 20px;

@@ -26,29 +26,45 @@
 @import url('./restaurant-kitchen.css');
 @import url('./restaurant-menu.css');
 
-
-
-
-
-
-
 :root {
   /* dionisii */
-  --bg-restaurant:#F7F7F7;
-  --color-text:#121212;
+  --bg-restaurant: #f7f7f7;
+  --color-text: #121212;
   /*  */
-
 }
 
-body{
-  font-family: 'DM Sans', sans-serif; 
+body {
+  font-family: 'DM Sans', sans-serif;
   margin: 0;
+  background: #f7f7f7;
+}
+
+.btn-black {
+  color: #fff;
+  background-color: #121212;
+  border-color: #f7f7f7;
+}
+.btn-black:hover,
+.btn-black:focus {
+  color: #121212;
+  background-color: #fff;
+}
+.btn-white {
+  color: #121212;
+  border-color: #121212;
+  background-color: #d8d8d8;
+}
+.btn-white:hover,
+.btn-white:focus {
+  color: #fff;
+  background-color: #121212;
 }
 
 .button {
   display: flex;
   align-items: center;
-  border: 0.8px solid #121212;
+  font-family: 'DM Sans', sans-serif;
+  border: 0.8px solid;
   border-radius: 32px;
   font-style: normal;
   font-weight: 400;
@@ -58,8 +74,6 @@ body{
   cursor: pointer;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  color: #121212;
-  background-color: #fff;
 }
 @media screen and (min-width: 768px) {
   .button {
