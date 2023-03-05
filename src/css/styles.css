@@ -13,9 +13,31 @@
 >>>>>>> Stashed changes
 
 :root {
+<<<<<<< Updated upstream
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
+=======
+  /* dionisii */
+  --bg-restaurant:#F7F7F7;
+  --color-text:#121212;
+  /*  */
+
+}
+
+body{
+  font-family: 'DM Sans', sans-serif; 
+  margin: 0;
+  
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  border: 0.8px solid #121212;
+  border-radius: 32px;
+  font-style: normal;
+>>>>>>> Stashed changes
   font-weight: 400;
 
   color: #242424;
