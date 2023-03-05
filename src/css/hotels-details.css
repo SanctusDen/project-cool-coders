@@ -198,6 +198,9 @@ text-transform: uppercase;
 .hotel-details-gallery {
     column-gap: 32px;
 }
+
+}
+
 .desktop-hidden {
     display: none;
 }
