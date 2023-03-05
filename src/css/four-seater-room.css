@@ -54,7 +54,7 @@ body {
 .four-seater-room-button {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 14px;
     margin-bottom: 64px;
 }
 .four-seater-button {
@@ -102,6 +102,7 @@ body {
     }
     .four-seater-room-button {
         justify-content: flex-end;
+        margin-bottom: 80px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1440px) {
@@ -109,6 +110,7 @@ body {
         display: inline-block;
         margin: 0;
     }
+    
     .left-elm {
         display: flex;
         gap: 32px;
@@ -125,6 +127,9 @@ body {
     @media screen and (min-width: 1440px) {
         .container-four-seater {
             width: 1440px;
+        }
+        .four-seater-room-title {
+            margin-bottom: 40px;
         }
         .images-desktop {
             display: flex;
