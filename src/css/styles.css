@@ -51,17 +51,6 @@ body{
   background: #F7F7F7;
 }
 
-.button {
-  display: flex;
-  align-items: center;
-  border: 0.8px solid #121212;
-  border-radius: 32px;
-  font-style: normal;
-
-  font-weight: 400;
-
-
-}
 
 body{
   font-family: 'DM Sans', sans-serif; 

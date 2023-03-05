@@ -40,22 +40,22 @@ p {
 
 .section-two {
     padding-top: 64px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
 }
 
 /*  tablet screen */
 @media screen and (min-width: 768px) {
     .section-two {
         padding-top: 65px;
-        padding-bottom: 65px;
+        /* padding-bottom: 65px; */
     }
 }
 
 /* desktop screen  */
 @media screen and (min-width: 1440px) {
     .section-two {
-        padding-top: 17px;
-        padding-bottom: 17px;
+        padding-top: 100px;
+        /* padding-bottom: 17px; */
     }
 
     .main-room {
@@ -212,7 +212,7 @@ p {
 /* desktop screen  */
 @media screen and (min-width: 1440px) {
     .main-room {
-        margin-bottom: 17px;
+        margin-bottom: 100px;
     }
 }
 
