@@ -20,8 +20,6 @@
     display: flex;
     flex-direction: row-reverse;
     column-gap: 32px;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
   }
   .welcome-complex-wrapper {
     width: 437px;
