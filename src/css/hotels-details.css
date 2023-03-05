@@ -1,12 +1,12 @@
 /* Anton */
-/* - mobile: верстка гумова, стає адаптивною на 375px;
-- tablet: 768px;
-- desktop: 1440px */
 
 /* -----------------------------------basic styles--------------------------------------------------------------------------- */
 :root {
 --hotel-description-text-color: #f6f6f6;
---hotel-description-background-color: #121212;  
+--hotel-description-background-color: #121212;
+--hotel-description-white-color: #fff;
+--trasition-duration: 250ms;
+--transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Utilities */
 h1,
@@ -73,6 +73,16 @@ text-transform: uppercase;
     line-height: 1.29;
     font-family: DM Sans;
     letter-spacing: .02em;
+    text-transform: uppercase;
+    transition: color var(--trasition-duration) var(--transition-timing-function), background-color var(--trasition-duration) var(--transition-timing-function);
+}
+.hotel-details-button:hover,
+.hotel-details-button:focus {
+    color: var(--hotel-description-background-color);
+    background-color: var(--hotel-description-white-color);
+}
+.hotel-details-link {
+    text-decoration: none;
 }
 .hotel-details-gallery {
     display: flex;
@@ -87,7 +97,14 @@ text-transform: uppercase;
 .gallery-flex-thumb {
     display: flex;
 }
-
+.buttons-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 82px;
+    gap: 12px;
+    padding-left: 0;
+}
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
 @media (min-width: 375px) {
    
@@ -121,6 +138,13 @@ text-transform: uppercase;
         padding-top: 44px;
         padding-bottom: 44px;
 }
+.tablet-hidden {
+    display: none;
+}
+.buttons-list {
+    margin-top: 40px;
+    gap: 14px;
+}
 .gallery-item-grow {
     display: inline-flex;
     flex-grow: 1;
@@ -132,9 +156,11 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 68px;
     }
+    .hotel-details {
+        padding-top: 44px;
+        }
     .hotel-details-description {
     width: 362px;
-    height: 54px;
     }
     .hotel-details-button {
         padding-right: 24px;
@@ -171,5 +197,23 @@ text-transform: uppercase;
 }
 .hotel-details-gallery {
     column-gap: 32px;
+}
+
+}
+
+.desktop-hidden {
+    display: none;
+}
+.hotel-details-header {
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: space-between;
+}
+.buttons-list.mobile-hidden{
+    margin-top: 0;
+    gap: 14px;
+}
+.flex-description {
+    margin-bottom: 0;
 }
 }
