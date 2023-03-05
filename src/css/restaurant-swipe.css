@@ -8,18 +8,18 @@
 
 .swipe-container.container {
     margin-top: 64px;
-    margin-bottom: 64px;
+    /* margin-bottom: 64px; */
 }
 @media screen and (min-width: 768px) {
     .swipe-container.container {
         margin-top: 80px;
-        margin-bottom: 80px;
+        /* margin-bottom: 80px; */
     }
 }
 @media screen and (min-width: 1440px) {
     .swipe-container.container {
         margin-top: 144px;
-        margin-bottom: 126px;
+        /* margin-bottom: 126px; */
         position: relative;
     }
 }
@@ -75,6 +75,13 @@
     justify-content: center;
     gap: 20px;
 }
+@media screen and (min-width:768px) {
+    .swipe-img-bloc{
+        margin-top: 80px;
+        gap: 32px;
+    }
+    
+}
 @media screen and (min-width: 1400px) {
     .swipe-img-bloc {
         margin-top: 125px;
@@ -96,14 +103,20 @@
 
 
 .swipe-vector-bloc {
-    margin-top: 18px;
+    margin-top: 25px;
     display: flex;
     gap: 20px;
+}
+@media screen and (min-width: 768px) {
+    .swipe-vector-bloc {
+        margin-top: 43px;
+    }
 }
 @media screen and (min-width: 1400px) {
     .swipe-vector-bloc {
         margin-top: 51px;
         justify-content: center;
+        margin-bottom: 37px;
     }
 }
 
