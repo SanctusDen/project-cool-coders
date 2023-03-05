@@ -1,1 +1,59 @@
 /* sergey */
+.hotel-hero-2 {
+}
+.hero-hotel.container {
+display: flex;
+/* flex-direction: column; */
+}
+.left-bloc {
+}
+.hero-title {
+color: var(--black-color);
+font-weight: 400;
+font-size: 40px;
+
+}
+
+.option-btns {
+display: flex;
+flex-direction: row;
+}
+.booking-btn {
+}
+.button {
+}
+.pointer {
+}
+.viewing-btn {
+}
+.text {
+}
+.cursive {
+font-style: italic;
+}
+.slider-img-block {
+
+}
+.hero-imgs {
+}
+.hero-images.list {
+display: flex;
+gap: 20px;
+}h
+.list {
+}
+.hero-imge {
+}
+.slider-buttons {
+}
+.slider-btn {
+}
+.btn-arrow {
+}
+.btn {
+}
+.swipe-icon {
+    display: block;
+    stroke: var(--black-color);
+    stroke-width: 2px;
+}
