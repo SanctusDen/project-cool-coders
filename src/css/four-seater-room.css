@@ -8,10 +8,6 @@
 }
 }
 
-body {
-    font-style: normal;
-    letter-spacing: -0.02em;
-}
 .images-tablet {
     display: none;
 }
@@ -35,6 +31,7 @@ body {
     line-height: 0.94;
     text-transform: uppercase;
     margin-bottom: 32px;
+    letter-spacing: -0.02em;
 }
 
 .four-seater-room-text {
@@ -43,6 +40,7 @@ body {
     line-height: 1.29;
     text-transform: uppercase;
     margin-bottom: 28px;
+    letter-spacing: -0.02em;
 }
 .four-seater-room-button {
     display: flex;
