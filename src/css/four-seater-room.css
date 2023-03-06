@@ -1,1 +1,144 @@
 /* Katerina */
+:root {
+    --color-text: #121212;
+}
+
+@media screen and (max-width: 375px) {
+    .container-four-seater {
+    width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+}
+
+body {
+    font-family: 'DM Sans';
+    font-style: normal;
+    letter-spacing: -0.02em;
+}
+.images-tablet {
+    display: none;
+}
+.images-desktop {
+    display: none;
+}
+.image-mobile {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    width: 100%;
+    margin-bottom: 32px;
+}
+.image-mobile:first-child {
+    flex-basis: 100%;
+}
+
+.four-seater-room-title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 0.94;
+    text-transform: uppercase;
+    
+    color: var(--color-text);
+    margin-bottom: 32px;
+}
+.four-seater-room-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-transform: uppercase;
+    
+    color: #121212;
+    margin-bottom: 28px;
+}
+.four-seater-room-button {
+    display: flex;
+    flex-direction: row;
+    gap: 14px;
+    margin-bottom: 64px;
+}
+.four-seater-button {
+    align-items: flex-start;
+    padding: 8px 18px;
+    min-height: 34px;
+    border: 0.8px solid #121212;
+    border-radius: 32px;
+    font-family: ‘DM Sans’;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    cursor: pointer;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #121212;
+    background-color: #fff;
+}
+.four-seater-button:hover, .four-seater-button:focus {
+    background-color: var(--color-text);
+    color: #F6F6F6;
+}
+@media screen and (min-width: 768px) {
+    .container-four-seater {
+        width: 768px;
+        padding: 0 32px;
+        margin: 0 auto;
+    }
+    .image-mobile {
+        display: none;
+    }
+    .four-seater-room-title {
+        font-size: 40px;
+        line-height: 1.10;
+    }
+    .four-seater-room-text {
+        font-size: 18px;
+        line-height: 1.33;
+        margin-bottom: 40px;
+        max-width: 475px;
+    }
+    .four-seater-button {
+        line-height: 1.71;
+    }
+    .four-seater-room-button {
+        justify-content: flex-end;
+        margin-bottom: 80px;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+    .images-tablet image {
+        display: inline-block;
+        margin: 0;
+    }
+    
+    .left-elm {
+        display: flex;
+        gap: 32px;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .images-tablet {
+        display: flex;
+        justify-content: space-between;
+        gap: 32px;
+        margin-bottom: 40px;
+    }
+    }
+    @media screen and (min-width: 1440px) {
+        .container-four-seater {
+            width: 1440px;
+        }
+        .four-seater-room-title {
+            margin-bottom: 40px;
+        }
+        .images-desktop {
+            display: flex;
+            gap: 32px;
+            align-items: center;
+            margin-bottom: 50px;
+        }
+        .flex-wrapper {
+            display: flex;
+            justify-content:space-between;
+        }
+    }
