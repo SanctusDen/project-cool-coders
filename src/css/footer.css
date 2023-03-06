@@ -24,7 +24,6 @@ p {
 
 .footer {
   background-color: var(--background-color);
-  
 }
 .footer-item {
   margin: 0;
@@ -58,47 +57,43 @@ p {
 
 .soc-icon {
   width: 32px;
-      height: 32px;
-      padding: 4px;
-      fill: transparent;
-      stroke: var(--dark-color);
-      border: 1px solid transparent;
-      border-radius: 8px;
-      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.instagram{
   height: 32px;
   padding: 4px;
-    fill: var(--dark-color);
-    stroke-width: 0;
-    border: 1px solid transparent;
-    border-radius: 8px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
- 
-.soc-icon:hover{
-  border-color:  #1212120A;
+  fill: transparent;
+  stroke: var(--dark-color);
+  border: 1px solid transparent;
+  border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-.instagram:hover{
-  border-color:  #1212120A;
+.instagram {
+  height: 32px;
+  padding: 4px;
+  fill: var(--dark-color);
+  stroke-width: 0;
+  border: 1px solid transparent;
+  border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.soc-icon:hover {
+  border-color: #1212120a;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.instagram:hover {
+  border-color: #1212120a;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media screen and (max-width: 375px) {
   .footer-nav {
     display: none;
   }
-  
   /* .container {
     width: 320px;
   } */
-  
-  .soc-icon {
+     .soc-icon {
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -115,11 +110,10 @@ p {
     margin-bottom: 32px;
   }
   .border {
-   
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
   }
-  .instagram{
+  .instagram {
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -144,7 +138,6 @@ p {
     margin-bottom: 32px;
   }
   .border {
-    
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
   }
@@ -153,7 +146,7 @@ p {
     height: 28px;
     padding: 4px;
   }
-  .instagram{
+  .instagram {
     width: 28px;
     height: 28px;
     padding: 4px;
@@ -181,7 +174,7 @@ p {
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
   }
-  .footer-item{
+  .footer-item {
     margin-bottom: 32px;
   }
 }
@@ -227,7 +220,7 @@ p {
   .footer-title {
     text-align: center;
   }
-  .footer-item{
+  .footer-item {
     margin-bottom: 80px;
   }
 }
