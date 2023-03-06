@@ -30,7 +30,7 @@
     transform: translateX(-50%);
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%);
     background-image:
-        url(../img/bg-icon/hero-bcg-img-mobile.png);
+        url('../img/bg-icon/hero-bcg-img-mobile.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -45,7 +45,7 @@
 @media screen and (min-width:768px) and (max-width:1439px) {
 
     .bcg-box {
-        background-image: url(../img/bg-icon/hero-bcg-img-tablet.png);
+        background-image: url('../img/bg-icon/hero-bcg-img-tablet.png');
         width: 542px;
         height: 770px;
     }
@@ -65,7 +65,7 @@ flex-direction: row-reverse;} */
         top: -88px;
         left: 100%;
         transform: translateX(-100%);
-        background-image: url(../img/bg-icon/Hero-bcg-img-desktop.png);
+        background-image: url ('../img/bg-icon/Hero-bcg-img-desktop.png');
         width: 542px;
         min-height: 770px;
 

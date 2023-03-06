@@ -25,8 +25,6 @@
         max-width: 768px;
         font-size: 80px;
         line-height: 80px;
-
-        margin-left: 12px;
     }
     
 }
@@ -54,11 +52,17 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 color: var(--color-text);
 
-margin-top: 40px;
+margin-top: 100px;
 }
 @media screen and (min-width:768px) {
     .restaurant-p{
         margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:1440px) {
+    .restaurant-p{
+        margin-bottom: 0px;
+        margin-top: 0px;
     }
 }
 
@@ -73,7 +77,6 @@ margin-top: 40px;
 @media screen and (min-width:768px) {
     .rest-list-btn{
         margin-top: 32px;
-        margin-left: 12px;
         margin-bottom: 54px;
         gap: 14px;
     }
@@ -83,19 +86,17 @@ margin-top: 40px;
         max-width: 1200px;
         margin-top: 32px;
         margin-left: 32px;
+        margin-bottom: 0px;
     }
 }
 
 /* ---------------- */
 .rest-parag{
     width: 338px;
-    /* padding-top: 40px; */
-    /* padding-left: 20px; */
 }
 @media screen and (min-width:768px) {
     .rest-parag{
-        margin-left: 12px;
-        margin-top: -80px;
+        
     }
 }
 @media screen and (min-width:1440px) {
@@ -110,40 +111,30 @@ margin-top: 40px;
 /* -------- */
 
 .icon-rest-box{
-    width: 250px;
-    height: 429px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    gap: 20px;
     
 }
 @media screen and (min-width:768px) {
     .icon-rest-box{
-        width: 436px;
         display: flex;
-        align-items: center;
-        justify-content: center;
-        
+        gap: 32px;
 
     }
 }
 @media screen and (min-width:1440px) {
     .icon-rest-box{
-        width: 436px;
-        height: 580px;
         display: flex;
         align-items: center;
         justify-content: center;
         position: absolute;
         top: 30px;
-        right: 260px;
+        right: -267px;
     }
 }
 
 .color-box{
-    background-color: blue;
-    width: 250px;
-    height: 430px;
+   
 }
 
 
