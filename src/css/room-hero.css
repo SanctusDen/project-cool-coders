@@ -1,1 +1,12 @@
 /* ? */
+.room-hero-title{
+    
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 1;
+
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #121212;
+}
