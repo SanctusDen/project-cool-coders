@@ -247,6 +247,10 @@ p {
     .restaurant-img {
         margin-bottom: 0;
     }
+
+        .restaurant-room-img {
+            margin-right: 54px;
+        }
 }
 
 /* text */
@@ -274,10 +278,6 @@ p {
     text-transform: uppercase;
 
     color: #121212;
-}
-
-.about-title{
-    visibility: hidden
 }
 
 @media screen and (min-width: 768px) {
@@ -323,7 +323,6 @@ p {
     .restaurant {
         width: 1200px;
         margin-left: auto;
-        margin-right: auto;
     }
 
     .restaurant-room {
