@@ -52,12 +52,13 @@
 }
 @media screen and (min-width: 1440px) {
   .double-room {
-    padding: 151px 0 80px;
+    padding: 0 0 80px;
   }
   .wrapper-foto-double {
     display: block;
     flex-direction: row-reverse;
-    gap: 20px;
+    position: relative;
+    padding-top: 151px;
   }
   .wrapper-img-double {
     flex-direction: row-reverse;

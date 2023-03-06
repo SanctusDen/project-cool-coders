@@ -2,11 +2,13 @@
 
 .triple-room {
   padding: 0 0 64px;
+  color: #121212;
 }
 .container-text {
   margin-top: 32px;
 }
-.title-room {
+.title-room,
+.title-menu {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -14,7 +16,6 @@
   letter-spacing: -0.02em;
   text-transform: uppercase;
   margin-bottom: 32px;
-  color: #121212;
 }
 .wrapper-foto {
   display: flex;
@@ -78,7 +79,7 @@
 }
 @media screen and (min-width: 1440px) {
   .triple-room {
-    padding: 151px 0 80px;
+    padding: 0 0 80px;
   }
 
   .container-text {
@@ -92,13 +93,14 @@
     flex-basis: 686px;
   }
   .wrapper-foto {
+    padding-top: 151px;
     display: block;
     position: relative;
   }
   .basis-foto {
     position: absolute;
     left: 50%;
-    top: -151px;
+    top: 0;
     transform: translateX(-50%);
   }
 
