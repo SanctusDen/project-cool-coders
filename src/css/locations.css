@@ -83,6 +83,10 @@ p {
   .container {
     width: 320px;
   }
+  .mini-map{
+    width: 100%;
+
+  }
   .mobile-map {
     display: none;
   }
