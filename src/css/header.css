@@ -1,7 +1,7 @@
 /* Шапка */
 
 .home-header {
-    background-color: black;
+    background-color: #121212;
     color: aliceblue;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -23,14 +23,7 @@
     line-height: 0;
 }
 
-/* @media screen and (min-width:1200px){
-.home-header-menu-open {
 
-max: width 1440px;
-
-}
-    
-} */
 
 /* Логотип */
 
@@ -143,6 +136,8 @@ max: width 1440px;
         content: '';
         display: block;
         position: absolute;
+        top: 20px;
+        left: 19.5px;
         display: block;
         width: 4px;
         height: 4px;
