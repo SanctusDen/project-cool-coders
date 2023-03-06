@@ -1,1 +1,43 @@
-/* ? */
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+}
+.about-kitchen {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.about-kitchen-chef {
+  margin-bottom: 20px;
+}
+.about-kitchen-img-wrapper {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 32px;
+}
+.about-kitchen-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+.about-kitchen-text {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+.italic {
+  font-style: italic;
+}
