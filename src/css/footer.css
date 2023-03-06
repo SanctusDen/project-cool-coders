@@ -90,8 +90,10 @@ p {
   .footer-nav {
     display: none;
   }
-
-  .soc-icon {
+  /* .container {
+    width: 320px;
+  } */
+     .soc-icon {
     width: 28px;
     height: 28px;
     padding: 4px;
