@@ -15,18 +15,54 @@
   padding-top: 64px;
   padding-bottom: 64px;
 }
-.about-kitchen-chef {
-  margin-bottom: 20px;
+@media screen and (max-width: 767px) {
+  .about-kitchen-chef {
+    margin-bottom: 20px;
+  }
 }
-.about-kitchen-img-wrapper {
+@media screen and (min-width: 768px) {
+  .about-kitchen-big-img-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+    column-gap: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-big-img-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+    margin-bottom: 0;
+  }
+}
+.about-kitchen-small-img-wrapper {
   display: flex;
   column-gap: 20px;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-small-img-wrapper {
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-small-img-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+  }
 }
 .about-kitchen-text-wrapper {
   display: flex;
   flex-direction: column;
   row-gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-text-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+  }
 }
 .about-kitchen-text {
   font-family: 'DM Sans';
@@ -37,6 +73,12 @@
   text-transform: uppercase;
 
   color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
 }
 .italic {
   font-style: italic;
