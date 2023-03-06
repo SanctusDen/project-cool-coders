@@ -17,14 +17,14 @@ p {
   margin: 0;
 }
 
-container {
+.container {
   padding: 0 20px;
   margin: 0 auto;
 }
 
 .footer {
   background-color: var(--background-color);
-  position: relative;
+  
 }
 .footer-item {
   margin: 0;
@@ -57,19 +57,53 @@ container {
 }
 
 .soc-icon {
-  fill: var(--dark-color);
+  width: 32px;
+      height: 32px;
+      padding: 4px;
+      fill: transparent;
+      stroke: var(--dark-color);
+      border: 1px solid transparent;
+      border-radius: 8px;
+      transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.instagram{
+  height: 32px;
+  padding: 4px;
+    fill: var(--dark-color);
+    stroke-width: 0;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+ 
+.soc-icon:hover{
+  border-color:  #1212120A;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.instagram:hover{
+  border-color:  #1212120A;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+
 @media screen and (max-width: 375px) {
   .footer-nav {
     display: none;
   }
+  
   /* .container {
     width: 320px;
   } */
+  
   .soc-icon {
-    width: 20px;
-    height: 20px;
+    width: 28px;
+    height: 28px;
+    padding: 4px;
   }
+
   .footer-main {
     margin-right: 43px;
   }
@@ -81,11 +115,14 @@ container {
     margin-bottom: 32px;
   }
   .border {
-    position: absolute;
-    right: 0;
-    bottom: 32px;
+   
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
+  }
+  .instagram{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
   }
 }
 
@@ -107,11 +144,19 @@ container {
     margin-bottom: 32px;
   }
   .border {
-    position: absolute;
-    right: 0;
-    bottom: 32px;
+    
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
+  }
+  .soc-icon {
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+  }
+  .instagram{
+    width: 28px;
+    height: 28px;
+    padding: 4px;
   }
 }
 
@@ -133,11 +178,11 @@ container {
     height: 149px;
   }
   .border {
-    position: absolute;
-    right: 0;
-    bottom: 48px;
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
+  }
+  .footer-item{
+    margin-bottom: 32px;
   }
 }
 
@@ -168,16 +213,21 @@ container {
     height: 241px;
   }
   .border {
-    position: absolute;
-    right: 0;
-    bottom: 80px;
     width: 100vw;
     border: 0.5px solid rgba(18, 18, 18, 0.3);
   }
+
+  .footer-item {
+    margin-bottom: 80px;
+  }
+
   .footer-soc-list {
     gap: 16px;
   }
   .footer-title {
     text-align: center;
+  }
+  .footer-item{
+    margin-bottom: 80px;
   }
 }
