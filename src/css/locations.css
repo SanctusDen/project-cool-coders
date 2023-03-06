@@ -84,6 +84,9 @@ p {
   .mobile-map {
     display: none;
   }
+  .mini-map{
+    width: 100%;
+  }
   .tab-map {
     display: none;
   }
