@@ -1,7 +1,4 @@
 /* Katerina */
-:root {
-    --color-text: #121212;
-}
 
 @media screen and (max-width: 375px) {
     .container-four-seater {
@@ -12,7 +9,6 @@
 }
 
 body {
-    font-family: 'DM Sans';
     font-style: normal;
     letter-spacing: -0.02em;
 }
@@ -38,8 +34,6 @@ body {
     font-size: 32px;
     line-height: 0.94;
     text-transform: uppercase;
-    
-    color: var(--color-text);
     margin-bottom: 32px;
 }
 .four-seater-room-text {
@@ -47,8 +41,6 @@ body {
     font-size: 14px;
     line-height: 1.29;
     text-transform: uppercase;
-    
-    color: #121212;
     margin-bottom: 28px;
 }
 .four-seater-room-button {
@@ -57,27 +49,7 @@ body {
     gap: 10px;
     margin-bottom: 64px;
 }
-.four-seater-button {
-    align-items: flex-start;
-    padding: 8px 18px;
-    min-height: 34px;
-    border: 0.8px solid #121212;
-    border-radius: 32px;
-    font-family: ‘DM Sans’;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    cursor: pointer;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: #121212;
-    background-color: #fff;
-}
-.four-seater-button:hover, .four-seater-button:focus {
-    background-color: var(--color-text);
-    color: #F6F6F6;
-}
+
 @media screen and (min-width: 768px) {
     .container-four-seater {
         width: 768px;
@@ -136,5 +108,8 @@ body {
         .flex-wrapper {
             display: flex;
             justify-content:space-between;
+        }
+        .four-seater-room-text {
+            margin-bottom: 100px;
         }
     }
