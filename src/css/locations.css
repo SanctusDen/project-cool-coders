@@ -77,9 +77,9 @@ p {
 
 
 @media screen and (max-width: 375px) {
-  .container {
+  /* .container {
     width: 320px;
-  }
+  } */
   .mini-map{
     width: 100%;
 
