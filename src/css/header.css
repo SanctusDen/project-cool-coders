@@ -1,16 +1,31 @@
 /* Шапка */
 
+
+
 .home-header {
     background-color: #121212;
-    color: aliceblue;
+    color: #F7F7F7;
+    ;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 
+@media screen and (min-width:1440px) {
+
+    .home-header {
+        position: fixed;
+        z-index: 1000;
+        background-color: transparent;
+
+    }
+
+}
+
 .home-header-box {
     display: flex;
     align-items: center;
+
 }
 
 /* Бургер */
@@ -83,7 +98,7 @@
 
 /* Медиа Планшет */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .home-header-site-nav {
         display: none;
     }
@@ -105,7 +120,7 @@
 
 /* Медиа ПК */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .home-header-menu-open {
         display: none;
     }
@@ -198,7 +213,7 @@
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .home-header-site-logo {
         margin-left: 246px;
     }
@@ -240,7 +255,7 @@
     margin-top: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .menu-nav-title {
         font-size: 28px;
         line-height: 1.14;
@@ -252,7 +267,6 @@
         left: 0;
     }
 }
-
 
 /* -----------Header-white-------------- */
 
