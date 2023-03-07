@@ -171,11 +171,12 @@
     justify-content: space-between;
   }
 }
+/* }
     display: flex;
     flex-direction: row;
     gap: 14px;
     margin-bottom: 64px;
-}
+
 
 @media screen and (min-width: 768px) {
     .container-four-seater {
@@ -244,4 +245,4 @@
         .four-seater-room-text {
             margin-bottom: 100px;
         }
-    }
+    } */
