@@ -98,14 +98,16 @@ text-transform: uppercase;
     display: flex;
     justify-content: center;
 }
-.hotel-details-picture {
-    display: block;
-    width: 100%;
-    height: auto;
-    /* overflow: hidden; */
-}
 .gallery-flex-thumb {
     display: flex;
+}
+.gallery-thumb {
+    height: 128px;
+    width: 158px;
+}
+.gallery-thumb.extended {
+    height: 417px;
+    width: 335px;
 }
 .buttons-list {
     list-style: none;
@@ -125,9 +127,7 @@ text-transform: uppercase;
     padding-left: 0;    
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
-@media (min-width: 375px) {
-   
-}
+
 @media (max-width: 767px) {
     .mobile-hidden {
         display: none;
@@ -138,15 +138,15 @@ text-transform: uppercase;
     }
     .hotel-details-description {
         margin-bottom: 32px;
-}
-.hotel-details-gallery {
+    }
+    .hotel-details-gallery {
     flex-wrap: wrap;
     flex-direction: column-reverse;
     row-gap: 28px;
-}
-.gallery-flex-thumb {
-    column-gap: 19px;
-}
+    }
+    .gallery-flex-thumb {
+        column-gap: 19px;
+    }
 }
 /* -----------------------------------tablet styles--------------------------------------------------------------------------- */
 @media (min-width: 768px) and (max-width: 1439px) {
@@ -193,6 +193,14 @@ text-transform: uppercase;
         flex-direction: column;
         row-gap: 16px;
     }
+    .gallery-thumb {
+        height: 143px;
+        width: 176px;
+    }
+    .gallery-thumb.extended {
+        height: 417px;
+        width: 320px;
+    }
 }
 /* -----------------------------------desktop styles--------------------------------------------------------------------------- */
 @media (min-width: 1440px) {
@@ -213,6 +221,11 @@ text-transform: uppercase;
 }
 .gallery-thumb {
     height: 260px;
+    width: 320px;
+}
+.gallery-thumb.extended {
+    height: 548px;
+    width: 420px;
 }
 .hotel-details-gallery {
     column-gap: 32px;
@@ -231,5 +244,8 @@ text-transform: uppercase;
 }
 .flex-description {
     margin-bottom: 0;
+}
+.extended {
+    height: 548px;
 }
 }
