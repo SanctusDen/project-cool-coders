@@ -79,7 +79,10 @@
 }
 @media screen and (min-width: 1440px) {
   .triple-room {
-    padding: 0 0 80px;
+    padding: 0 0 100px;
+  }
+  .text-wrapper {
+    margin-bottom: 0px;
   }
 
   .container-text {
