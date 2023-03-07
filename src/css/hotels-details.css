@@ -128,9 +128,6 @@ text-transform: uppercase;
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
 
-<<<<<<< Updated upstream
-@media (max-width: 767px) {
-=======
 @media (max-width: 375px) {
     .container {
         min-width: 320px;
@@ -144,7 +141,6 @@ text-transform: uppercase;
 }
 
 @media screen and (max-width: 767px) {
->>>>>>> Stashed changes
     .mobile-hidden {
         display: none;
     }
