@@ -4,28 +4,35 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="data:image/x-icon;base64,R0lGODlhEAAQAPEAAAAAAAB88P///wAAACH5BAlGAAMAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAACAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAAh+QQJMgADACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAA7" type="image/x-icon">
+    <link
+      rel="shortcut icon"
+      href="/PATH_TO_STATIC_FAVICON/favicon.ico"
+      type="image/x-icon"
+    />
+    <link rel="icon" href="data:image/x-icon;base64,R0lGODlhEAAQAPEAAAAAAAB88P///wAAACH5BAlGAAMAIf8LTkVUU0NBUEUyLjADAQAAACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAACAgICAgAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAAh+QQJMgADACwAAAAAEAAQAAAC59w2MzMzM8YYI4QQQgghhBAEQRAEQRAEQRAEQRAEQRAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwYMCAAQMKAAA7" type="image/x-icon" />
     <title>Restaurant</title>
 
-     <!--  -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
- 
-     <!-- normalize -->
-     <link
+    <!--  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- normalize -->
+    <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
 
-     
-     
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-1e6aa679.css">
+    
+    <script type="module" crossorigin src="/project-cool-coders/assets/page-3-49cce342.js"></script>
+    <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/modulepreload-polyfill-ec808ebb.js">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-41d09d15.css">
   </head>
 
   <body>
-
     <!-- Pavel -->
 <header class="home-header">
   <div class="home-header-box container">
@@ -423,9 +430,11 @@
     <!-- Violeta -->
 <section class="restaurant-menu">
   <div class="container">
+    <div class="wrapper-restaurant">
     <h2 class="title-menu">Restaurant Menu</h2>
-    <ul class="list-menu">
-      <li class="item-item">
+    <div class="swiper">
+    <ul class="list-menu swiper-wrapper">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Hot meals</h3>
         <ul>
           <li class="dish">
@@ -493,7 +502,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Side dishes and snacks</h3>
         <ul>
           <li class="dish">
@@ -553,7 +562,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Salads</h3>
         <ul>
           <li class="dish">
@@ -610,7 +619,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item dessert-drink">
+      <li class="item-item dessert-drink swiper-slide">
         <div>
         <h3 class="title-item-menu">Desserts</h3>
         <ul>
@@ -626,7 +635,8 @@
             <h4 class="dish-name">Tiramisu</h4>
             <span class="price">260 UAH</span>
           </li>
-        </ul></div>
+        </ul>
+      </div>
         <div>
         <h3 class="title-item-menu">Drinks</h3>
         <ul>
@@ -641,29 +651,272 @@
           <li class="dish">
             <h4 class="dish-name">Cappuccino</h4>
             <span class="price"> 100 UAH</span>
-          </li></div>
+          </li>
+        </div>
         </ul>
       </li>
     </ul>
     <ul class="btn-slider-list list">
       <li class="slider-btn">
-        <button class="btn-arrow btn">
+        <button class="btn-arrow btn swiper-button-prev">
           <svg class="swipe-icon-menu" width="7" height="14">
             <use href="../img/img_hotel-hero/slider.svg#icon-VectorL"></use>
           </svg>
         </button>
       </li>
       <li class="slider-btn">
-        <button class="btn-arrow btn">
+        <button class="btn-arrow btn swiper-button-next">
           <svg class="swipe-icon-menu" width="7" height="14">
             <use href="../img/img_hotel-hero/slider.svg#icon-VectorR"></use>
           </svg>
         </button>
       </li>
     </ul>
+  </div>
+   <div class="desktop-restaurant-menu">
+    <ul class="list-menu swiper-wrapper">
+      <li class="item-item swiper-slide">
+        <h3 class="title-item-menu">Hot meals</h3>
+        <ul>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Veal borscht with beans</h4>
+              <p class="dish-details">
+                Veal, potatoes, cabbage, carrots, onions, beans, garlic,
+                tomatoes, greens, sour cream
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price">240 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Cheese soup with chicken</h4>
+              <p class="dish-details">
+                Chicken, potatoes, carrots, onions, mushrooms, soft cheese,
+                greens
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price">200 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Carbonara pasta</h4>
+              <p class="dish-details">
+                Tagliatelle pasta, bacon, cream, Parmesan cheese, egg, greens
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price">430 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Pork steak</h4>
+              <p class="dish-details">
+                Pork tenderloin, spices, served with sweet chili sauce and
+                vegetables
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price">500 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Gorbusha in white wine sauce</h4>
+              <p class="dish-details">
+                Tender redfish, cream sauce based on white wine
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price">400 UAH</span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="item-item swiper-slide">
+        <h3 class="title-item-menu">Side dishes and snacks</h3>
+        <ul>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Baked vegetables</h4>
+              <p class="dish-details">Zucchini, pepper, tomato, eggplant</p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">200 g</span>
+              <span class="price">230 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">French fries</h4>
+              <p class="dish-details">Potatoes, tomato sauce</p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">150 g</span>
+              <span class="price">160 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Peasant-style potatoes</h4>
+              <p class="dish-details">Potatoes, spices, spicy sauces</p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">150 g</span>
+              <span class="price">160 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Crisp pickles from the barrel</h4>
+              <p class="dish-details">
+                Salted cucumber, pickled tomato, sauerkraut, Korean carrot
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">250 g</span>
+              <span class="price">350 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Chicken wings in honey sauce</h4>
+              <p class="dish-details">
+                Chicken wings, mustard-honey sauce, served with carrots, celery
+                and blue cheese sauce
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">400 g</span>
+              <span class="price"></span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="item-item swiper-slide">
+        <h3 class="title-item-menu">Salads</h3>
+        <ul>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Caesar with chicken</h4>
+              <p class="dish-details">
+                Chicken fillet, lettuce, cherry tomatoes, Parmesan cheese,
+                croutons, Caesar sauce
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">230 g</span>
+              <span class="price">450 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Caesar with shrimp</h4>
+              <p class="dish-details">
+                Tiger shrimp, lettuce, cherry tomatoes, parmesan cheese,
+                croutons, caesar sauce
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">230 g</span>
+              <span class="price">300 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Greek salad</h4>
+              <p class="dish-details">
+                Fresh cucumber, tomato, bell pepper, olives, brynza cheese,
+                lettuce, sauce
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">230 g</span>
+              <span class="price">280 UAH</span>
+            </div>
+          </li>
+          <li class="dish">
+            <div class="wrapper-dish">
+              <h4 class="dish-name">Meat salad</h4>
+              <p class="dish-details">
+                Chicken fillet or pork tenderloin, fresh cucumber, tomato, bell
+                pepper, ranch sauce
+              </p>
+            </div>
+            <div class="wrapper-size-price">
+              <span class="dish-size">230 g</span>
+              <span class="price">300 UAH</span>
+            </div>
+          </li>
+        </ul>
+      </li>
+      <li class="item-item dessert-drink swiper-slide">
+        <div>
+        <h3 class="title-item-menu">Desserts</h3>
+        <ul>
+          <li class="dish">
+            <h4 class="dish-name">Napoleon cake</h4>
+            <span class="price">200 UAH</span>
+          </li>
+          <li class="dish">
+            <h4 class="dish-name">Poppy cake</h4>
+            <span class="price">300 UAH</span>
+          </li>
+          <li class="dish">
+            <h4 class="dish-name">Tiramisu</h4>
+            <span class="price">260 UAH</span>
+          </li>
+        </ul>
+      </div>
+        <div>
+        <h3 class="title-item-menu">Drinks</h3>
+        <ul>
+          <li class="dish">
+            <h4 class="dish-name">Black/green tea</h4>
+            <span class="price"> 100 UAH</span>
+          </li>
+          <li class="dish">
+            <h4 class="dish-name">Espresso</h4>
+            <span class="price"> 100 UAH</span>
+          </li>
+          <li class="dish">
+            <h4 class="dish-name">Cappuccino</h4>
+            <span class="price"> 100 UAH</span>
+          </li>
+        </div>
+        </ul>
+      </li>
+    </ul>
+    <ul class="btn-slider-list list">
+      <li class="slider-btn">
+        <button class="btn-arrow btn swiper-button-prev">
+          <svg class="swipe-icon-menu" width="7" height="14">
+            <use href="../img/img_hotel-hero/slider.svg#icon-VectorL"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="slider-btn">
+        <button class="btn-arrow btn swiper-button-next">
+          <svg class="swipe-icon-menu" width="7" height="14">
+            <use href="../img/img_hotel-hero/slider.svg#icon-VectorR"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+  </div>
     <button type="button" class="button btn-black btn-menu-restaurant">
       Book a table
-    </button>
+    </button></div>
   </div>
 </section>
 
@@ -736,13 +989,13 @@
 </footer>
 
 
-
+    
     <script
-        defer
-        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-        crossorigin="anonymous">
-    </script>
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
   </body>
