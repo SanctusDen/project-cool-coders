@@ -125,9 +125,6 @@ text-transform: uppercase;
     padding-left: 0;    
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
-@media (min-width: 375px) {
-   
-}
 @media (max-width: 767px) {
     .mobile-hidden {
         display: none;
