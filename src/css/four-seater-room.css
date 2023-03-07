@@ -7,15 +7,9 @@
     margin: 0 auto;
   }
 }
-
-
 .four-seater-room {
   padding-bottom: 64px;
-  }
-.images-tablet {
-    display: none;
 }
-
 .picture-wrap {
   display: flex;
   flex-wrap: wrap;
@@ -23,7 +17,6 @@
   width: 100%;
   margin-bottom: 32px;
 }
-
 .tablet-version {
   display: flex;
   gap: 19px;
@@ -39,7 +32,6 @@
   color: var(--color-text);
   margin-bottom: 32px;
 }
-
 .four-seater-room-text {
   font-weight: 400;
   font-size: 14px;
@@ -48,89 +40,59 @@
   letter-spacing: -0.02em;
   color: var(--color-text);
   margin-bottom: 28px;
-
-
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 0.94;
-    text-transform: uppercase;
-    margin-bottom: 32px;
-    letter-spacing: -0.02em;
 }
-
-.four-seater-room-text {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.29;
-    text-transform: uppercase;
-    margin-bottom: 28px;
-    letter-spacing: -0.02em;
-
-}
-
 .four-seater-room-button {
   display: flex;
   flex-direction: row;
   gap: 14px;
 }
-
 @media screen and (min-width: 768px) {
   .container-four-seater {
     width: 768px;
     padding: 0 32px;
     margin: 0 auto;
   }
-
   .four-seater-room {
     padding-bottom: 80px;
   }
 
   .four-seater-room-title {
     font-size: 40px;
-    line-height: 1.10;
+    line-height: 1.1;
   }
-
   .four-seater-room-text {
     font-size: 18px;
     line-height: 1.33;
     margin-bottom: 40px;
     max-width: 475px;
   }
-
   .four-seater-room-button {
     justify-content: flex-end;
   }
 }
-
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  
   .picture-wrap {
     gap: 32px;
     margin-bottom: 40px;
   }
-
   .tablet-version {
     display: flex;
     flex-direction: column;
     gap: 32px;
     align-items: flex-end;
   }
-
   .images-desktop {
     order: 2;
   }
 }
-
 @media screen and (min-width: 1440px) {
   .container-four-seater {
     width: 1440px;
   }
-
   .four-seater-room {
     padding-bottom: 100px;
     padding-top: 151px;
   }
-
   .picture-wrap {
     align-items: center;
     margin-bottom: 0;
@@ -147,7 +109,6 @@
     align-items: center;
     margin-bottom: 151px;
   }
-
   .images-desktop {
     order: 2;
     position: absolute;
@@ -155,94 +116,14 @@
     top: -151px;
     transform: translateX(-50%);
   }
-
-  
   .four-seater-room-title {
     margin-bottom: 40px;
   }
-
   .four-seater-room-text {
     margin-bottom: 0;
   }
-
-  
   .flex-wrapper {
     display: flex;
     justify-content: space-between;
   }
 }
-/* }
-    display: flex;
-    flex-direction: row;
-    gap: 14px;
-    margin-bottom: 64px;
-
-
-@media screen and (min-width: 768px) {
-    .container-four-seater {
-        width: 768px;
-        padding: 0 32px;
-        margin: 0 auto;
-    }
-    .image-mobile {
-        display: none;
-    }
-    .four-seater-room-title {
-        font-size: 40px;
-        line-height: 1.10;
-    }
-    .four-seater-room-text {
-        font-size: 18px;
-        line-height: 1.33;
-        margin-bottom: 40px;
-        max-width: 475px;
-    }
-    .four-seater-button {
-        line-height: 1.71;
-    }
-    .four-seater-room-button {
-        justify-content: flex-end;
-        margin-bottom: 80px;
-    }
-}
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-    .images-tablet image {
-        display: inline-block;
-        margin: 0;
-    }
-    
-    .left-elm {
-        display: flex;
-        gap: 32px;
-        flex-direction: column;
-        align-items: flex-end;
-    }
-    .images-tablet {
-        display: flex;
-        justify-content: space-between;
-        gap: 32px;
-        margin-bottom: 40px;
-    }
-    }
-    
-    @media screen and (min-width: 1440px) {
-        .container-four-seater {
-            width: 1440px;
-        }
-        .four-seater-room-title {
-            margin-bottom: 40px;
-        }
-        .images-desktop {
-            display: flex;
-            gap: 32px;
-            align-items: center;
-            margin-bottom: 50px;
-        }
-        .flex-wrapper {
-            display: flex;
-            justify-content:space-between;
-        }
-        .four-seater-room-text {
-            margin-bottom: 100px;
-        }
-    } */
