@@ -1,135 +1,246 @@
 <!-- Anton -->
 
-    <section class="hotel-details">
-      <div class="container">
-        <div class="hotel-details-header">
-        <div class="flex-description">
-      <h2 class="hotel-details-title">Hotel</h2>
-      <p class="hotel-details-description">
-        Book your stay with us now and experience the epitome of comfort and
-        luxury at our hotel. We guarantee you'll be thrilled with your decision.
-      </p>
+<section class="hotel-details">
+  <div class="container">
+    <div class="hotel-details-header">
+      <div class="flex-description">
+        <h2 class="hotel-details-title">Hotel</h2>
+        <p class="hotel-details-description">
+          Book your stay with us now and experience the epitome of comfort and
+          luxury at our hotel. We guarantee you'll be thrilled with your
+          decision.
+        </p>
+      </div>
+      <ul class="buttons-list mobile-hidden tablet-hidden">
+        <li>
+          <button type="button" class="hotel-details-button">
+            Book a room
+          </button>
+        </li>
+        <li>
+          <a class="hotel-details-link hotel-details-button" href="page-2.html"
+            >View rooms</a
+          >
+        </li>
+      </ul>
     </div>
-    <ul class="buttons-list mobile-hidden tablet-hidden">
-      <li><button type="button" class="hotel-details-button">Book a room</button></li>
-      <li><a class="hotel-details-link hotel-details-button" href="page-2.html">View rooms</a></li>
-    </ul>
-    </div>
-      <div class="hotel-details-gallery">
-        <div class="gallery-flex-thumb">
-          <div class="gallery-thumb">
-            <img
-              class="hotel-details-picture"
-              srcset="
-                ./img/home-page/hotel-details/mobile/hotel-description-158.jpg 158w,
-                ./img/home-page/hotel-details/mobile/hotel-description@2x-316.jpg 316w,
-                ./img/home-page/hotel-details/mobile/hotel-description@3x-474.jpg 474w,
-                ./img/home-page/hotel-details/tablet/hotel-description-176.jpg 176w,
-                ./img/home-page/hotel-details/tablet/hotel-description@2x-352.jpg 352w,
-                ./img/home-page/hotel-details/tablet/hotel-description@3x-528.jpg 528w,
-                ./img/home-page/hotel-details/desktop/hotel-description-320.jpg 320w,
-                ./img/home-page/hotel-details/desktop/hotel-description@2x-640.jpg 640w,
-                ./img/home-page/hotel-details/desktop/hotel-description@3x-960 960w
-              "
-              sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
-              src="./img/home-page/hotel-details/mobile/hotel-description-158.jpg"
-              alt="hotel-facilities"
-            />
-          </div>
-          <div class="gallery-item-grow gallery-thumb">
-            <img
-            class="hotel-details-picture"
+    <div class="hotel-details-gallery">
+      <div class="gallery-flex-thumb">
+        <picture class="gallery-thumb">
+          <source
+            media="(min-width: 375px)"
+            srcset="
+              ./img/home-page/hotel-details/mobile/hotel-description-158.jpg    158w,
+              ./img/home-page/hotel-details/mobile/hotel-description@2x-316.jpg 316w,
+              ./img/home-page/hotel-details/mobile/hotel-description@3x-474.jpg 474w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/home-page/hotel-details/tablet/hotel-description-176.jpg    176w,
+              ./img/home-page/hotel-details/tablet/hotel-description@2x-352.jpg 316w,
+              ./img/home-page/hotel-details/tablet/hotel-description@3x-528.jpg 528w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/home-page/hotel-details/desktop/hotel-description-320.jpg    320w,
+              ./img/home-page/hotel-details/desktop/hotel-description@2x-640.jpg 640w,
+              ./img/home-page/hotel-details/desktop/hotel-description@3x-960     960w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <img
+            src="./img/home-page/hotel-details/mobile/hotel-description-158.jpg"
+            alt="hotel-facilities"
+          />
+        </picture>
+        <picture class="gallery-thumb gallery-item-grow">
+          <source
+            media="(min-width: 375px)"
             srcset="
               ./img/home-page/hotel-details/mobile/hotel-description-2-158.jpg    158w,
               ./img/home-page/hotel-details/mobile/hotel-description-2@2x-316.jpg 316w,
-              ./img/home-page/hotel-details/mobile/hotel-description-2@3x-474.jpg 474w,
-              ./img/home-page/hotel-details/tablet/hotel-description-2-176.jpg 176w,
-              ./img/home-page/hotel-details/tablet/hotel-description-2@2x-352.jpg 352w,
-              ./img/home-page/hotel-details/tablet/hotel-description-2@3x-528.jpg 528w,
-              ./img/home-page/hotel-details/desktop/hotel-description-2-320.jpg 320w,
-              ./img/home-page/hotel-details/desktop/hotel-description-2@2x-640.jpg 640w,
-              ./img/home-page/hotel-details/desktop/hotel-description-2@3x-960 960w
+              ./img/home-page/hotel-details/mobile/hotel-description-2@3x-474.jpg 474w
             "
             sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/home-page/hotel-details/tablet/hotel-description-2-176.jpg    176w,
+              ./img/home-page/hotel-details/tablet/hotel-description-2@2x-352.jpg 352w,
+              ./img/home-page/hotel-details/tablet/hotel-description-2@3x-528.jpg 528w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/home-page/hotel-details/desktop/hotel-description-2-320.jpg    320w,
+              ./img/home-page/hotel-details/desktop/hotel-description-2@2x-640.jpg 640w,
+              ./img/home-page/hotel-details/desktop/hotel-description-2@3x-960     960w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <img
             src="./img/home-page/hotel-details/mobile/hotel-description-2-158.jpg"
             alt="hotel-facilities"
           />
-          </div>
-        </div>
-        <div class="gallery-flex-thumb extended">
-            <img
-            class="hotel-details-picture"
+        </picture>
+      </div>
+        <picture class="gallery-thumb extended">
+          <source
+          media="(min-width: 375px)"
+             srcset="
+             ./img/home-page/hotel-details/mobile/hotel-description-3-335.jpg      335w,
+             ./img/home-page/hotel-details/mobile/hotel-description-3@2x-670.jpg   670w,
+             ./img/home-page/hotel-details/mobile/hotel-description-3@3x-1005.jpg 1005w
+             "
+                sizes="(min-width: 1440px) 420px, (min-width: 768px) 320px, (min-width: 375px) 335px, 100vw"
+             type="image/jpg"
+           />
+           <source>
+           <source
+           media="(min-width: 768px)"
+              srcset="
+              ./img/home-page/hotel-details/tablet/hotel-description-3-320.jpg      320w,
+              ./img/home-page/hotel-details/tablet/hotel-description-3@2x-640.jpg   640w,
+              ./img/home-page/hotel-details/tablet/hotel-description-3@3x-960.jpg   960w
+              "
+                sizes="(min-width: 1440px) 420px, (min-width: 768px) 320px, (min-width: 375px) 335px, 100vw"
+              type="image/jpg"
+            />
+            <source
+            media="(min-width: 1440px)"
+               srcset="
+               ./img/home-page/hotel-details/desktop/hotel-description-3-420.jpg     420w,
+               ./img/home-page/hotel-details/desktop/hotel-description-3@2x-840.jpg  840w,
+               ./img/home-page/hotel-details/desktop/hotel-description-3@3x-1260    1260w
+               "
+                sizes="(min-width: 1440px) 420px, (min-width: 768px) 320px, (min-width: 375px) 335px, 100vw"
+               type="image/jpg"
+             />
+           <img src="./img/home-page/hotel-details/mobile/hotel-description-3-335.jpg" alt="hotel-facilities">
+         </picture>
+      <div class="mobile-hidden gallery-flex-thumb">
+        <picture class="gallery-item-grow gallery-thumb">
+          <source
+            media="(min-width: 375px)"
             srcset="
-              ./img/home-page/hotel-details/mobile/hotel-description-3-335.jpg 335w,
-              ./img/home-page/hotel-details/mobile/hotel-description-3@2x-670.jpg 670w,
-              ./img/home-page/hotel-details/mobile/hotel-description-3@3x-1005.jpg 1005w,
-              ./img/home-page/hotel-details/tablet/hotel-description-3-320.jpg 320w,
-              ./img/home-page/hotel-details/tablet/hotel-description-3@2x-640.jpg 640w,
-              ./img/home-page/hotel-details/tablet/hotel-description-3@3x-960.jpg 960w,
-              ./img/home-page/hotel-details/desktop/hotel-description-3-420.jpg 420w,
-              ./img/home-page/hotel-details/desktop/hotel-description-3@2x-840.jpg 840w,
-              ./img/home-page/hotel-details/desktop/hotel-description-3@3x-1260 1260w
+              ./img/home-page/hotel-details/mobile/hotel-description-4-158.jpg    158w,
+              ./img/home-page/hotel-details/mobile/hotel-description-4@2x-316.jpg 316w,
+              ./img/home-page/hotel-details/mobile/hotel-description-4@3x-474.jpg 474w
             "
-            sizes="(min-width: 1440px) 420px, (min-width: 768px) 320px, (min-width: 375px) 335px, 100vw"
-            src="./img/home-page/hotel-details/mobile/hotel-description-3-335.jpg"
-            alt="hotel-facilities"
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
           />
-        </div>
-        <div class="mobile-hidden gallery-flex-thumb">
-            <div class="gallery-item-grow gallery-thumb">
-            <img
-            class="hotel-details-picture"
+          <source />
+          <source
+            media="(min-width: 768px)"
             srcset="
-              ./img/home-page/hotel-details/tablet/hotel-description-4-176.jpg 176w,
+              ./img/home-page/hotel-details/tablet/hotel-description-4-176.jpg    176w,
               ./img/home-page/hotel-details/tablet/hotel-description-4@2x-352.jpg 352w,
-              ./img/home-page/hotel-details/tablet/hotel-description-4@3x-528.jpg 528w,
-              ./img/home-page/hotel-details/desktop/hotel-description-4-320.jpg 320w,
-              ./img/home-page/hotel-details/desktop/hotel-description-4@2x-640.jpg 640w,
-              ./img/home-page/hotel-details/desktop/hotel-description-4@3x-960 960w
+              ./img/home-page/hotel-details/tablet/hotel-description-4@3x-528.jpg 528w
             "
-            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px"
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px,100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/home-page/hotel-details/desktop/hotel-description-4-320.jpg    320w,
+              ./img/home-page/hotel-details/desktop/hotel-description-4@2x-640.jpg 640w,
+              ./img/home-page/hotel-details/desktop/hotel-description-4@3x-960     960w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px,100vw"
+            type="image/jpg"
+          />
+          <img
             src="./img/home-page/hotel-details/desktop/hotel-description-4-320.jpg"
             alt="hotel-facilities"
           />
-          </div>
-          <div class="gallery-thumb">
-            <img
-            class="hotel-details-picture"
+        </picture>
+        <picture class="gallery-thumb">
+          <source
+            media="(min-width: 375px)"
             srcset="
-            ./img/home-page/hotel-details/tablet/hotel-description-5-176.jpg 176w,
-              ./img/home-page/hotel-details/tablet/hotel-description-5@2x-352.jpg 352w,
-              ./img/home-page/hotel-details/tablet/hotel-description-5@3x-528.jpg 528w,
-              ./img/home-page/hotel-details/desktop/hotel-description-5-320.jpg 320w,
-              ./img/home-page/hotel-details/desktop/hotel-description-5@2x-640.jpg 640w,
-              ./img/home-page/hotel-details/desktop/hotel-description-5@3x-960 960w
+              ./img/home-page/hotel-details/mobile/hotel-description-158.jpg    158w,
+              ./img/home-page/hotel-details/mobile/hotel-description-5@2x-316.jpg 316w,
+              ./img/home-page/hotel-details/mobile/hotel-description-5@3x-474.jpg 474w
             "
             sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
-            src="./img/home-page/hotel-details/desktop/hotel-description-5-320.jpg"
+            type="image/jpg"
+          />
+          <source />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./img/home-page/hotel-details/tablet/hotel-description-5-176.jpg    176w,
+              ./img/home-page/hotel-details/tablet/hotel-description-5@2x-352.jpg 352w,
+              ./img/home-page/hotel-details/tablet/hotel-description-5@3x-528.jpg 528w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px, (min-width: 375px) 158px, 100vw"
+            type="image/jpg"
+          />
+          <source
+            media="(min-width: 1440px)"
+            srcset="
+              ./img/home-page/hotel-details/desktop/hotel-description-5-320.jpg    320w,
+              ./img/home-page/hotel-details/desktop/hotel-description-5@2x-640.jpg 640w,
+              ./img/home-page/hotel-details/desktop/hotel-description-5@3x-960     960w
+            "
+            sizes="(min-width: 1440px) 320px, (min-width: 768px) 176px"
+            type="image/jpg"
+          />
+          <img
+            src="./img/home-page/hotel-details/mobile/hotel-description-5-158.jpg"
             alt="hotel-facilities"
           />
-          </div>
+        </picture>
+      </div>
+    </div>
+    <ul class="swipe-arrows-list desktop-hidden tablet-hidden">
+      <li>
+        <button type="button" class="swipe-button">
+          <svg class="swipe-icon">
+            <use
+              href="../img/home-page/hotel-details/sprite.svg#left-swipe-arrow"
+            ></use>
+          </svg>
+        </button>
+      </li>
+      <li>
+        <button type="button" class="swipe-button">
+          <svg class="swipe-icon">
+            <use
+              href="../img/home-page/hotel-details/sprite.svg#right-swipe-arrow"
+            ></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <ul class="buttons-list desktop-hidden">
+      <li>
+        <button type="button" class="hotel-details-button">Book a room</button>
+      </li>
+      <li>
+        <a
+          class="hotel-details-link hotel-details-button"
+          href="/src/page-2.html"
+          >View rooms</a
+        >
+      </li>
+    </ul>
   </div>
-  </div>
-  <ul class="swipe-arrows-list desktop-hidden tablet-hidden">
-    <li>
-      <button type = "button" class="swipe-button">
-        <svg class="swipe-icon">
-          <use href="../img/home-page/hotel-details/sprite.svg#left-swipe-arrow"></use>
-        </svg>
-      </button>
-    </li>
-    <li>
-      <button type = "button" class="swipe-button">
-        <svg class="swipe-icon">
-          <use href="../img/home-page/hotel-details/sprite.svg#right-swipe-arrow"></use>
-        </svg>
-      </button>
-    </li>
-  </ul>
-  <ul class="buttons-list desktop-hidden">
-    <li><button type="button" class="hotel-details-button">Book a room</button></li>
-    <li><a class="hotel-details-link hotel-details-button" href="/src/page-2.html">View rooms</a></li>
-  </ul>
-</div>
 </section>
-
