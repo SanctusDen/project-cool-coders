@@ -72,7 +72,7 @@ body {
   cursor: pointer;
   letter-spacing: -0.02em;
   text-transform: uppercase;
-  background-color: transparent;
+  background-color: rgba(247, 247, 247, 0);
 }
 @media screen and (min-width: 768px) {
   .button {

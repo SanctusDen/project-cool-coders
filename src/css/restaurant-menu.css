@@ -14,6 +14,7 @@
   line-height: 1.4;
   letter-spacing: 0.18em;
   color: rgba(216, 215, 215, 0.5);
+  width: 209px;
 }
 .price {
   font-weight: 700;
@@ -24,7 +25,11 @@
   display: flex;
   flex-direction: column;
 }
+.wrapper-dish {
+  gap: 8px;
+}
 .wrapper-size-price {
+  align-items: flex-end;
   min-width: 60px;
   gap: 14px;
 }
@@ -52,7 +57,7 @@
   gap: 20px;
   align-items: center;
   justify-content: center;
-  margin: 45px 0 47px;
+  margin: 60px 0 47px 10px;
 }
 .title-item-menu {
   font-style: italic;
@@ -69,18 +74,51 @@
 .item-item {
   min-width: 335px;
 }
+
 .dish {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  margin: 14px 0;
 }
-.btn-menu {
+.dish:not(:last-child) {
+  margin-bottom: 29px;
+}
+.dish::after {
+  content: '';
+  position: absolute;
+  bottom: -14px;
+  width: 100%;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.dish-name::before {
+  content: '';
+  display: inline-block;
+  margin: 3px 7px;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #f6f6f6;
+}
+
+.btn-menu-restaurant {
   margin: 0 auto;
+}
+.dessert-drink {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media screen and (min-width: 768px) {
   .title-item-menu {
     font-size: 24px;
     line-height: 24px;
+  }
+  .title-menu {
+    margin-bottom: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.1;
   }
   .restaurant-menu {
     font-size: 18px;
@@ -90,6 +128,7 @@
   .dish-details {
     font-size: 12px;
     line-height: 1.5;
+    width: 334px;
   }
   .dish-size {
     font-size: 14px;
@@ -98,12 +137,38 @@
   .btn-slider-list {
     gap: 60px;
   }
+  .item-item {
+    min-width: 515px;
+    margin: 0 92px;
+  }
+  .wrapper-size-price {
+    align-items: flex-end;
+    min-width: 75px;
+    gap: 8px;
+  }
+  .btn-menu-restaurant {
+    margin: 0 92px;
+  }
 }
 @media screen and (min-width: 1440px) {
+  .title-menu {
+    margin-bottom: 100px;
+  }
   .restaurant-menu {
     padding: 100px 0;
   }
   .btn-slider-list {
     display: none;
+  }
+  .item-item {
+    margin: 0;
+  }
+  .btn-menu-restaurant {
+    margin: 71px 137px 0;
+  }
+  .list-menu {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 74px 71px;
   }
 }
