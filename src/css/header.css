@@ -40,6 +40,8 @@
 
 
 
+
+
 /* Логотип */
 
 .home-header-site-logo {
@@ -193,6 +195,10 @@
     background-color: #121212;
     transform: translateX(-140%);
     overflow: scroll;
+}
+
+.is-open {
+    transform: translateX(0);
 }
 
 .header-menu {
