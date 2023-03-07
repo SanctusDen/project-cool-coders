@@ -1,1 +1,90 @@
+
+.about-kitchen {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+@media screen and (max-width: 767px) {
+  .about-kitchen-chef {
+    margin-bottom: 20px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-big-img-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+    column-gap: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-big-img-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+    margin-bottom: 0;
+  }
+}
+.about-kitchen-small-img-wrapper {
+  display: flex;
+  column-gap: 20px;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-small-img-wrapper {
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 0;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-small-img-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+}
+.about-kitchen-text-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-text-wrapper {
+    flex-direction: row;
+    column-gap: 32px;
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-text-wrapper {
+    transform: translateX(543px) translateY(-144px);
+  }
+}
+
+.about-kitchen-text {
+  font-family: 'DM Sans';
+  font-size: 14px;
+  line-height: calc(18 / 14);
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: #000000;
+}
+@media screen and (min-width: 768px) {
+  .about-kitchen-text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
+}
+@media screen and (min-width: 1440px) {
+  .about-kitchen-text:first-child {
+    width: 334px;
+  }
+  .about-kitchen-text:last-child {
+    width: 453px;
+  }
+}
+.italic {
+  font-style: italic;
+}
+
 /* ? */
+
