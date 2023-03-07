@@ -69,12 +69,16 @@
 }
 .list-menu {
   display: flex;
-  gap: 74px;
+}
+.wrapper-restaurant {
+  max-width: 335px;
+  margin: 0 auto;
+  overflow: hidden;
 }
 .item-item {
   min-width: 100%;
+  padding: 2px;
 }
-
 .dish {
   position: relative;
   display: flex;
@@ -108,6 +112,9 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+.desktop-restaurant-menu {
+  display: none;
 }
 @media screen and (min-width: 768px) {
   .title-item-menu {
@@ -149,6 +156,11 @@
   .btn-menu-restaurant {
     margin: 0 92px;
   }
+  .wrapper-restaurant {
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: visible;
+  }
 }
 @media screen and (min-width: 1440px) {
   .title-menu {
@@ -170,5 +182,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: 74px 71px;
+  }
+  .swiper {
+    display: none;
+  }
+  .desktop-restaurant-menu {
+    display: block;
   }
 }
