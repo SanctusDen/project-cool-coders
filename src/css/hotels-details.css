@@ -119,7 +119,7 @@ text-transform: uppercase;
     list-style: none;
     display: flex;
     justify-content: center;
-    margin-top: 82px;
+    margin-top: 40px;
     gap: 12px;
     padding-left: 0;
 }
@@ -134,7 +134,23 @@ text-transform: uppercase;
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
 
+<<<<<<< Updated upstream
 @media (max-width: 767px) {
+=======
+@media (max-width: 375px) {
+    .container {
+        min-width: 320px;
+    }
+    .gallery-flex-thumb {
+        width: 280px;
+    }
+    .gallery-thumb.extended {
+        width: 280px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+>>>>>>> Stashed changes
     .mobile-hidden {
         display: none;
     }
@@ -155,7 +171,7 @@ text-transform: uppercase;
     }
 }
 /* -----------------------------------tablet styles--------------------------------------------------------------------------- */
-@media (min-width: 768px) and (max-width: 1439px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .container {
         max-width: 768px;
     }
@@ -175,7 +191,7 @@ text-transform: uppercase;
     flex-grow: 1;
 }
 }
-@media (min-width: 768px) {
+@media screen and  (min-width: 768px) {
     .hotel-details-title {
     margin-bottom: 0;
     font-weight: 500;
@@ -209,7 +225,7 @@ text-transform: uppercase;
     }
 }
 /* -----------------------------------desktop styles--------------------------------------------------------------------------- */
-@media (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
     .container {
         max-width: 1376px;
     }
