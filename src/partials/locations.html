@@ -4,7 +4,7 @@
   <div class="container">
     <h2 class="section-title">Location</h2>
 
-    <div class="mini-map maps">
+    <div class="maps mini-map">
       <picture>
              
         <source 
@@ -15,13 +15,12 @@
          <img 
           src="../img/location/mob-map.jpg"
            alt="Google maps"
-           width="280"
            height="384">
 
         </picture>
     </div>
 
-    <div class="mobile-map maps">
+    <div class="maps mobile-map">
       <picture>
              
         <source 
@@ -39,7 +38,7 @@
       </picture>
     </div>
 
-    <div class="tab-map maps">
+    <div class="maps tab-map">
       <picture>
       
         <source 
@@ -53,12 +52,12 @@
          width="704"
          height="576">
 
-        </picture>
+
+     </picture>
     </div>
 
     <div class="flexbox">
-      <div class="desktop-map maps">
-
+      <div class="maps desktop-map">
         <picture>
         <source  
         srcset="../img/location/map.jpg 1x, 
@@ -72,8 +71,38 @@
          height="524">
 
 
-     </picture>
+     </picture> 
+
+   
+
+    <div class="flexbox">
+      <div class=" maps">
+
+        <picture>
+
+          <source media="min-width: 1440px" 
+          srcset="./images/maps/map.jpg 1x, 
+          ./images/maps/map-2x.jpg 2x"
+          type="image/jpg">
+
+          <source media="min-width: 768px"
+          srcset="./images/maps/tab-map.jpg 1x, 
+          ./images/maps/tab-map-2x.jpg 2x"
+          type="image/jpg">
+
+          <source media="max-width: 767px"
+           srcset="./images/maps/mob-map.jpg 1x, 
+           ./images/maps/mob-map-2x.jpg 2x"
+          type="image/jpg">
+
+          <img class="map-img"
+           src="../img/location/map.jpg"
+            alt="bath room"
+            width="640"
+            height="524">
+        </picture>
         
+
       </div>
 
       <ul class="contact">
