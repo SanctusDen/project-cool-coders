@@ -78,33 +78,15 @@ p {
 }
 
 
-@media screen and (max-width: 375px) {
- .map-img{
-  width: 100%;
-  height: 384px;
- }
-  
+/*--------------------------*/
+@media screen and  (max-width: 767px) {
+  .container {
+    width: 375px;
+  }
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
   }
-  .section-title {
-    margin: 0;
-    margin-bottom: 32px;
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 1;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-    color: var(--dark-color);
-  }
-}
-/*--------------------------*/
-@media screen and (min-width: 376px) and (max-width: 767px) {
-  .container {
-    width: 375px;
-  }
- 
   .section-title {
     font-weight: 500;
     font-size: 40px;
@@ -113,9 +95,13 @@ p {
     text-transform: uppercase;
   }
   .map-img{
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+   }
+   .maps{
     height: 384px;
    }
+ 
 }
 /*-----------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
