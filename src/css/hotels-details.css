@@ -128,18 +128,6 @@ text-transform: uppercase;
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
 
-@media (max-width: 375px) {
-    .container {
-        min-width: 320px;
-    }
-    .gallery-flex-thumb {
-        width: 280px;
-    }
-    .gallery-thumb.extended {
-        width: 280px;
-    }
-}
-
 @media (max-width: 767px) {
     .mobile-hidden {
         display: none;
