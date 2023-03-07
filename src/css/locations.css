@@ -26,6 +26,7 @@ p {
   padding-top: 64px;
   padding-bottom: 64px;
   background-color: var(--background-color);
+ position: relative;
 }
 
 .maps {
@@ -95,6 +96,7 @@ p {
 
  .map-img{
   width: 100%;
+  height: 384px;
  }
   
 
@@ -128,6 +130,7 @@ p {
   }
   .map-img{
     width: 100%;
+    height: 384px;
    }
 }
 /*-----------------------------*/
@@ -188,6 +191,7 @@ p {
     gap: 12px;
   }
   .flexbox {
+    
     display: flex;
     gap: 32px;
     align-items: flex-end;
