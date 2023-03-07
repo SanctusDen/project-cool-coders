@@ -9,6 +9,8 @@ p {
   margin: 0;
 }
 
+<<<<<<< Updated upstream
+
 *,
 ::before,
 ::after {
@@ -16,6 +18,10 @@ p {
 
 }
 
+
+=======
+
+>>>>>>> Stashed changes
 ul {
   margin: 0;
   padding: 0;
@@ -33,6 +39,7 @@ button {
 
 img {
   display: block;
+  max-width: 100%;
   height: auto;
 }
 

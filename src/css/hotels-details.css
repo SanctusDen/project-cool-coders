@@ -102,7 +102,7 @@ text-transform: uppercase;
     display: block;
     width: 100%;
     height: auto;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 .gallery-flex-thumb {
     display: flex;

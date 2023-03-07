@@ -74,7 +74,7 @@
   .welcome-complex-text-wrapper {
     display: flex;
     column-gap: 32px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   .welcome-complex-text {
     margin-bottom: 0;
