@@ -19,6 +19,15 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+.wrapper-size-price,
+.wrapper-dish {
+  display: flex;
+  flex-direction: column;
+}
+.wrapper-size-price {
+  min-width: 60px;
+  gap: 14px;
+}
 .dish-size {
   font-weight: 400;
   font-size: 12px;
@@ -63,6 +72,7 @@
 .dish {
   display: flex;
   justify-content: space-between;
+  margin: 14px 0;
 }
 .btn-menu {
   margin: 0 auto;
