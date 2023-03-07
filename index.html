@@ -25,7 +25,7 @@
     
 
     <script type="module" crossorigin src="/project-cool-coders/assets/index-9040814b.js"></script>
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-d22116d5.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-631c8842.css">
   </head>
 
   <body>
@@ -577,75 +577,34 @@
   <div class="container">
     <h2 class="section-title">Location</h2>
 
-    <div class="mini-map maps">
-      <picture>
-             
-        <source 
-          srcset="../img/location/mob-map.jpg 1x, 
-                  ../img/location/mob-map-2x.jpg 2x"
-         type="image/jpg">
-
-         <img 
-          src="../img/location/mob-map.jpg"
-           alt="Google maps"
-           width="280"
-           height="384">
-
-        </picture>
-    </div>
-
-    <div class="mobile-map maps">
-      <picture>
-             
-        <source 
-          srcset="../img/location/mob-map.jpg 1x, 
-                  ../img/location/mob-map-2x.jpg 2x"
-         type="image/jpg">
-
-         <img 
-         src="../img/location/mob-map.jpg"
-          alt="Google maps"
-          width="335"
-          height="384">
-
-
-      </picture>
-    </div>
-
-    <div class="tab-map maps">
-      <picture>
-      
-        <source 
-        srcset="../img/location/tab-map.jpg 1x, 
-                ../img/location/tab-map-2x.jpg 2x"
-        type="image/jpg">
-
-        <img 
-        src="../img/location/tab-map.jpg"
-         alt="Google maps"
-         width="704"
-         height="576">
-
-        </picture>
-    </div>
+   
 
     <div class="flexbox">
-      <div class="desktop-map maps">
+      <div class=" maps">
 
         <picture>
-        <source  
-        srcset="../img/location/map.jpg 1x, 
-                ../img/location/map-2x.jpg 2x"
-        type="image/jpg">
 
-        <img
-        src="../img/location/map.jpg"
-         alt="Google maps"
-         width="640"
-         height="524">
+          <source media="min-width: 1440px" 
+          srcset="./images/maps/map.jpg 1x, 
+          ./images/maps/map-2x.jpg 2x"
+          type="image/jpg">
 
+          <source media="min-width: 768px"
+          srcset="./images/maps/tab-map.jpg 1x, 
+          ./images/maps/tab-map-2x.jpg 2x"
+          type="image/jpg">
 
-     </picture>
+          <source media="max-width: 767px"
+           srcset="./images/maps/mob-map.jpg 1x, 
+           ./images/maps/mob-map-2x.jpg 2x"
+          type="image/jpg">
+
+          <img class="map-img"
+           src="../img/location/map.jpg"
+            alt="bath room"
+            width="640"
+            height="524">
+        </picture>
         
       </div>
 
