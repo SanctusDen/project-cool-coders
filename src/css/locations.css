@@ -32,8 +32,6 @@ p {
   box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
 }
 
-
-
 .contact {
   margin: 0;
   margin-top: 32px;
@@ -78,10 +76,28 @@ p {
 
 
 @media screen and (max-width: 375px) {
+  .container {
+    width: 320px;
+  }
+  .mini-map{
+    width: 100%;
+
+  }
+  .mobile-map {
+    display: none;
+  }
+  .tab-map {
+    display: none;
+  }
+  .desktop-map {
+    display: none;
+  }
+
  .map-img{
   width: 100%;
  }
   
+
   .location {
     padding-top: 64px;
     padding-bottom: 64px;

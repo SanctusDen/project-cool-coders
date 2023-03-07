@@ -60,13 +60,14 @@ p {
   height: 32px;
   padding: 4px;
   fill: transparent;
-  stroke: var(--dark-color);
+  stroke: #121212d4;
   border: 1px solid transparent;
   border-radius: 8px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .instagram {
+  width: 32px;
   height: 32px;
   padding: 4px;
   fill: var(--dark-color);
@@ -77,12 +78,12 @@ p {
 }
 
 .soc-icon:hover {
-  border-color: #1212121a;
+  border-color: #12121233;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .instagram:hover {
-  border-color: #1212121a;
+  border-color: #12121233;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
