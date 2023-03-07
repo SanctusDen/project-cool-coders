@@ -42,7 +42,6 @@
         line-height: 1.0;
 
         padding-top: 204px;
-        padding-left: 32px;
     }
 }
 
@@ -58,8 +57,10 @@ letter-spacing: 0.05em;
 text-transform: uppercase;
 color: var(--color-text);
 
+
 padding-top: 204px;
 padding-left: 32px;
+
 }
 
 /* ------------------------------ */
@@ -82,8 +83,13 @@ padding-left: 32px;
 @media screen and (min-width:1440px) {
     .rest-list-btn{
         max-width: 1200px;
+
         padding-top: 32px;
         padding-left: 32px;
+
+        margin-top: 32px;
+        margin-bottom: 0px;
+
     }
 }
 /* ---------------- */
@@ -100,7 +106,6 @@ padding-left: 32px;
 }
 @media screen and (min-width:1440px) {
     .rest-parag{
-        padding-left: 32px;
         padding-top: 204px;
         padding-bottom: 48px;
     }
@@ -112,11 +117,24 @@ padding-left: 32px;
     padding-bottom: 40px;
 }
 
+
 @media screen and (min-wodth:768px) {
     .rest-list-btn{
         padding-left: 32px;
         padding-top: 40px;
         padding-bottom: 32px;
+
+    }
+}
+@media screen and (min-width:1440px) {
+    .icon-rest-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        top: 30px;
+        left: 737px;
+
     }
 }
 
@@ -125,4 +143,46 @@ padding-left: 32px;
         padding-left: 32px;
         padding-top: 32px;
     }
+
+
+    
+}
+.btn-next,.btn-back{
+    background-color: #f7f7f7;
+}
+.next,.back{
+    color: black;
+    width: 7px;
+    height: 14px;
+    transform: rotate(-180deg);
+    font-size: 34px;
+}
+/* -----------slide-btn--------------- */
+.rest-swiperd{
+    display: flex;
+    gap: 32px;
+    margin-top: 34px;
+    margin-bottom: 40px;
+    justify-content: end;
+}
+
+@media screen and (min-width:768px) {
+    .rest-swiperd{
+    display: flex;
+    margin-top: 51px;
+    gap: 32px;
+}
+}
+@media screen and (min-width:1440px) {
+    .rest-swiperd{
+        display: flex;
+        position: absolute;
+        top: 576px;
+        left: 752px;
+        margin-top: 51px;
+        margin-bottom: 26px;
+        justify-content: center;
+    }
+    
+
 }
