@@ -7,10 +7,6 @@
     margin: 0 auto;
   }
 }
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 .four-seater-room {
   padding-bottom: 64px;
 }
@@ -43,10 +39,6 @@
   letter-spacing: -0.02em;
   color: var(--color-text);
   margin-bottom: 28px;
-<<<<<<< Updated upstream
-
-=======
->>>>>>> Stashed changes
 }
 .four-seater-room-button {
   display: flex;
@@ -125,28 +117,17 @@
     top: -151px;
     transform: translateX(-50%);
   }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
   .four-seater-room-title {
     margin-bottom: 40px;
   }
   .four-seater-room-text {
     margin-bottom: 0;
   }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
   .flex-wrapper {
     display: flex;
     justify-content: space-between;
   }
 
 }
-<<<<<<< Updated upstream
 
 
-=======
->>>>>>> Stashed changes
