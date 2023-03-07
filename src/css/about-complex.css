@@ -1,7 +1,7 @@
 /* Yulya */
 img {
     display: block;
-    max-width: 100%;
+
     height: auto;
 }
 
@@ -38,24 +38,24 @@ p {
 }
 
 
-.section_two {
+.section-two {
     padding-top: 64px;
-    padding-bottom: 64px;
+    /* padding-bottom: 64px; */
 }
 
 /*  tablet screen */
 @media screen and (min-width: 768px) {
-    .section_two {
+    .section-two {
         padding-top: 65px;
-        padding-bottom: 65px;
+        /* padding-bottom: 65px; */
     }
 }
 
 /* desktop screen  */
 @media screen and (min-width: 1440px) {
-    .section_two {
-        padding-top: 17px;
-        padding-bottom: 17px;
+    .section-two {
+        padding-top: 100px;
+        /* padding-bottom: 17px; */
     }
 
     .main-room {
@@ -146,7 +146,7 @@ p {
     position: relative;
 }
 
-.rating_name {
+.rating-name {
     margin-bottom: 7px;
     font-family: 'DM Sans';
     font-style: normal;
@@ -159,7 +159,7 @@ p {
     color: #F7F7F7;
 }
 
-.rating_text {
+.rating-text {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
@@ -212,7 +212,7 @@ p {
 /* desktop screen  */
 @media screen and (min-width: 1440px) {
     .main-room {
-        margin-bottom: 17px;
+        margin-bottom: 100px;
     }
 }
 
@@ -247,6 +247,10 @@ p {
     .restaurant-img {
         margin-bottom: 0;
     }
+
+        .restaurant-room-img {
+            margin-right: 54px;
+        }
 }
 
 /* text */
@@ -319,7 +323,6 @@ p {
     .restaurant {
         width: 1200px;
         margin-left: auto;
-        margin-right: auto;
     }
 
     .restaurant-room {

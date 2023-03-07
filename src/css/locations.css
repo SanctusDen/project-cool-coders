@@ -15,7 +15,7 @@ link {
 p {
   margin: 0;
 }
-/*---------------------*/
+
 
 .container {
   padding: 0 20px;
@@ -29,10 +29,6 @@ p {
 }
 
 .maps {
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
-}
-
-.mini-map .mobile-map .desktop-map .tab-map {
   box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
 }
 
@@ -78,7 +74,7 @@ p {
   margin-bottom: 4px;
 }
 
-/*-------------------------*/
+
 @media screen and (max-width: 375px) {
   .container {
     width: 320px;
@@ -96,6 +92,12 @@ p {
   .desktop-map {
     display: none;
   }
+
+ .map-img{
+  width: 100%;
+ }
+  
+
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -116,15 +118,7 @@ p {
   .container {
     width: 375px;
   }
-  .mini-map {
-    display: none;
-  }
-  .tab-map {
-    display: none;
-  }
-  .desktop-map {
-    display: none;
-  }
+ 
   .section-title {
     font-weight: 500;
     font-size: 40px;
@@ -132,6 +126,9 @@ p {
     letter-spacing: -0.02em;
     text-transform: uppercase;
   }
+  .map-img{
+    width: 100%;
+   }
 }
 /*-----------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -139,15 +136,7 @@ p {
     width: 768px;
     padding: 0 32px;
   }
-  .mobile-map {
-    display: none;
-  }
-  .desktop-map {
-    display: none;
-  }
-  .mini-map {
-    display: none;
-  }
+  
   .location {
     padding-top: 80px;
     padding-bottom: 80px;
@@ -172,20 +161,7 @@ p {
     padding: 0 32px;
   }
 
-  .mini-map {
-    display: none;
-  }
-  .mobile-map {
-    display: none;
-  }
-
-  .tab-map {
-    display: none;
-  }
-
-  .maps {
-    width: 640px;
-  }
+  
   .section-title {
     position: absolute;
     top: 0;
