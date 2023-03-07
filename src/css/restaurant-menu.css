@@ -69,10 +69,11 @@
 }
 .list-menu {
   display: flex;
-  gap: 74px;
 }
+
 .item-item {
   min-width: 100%;
+  margin: 0 10px;
 }
 
 .dish {

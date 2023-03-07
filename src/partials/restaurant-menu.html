@@ -2,8 +2,9 @@
 <section class="restaurant-menu">
   <div class="container">
     <h2 class="title-menu">Restaurant Menu</h2>
-    <ul class="list-menu">
-      <li class="item-item">
+    <div class="swiper">
+    <ul class="list-menu swiper-wrapper">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Hot meals</h3>
         <ul>
           <li class="dish">
@@ -71,7 +72,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Side dishes and snacks</h3>
         <ul>
           <li class="dish">
@@ -131,7 +132,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item">
+      <li class="item-item swiper-slide">
         <h3 class="title-item-menu">Salads</h3>
         <ul>
           <li class="dish">
@@ -188,7 +189,7 @@
           </li>
         </ul>
       </li>
-      <li class="item-item dessert-drink">
+      <li class="item-item dessert-drink swiper-slide">
         <div>
         <h3 class="title-item-menu">Desserts</h3>
         <ul>
@@ -204,7 +205,8 @@
             <h4 class="dish-name">Tiramisu</h4>
             <span class="price">260 UAH</span>
           </li>
-        </ul></div>
+        </ul>
+      </div>
         <div>
         <h3 class="title-item-menu">Drinks</h3>
         <ul>
@@ -219,26 +221,28 @@
           <li class="dish">
             <h4 class="dish-name">Cappuccino</h4>
             <span class="price"> 100 UAH</span>
-          </li></div>
+          </li>
+        </div>
         </ul>
       </li>
     </ul>
     <ul class="btn-slider-list list">
       <li class="slider-btn">
-        <button class="btn-arrow btn">
+        <button class="btn-arrow btn swiper-button-prev">
           <svg class="swipe-icon-menu" width="7" height="14">
             <use href="../img/img_hotel-hero/slider.svg#icon-VectorL"></use>
           </svg>
         </button>
       </li>
       <li class="slider-btn">
-        <button class="btn-arrow btn">
+        <button class="btn-arrow btn swiper-button-next">
           <svg class="swipe-icon-menu" width="7" height="14">
             <use href="../img/img_hotel-hero/slider.svg#icon-VectorR"></use>
           </svg>
         </button>
       </li>
     </ul>
+  </div>
     <button type="button" class="button btn-black btn-menu-restaurant">
       Book a table
     </button>
