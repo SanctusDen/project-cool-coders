@@ -10,7 +10,7 @@ link {
   --black-color: #000;
   --dark-color: #121212;
   --white-color: #fff;
-  --background-color: #f6f6f6;
+  --background-color: #f7f7f7;
 }
 p {
   margin: 0;
@@ -30,7 +30,7 @@ p {
 }
 
 .maps {
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -78,11 +78,16 @@ p {
 }
 
 
-/*--------------------------*/
-@media screen and  (max-width: 767px) {
+@media screen and (min-width: 375px) {
   .container {
     width: 375px;
-  }
+  } 
+
+ .map-img{
+  width: 100%;
+ }
+  
+
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -98,9 +103,7 @@ p {
     max-width: 100%;
     height: auto;
    }
-   .maps{
-    height: 384px;
-   }
+   
  
 }
 /*-----------------------------*/
