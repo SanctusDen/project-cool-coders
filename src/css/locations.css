@@ -25,7 +25,7 @@ p {
 .location {
   padding-top: 64px;
   padding-bottom: 64px;
-  background-color: var(--background-color);
+  background-color: #F7F7F7;
   /* position: relative; */
 }
 
@@ -89,9 +89,9 @@ p {
     display: none;
   }
 
- .map-img{
-  width: 100%;
- }
+  .map-img{
+    width: 100%;
+  }
   
 
   .location {
