@@ -33,8 +33,6 @@ body {
 .hotel-details {
 background-color: var(--hotel-description-background-color);
 color: var(--hotel-description-text-color);
-padding-top: 32px;
-padding-bottom: 32px;
 }
 .flex-description {
     display: flex;
@@ -76,15 +74,24 @@ text-transform: uppercase;
     text-transform: uppercase;
     transition: color var(--trasition-duration) var(--transition-timing-function), background-color var(--trasition-duration) var(--transition-timing-function);
 }
-.swipe-button {
+.hotel-swipe-button {
     background-color: var(--hotel-description-background-color);
+    color: rgba(255, 255, 255, 0.3);
     width: 24px;
     height: 24px;
     padding: 0;
+    border: none;
 }
-.swipe-icon {
+.hotel-swipe-icon {
     width: 24px;
     height: 24px;
+    stroke: rgba(255, 255, 255, 0.3);
+    transition: fill var(--trasition-duration) var(--transition-timing-function), background-color var(--trasition-duration) var(--transition-timing-function);
+}
+.hotel-swipe-button:hover .hotel-swipe-icon,
+.hotel-swipe-button:focus.hotel-swipe-icon
+{
+    stroke: var(--hotel-description-text-color);
 }
 .hotel-details-button:hover,
 .hotel-details-button:focus {
@@ -106,7 +113,7 @@ text-transform: uppercase;
     width: 158px;
 }
 .gallery-thumb.extended {
-    height: 417px;
+    height: 100%;
     width: 335px;
 }
 .buttons-list {
@@ -127,19 +134,6 @@ text-transform: uppercase;
     padding-left: 0;    
 }
 /* -----------------------------------mobile styles--------------------------------------------------------------------------- */
-
-@media (max-width: 375px) {
-    .container {
-        min-width: 320px;
-    }
-    .gallery-flex-thumb {
-        width: 280px;
-    }
-    .gallery-thumb.extended {
-        width: 280px;
-    }
-}
-
 @media screen and (max-width: 767px) {
     .mobile-hidden {
         display: none;
@@ -147,6 +141,10 @@ text-transform: uppercase;
     .flex-description {
         display: block;
         margin-bottom: 0;
+    }
+    .hotel-details {
+        padding-top: 32px;
+padding-bottom: 32px;
     }
     .hotel-details-description {
         margin-bottom: 32px;
@@ -187,9 +185,6 @@ text-transform: uppercase;
     font-weight: 500;
     font-size: 68px;
     }
-    .hotel-details {
-        padding-top: 44px;
-        }
     .hotel-details-description {
     width: 362px;
     }
@@ -210,7 +205,6 @@ text-transform: uppercase;
         width: 176px;
     }
     .gallery-thumb.extended {
-        height: 417px;
         width: 320px;
     }
 }
@@ -220,8 +214,9 @@ text-transform: uppercase;
         max-width: 1376px;
     }
     .hotel-details {
+        padding-top: 44px;
         padding-bottom: 60px;
-}
+    }
 .hotel-details-button {
     padding-top: 9px;
     padding-bottom: 9px;
@@ -236,7 +231,6 @@ text-transform: uppercase;
     width: 320px;
 }
 .gallery-thumb.extended {
-    height: 548px;
     width: 420px;
 }
 .hotel-details-gallery {
