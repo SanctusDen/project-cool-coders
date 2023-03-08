@@ -17,15 +17,21 @@
 @import url('./footer.css');
 @import url('./triple-room.css');
 
+@import url('./header.css');
 @import url('./hotels-hero.css');
 @import url('./double-room.css');
 @import url('./triple-room.css');
 @import url('./four-seater-room.css');
 
+@import url('./header.css');
 @import url('./restaurant-hero.css');
 @import url('./restaurant-kitchen.css');
 @import url('./restaurant-menu.css');
 
+
+@import url('./header.css');
+@import url('./room-hero.css');
+@import url('./room-menu.css');
 :root {
   /* dionisii */
   --bg-restaurant: #f7f7f7;
@@ -41,7 +47,6 @@ body {
 
 .btn-black {
   color: #fff;
-  background-color: #121212;
   border-color: #f7f7f7;
 }
 .btn-black:hover,
@@ -52,7 +57,6 @@ body {
 .btn-white {
   color: #121212;
   border-color: #121212;
-  background-color: none;
 }
 .btn-white:hover,
 .btn-white:focus {
@@ -74,6 +78,7 @@ body {
   cursor: pointer;
   letter-spacing: -0.02em;
   text-transform: uppercase;
+  background-color: rgba(247, 247, 247, 0);
 }
 @media screen and (min-width: 768px) {
   .button {
@@ -93,6 +98,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 375px;
+  overflow: hidden;
 }
 @media screen and (min-width: 768px) {
   .container {

@@ -3,78 +3,60 @@
 <section class="location">
   <div class="container">
     <h2 class="section-title">Location</h2>
+      <div class="flexbox">
 
-    <div class="mini-map maps">
-      <img
-        src="../img/location/mob-map.jpg"
-        alt="Google map"
-        srcset="../img/location/mob-map.jpg
-        1x, ../img/location/mob-map-2x.jpg 2x"
-        width="280"
-        height="384"
-      />
-    </div>
+        <div class=" maps">
 
-    <div class="mobile-map maps">
-      <img
-        src="../img/location/mob-map.jpg"
-        alt="Google map"
-        srcset="
-        ../img/location/mob-map.jpg    1x,
-        ../img/location/mob-map-2x.jpg 2x
-        "
-        width="335"
-        height="384"
-      />
-    </div>
+          <picture>
 
-    <div class="tab-map maps">
-      <img
-        src="../img/location/tab-map.jpg"
-        alt="Google map"
-        srcset="
-          ../img/location/tab-map.jpg    1x,
-          ../img/location/tab-map-2x.jpg 2x
-        "
-        width="704"
-        height="576"
-      />
-    </div>
+            <source media="min-width: 1440px" 
+            srcset="../images/maps/map.jpg 1x, 
+            ../images/maps/map-2x.jpg 2x"
+            type="image/jpg">
 
-    <div class="flexbox">
-      <div class="desktop-map maps">
-        <img
-          src="../img/location/map.jpg"
-          alt="Google map"
-          srcset="../img/location/map.jpg 1x, ../img/location/map-2x.jpg 2x"
-          width="640"
-          height="524"
-        />
+            <source media="min-width: 768px"
+            srcset="../images/maps/tab-map.jpg 1x, 
+            ../images/maps/tab-map-2x.jpg 2x"
+            type="image/jpg">
+
+            <source media="max-width: 767px"
+            srcset="../images/maps/mob-map.jpg 1x, 
+            ../images/maps/mob-map-2x.jpg 2x"
+            type="image/jpg">
+
+            <img class="map-img"
+            src="../img/location/map.jpg"
+              alt="Google maps"
+              width=""
+              height="">
+          </picture>
+          
+
+        </div>
+
+        <ul class="contact">
+          <li class="contact-item">
+            <p class="adress">Ukraine, Poltava,</p>
+            <p class="adress">St. Marshal Biryuzov, 15</p>
+          </li>
+
+          <li>
+            <ul class="flex">
+              <li>
+                <p class="appeal">call us:</p>
+              </li>
+              <li>
+                <p>
+                  <a class="phone" href="tel:+380955559533">(095) 555 95 33</a>
+                </p>
+
+                <p>
+                  <a class="phone" href="tel:+380668491089">(066) 849 10 89</a>
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
       </div>
-
-      <ul class="contact">
-        <li class="contact-item">
-          <p class="adress">Ukraine, Poltava,</p>
-          <p class="adress">St. Marshal Biryuzov, 15</p>
-        </li>
-
-        <li>
-          <ul class="flex">
-            <li>
-              <p class="appeal">call us:</p>
-            </li>
-            <li>
-              <p>
-                <a class="phone" href="tel:+380955559533">(095) 555 95 33</a>
-              </p>
-
-              <p>
-                <a class="phone" href="tel:+380668491089">(066) 849 10 89</a>
-              </p>
-            </li>
-          </ul>
-        </li>
-      </ul>
-    </div>
   </div>
 </section>

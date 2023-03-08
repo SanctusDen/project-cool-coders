@@ -1,16 +1,31 @@
 /* Шапка */
 
+
+
 .home-header {
-    background-color: black;
-    color: aliceblue;
+    background-color: #121212;
+    color: #F7F7F7;
+    ;
     padding-top: 20px;
     padding-bottom: 20px;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 
+@media screen and (min-width:1440px) {
+
+    .home-header {
+        position: fixed;
+        z-index: 1000;
+        background-color: transparent;
+
+    }
+
+}
+
 .home-header-box {
     display: flex;
     align-items: center;
+
 }
 
 /* Бургер */
@@ -23,14 +38,9 @@
     line-height: 0;
 }
 
-/* @media screen and (min-width:1200px){
-.home-header-menu-open {
 
-max: width 1440px;
 
-}
-    
-} */
+
 
 /* Логотип */
 
@@ -90,7 +100,7 @@ max: width 1440px;
 
 /* Медиа Планшет */
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .home-header-site-nav {
         display: none;
     }
@@ -112,7 +122,7 @@ max: width 1440px;
 
 /* Медиа ПК */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1440px) {
     .home-header-menu-open {
         display: none;
     }
@@ -143,6 +153,8 @@ max: width 1440px;
         content: '';
         display: block;
         position: absolute;
+        top: 20px;
+        left: 19.5px;
         display: block;
         width: 4px;
         height: 4px;
@@ -185,6 +197,10 @@ max: width 1440px;
     overflow: scroll;
 }
 
+.is-open {
+    transform: translateX(0);
+}
+
 .header-menu {
     display: flex;
     align-items: center;
@@ -203,7 +219,7 @@ max: width 1440px;
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .home-header-site-logo {
         margin-left: 246px;
     }
@@ -245,7 +261,7 @@ max: width 1440px;
     margin-top: auto;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1199px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
     .menu-nav-title {
         font-size: 28px;
         line-height: 1.14;
@@ -257,3 +273,6 @@ max: width 1440px;
         left: 0;
     }
 }
+
+/* -----------Header-white-------------- */
+
