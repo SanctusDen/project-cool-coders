@@ -32,6 +32,7 @@
 @import url('./header.css');
 @import url('./room-hero.css');
 @import url('./amenities.css');
+
 :root {
   /* dionisii */
   --bg-restaurant: #f7f7f7;
