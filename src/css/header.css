@@ -5,16 +5,16 @@
 .home-header {
     background-color: #121212;
     color: #F7F7F7;
-    ;
-    padding-top: 20px;
-    padding-bottom: 20px;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+    width: 100%;
+
 }
 
 @media screen and (min-width:1440px) {
 
     .home-header {
         position: fixed;
+        transform: translateX(-0.1.5%);
         z-index: 1000;
         background-color: transparent;
 
@@ -25,8 +25,13 @@
 .home-header-box {
     display: flex;
     align-items: center;
-
 }
+
+
+
+
+
+
 
 /* Бургер */
 
@@ -49,6 +54,9 @@
     flex-direction: column;
     text-align: center;
     gap: 3px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 83px;
 }
 
 .home-header-logo-mimino {
@@ -93,9 +101,6 @@
         display: none;
     }
 
-    .home-header-site-logo {
-        margin-left: 83px;
-    }
 }
 
 /* Медиа Планшет */
@@ -204,23 +209,30 @@
 .header-menu {
     display: flex;
     align-items: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    width: 100%;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+   
 }
 
 .menu-close-button {
     background-color: transparent;
 }
 
+.menu-home-header-site-logo {
+
+text-align: center;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
 @media screen and (max-width: 767px) {
-    .home-header-site-logo {
+    .menu-home-header-site-logo {
         margin-left: 83px;
     }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-    .home-header-site-logo {
+    .menu-home-header-site-logo {
         margin-left: 246px;
     }
 }
@@ -274,5 +286,8 @@
     }
 }
 
-/* -----------Header-white-------------- */
-
+@media screen and (min-width:1440px) {
+    .menu {
+    display: none;}
+    
+}
