@@ -89,8 +89,7 @@ p {
   .map-img{
     width: 100%;
   }
-  }
-
+}
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -104,7 +103,8 @@ p {
     text-transform: uppercase;
     color: var(--dark-color);
   }
-}
+
+
 /*--------------------------*/
 @media screen and (min-width: 376px) and (max-width: 767px) {
   .container {
