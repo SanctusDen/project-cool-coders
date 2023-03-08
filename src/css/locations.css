@@ -26,7 +26,7 @@ p {
   padding-top: 64px;
   padding-bottom: 64px;
   background-color: var(--background-color);
- position: relative;
+  /* position: relative; */
 }
 
 .maps {
@@ -34,15 +34,12 @@ p {
 }
 
 .contact {
-  margin: 0;
   margin-top: 32px;
 }
 .contact-item {
-  margin-bottom: 28px;
+  padding-bottom: 28px;
 }
 .adress {
-  margin: 0;
-  margin: 0;
   font-weight: 400;
   font-size: 18px;
   line-height: 1.3;
@@ -52,8 +49,7 @@ p {
 }
 
 .appeal {
-  margin: 0;
-  margin-bottom: 12px;
+  padding-bottom: 12px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.3;
@@ -63,7 +59,6 @@ p {
 }
 
 .phone {
-  margin: 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.3;
@@ -76,7 +71,7 @@ p {
 }
 
 
-@media screen and (max-width: 375px) {
+@media screen and (min-width: 375px) {
   /* .container {
     width: 320px;
   } */
@@ -96,7 +91,6 @@ p {
 
  .map-img{
   width: 100%;
-  height: 384px;
  }
   
 
@@ -105,7 +99,6 @@ p {
     padding-bottom: 64px;
   }
   .section-title {
-    margin: 0;
     margin-bottom: 32px;
     font-weight: 500;
     font-size: 40px;
@@ -130,22 +123,20 @@ p {
   }
   .map-img{
     width: 100%;
-    height: 384px;
    }
 }
 /*-----------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
-  .container {
+  /* .container {
     width: 768px;
     padding: 0 32px;
-  }
+  } */
   
   .location {
     padding-top: 80px;
     padding-bottom: 80px;
   }
   .section-title {
-    margin: 0;
     font-weight: 500;
     font-size: 68px;
     line-height: 1;
@@ -159,17 +150,10 @@ p {
 }
 /*--------------------------------*/
 @media screen and (min-width: 1440px) {
-  .container {
-    width: 1440px;
-    padding: 0 32px;
-  }
-
-  
   .section-title {
     position: absolute;
     top: 0;
     left: 700px;
-    margin: 0;
     font-weight: 500;
     font-size: 68px;
     line-height: 1;
@@ -178,7 +162,8 @@ p {
   }
 
   .location {
-    padding: 100px 32px;
+    padding-top: 100px;
+    padding-bottom: 100px;
   }
 
   .contact {
@@ -197,7 +182,7 @@ p {
     align-items: flex-end;
   }
   .contact-item {
-    margin-bottom: 0;
+    padding-bottom: 0;
   }
   .phone {
     font-weight: 400;
