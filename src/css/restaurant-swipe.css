@@ -7,18 +7,18 @@
 }
 
 .swipe-container.container {
-    margin-top: 64px;
+    padding-top: 64px;
     /* margin-bottom: 64px; */
 }
 @media screen and (min-width: 768px) {
     .swipe-container.container {
-        margin-top: 80px;
+        padding-top: 80px;
         /* margin-bottom: 80px; */
     }
 }
 @media screen and (min-width: 1440px) {
     .swipe-container.container {
-        margin-top: 144px;
+        padding-top: 144px;
         /* margin-bottom: 126px; */
         position: relative;
     }
