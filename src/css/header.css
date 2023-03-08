@@ -90,6 +90,10 @@
     margin-left: auto;
 }
 
+.black-icon {
+border: 1.5px solid #F7F7F7;
+}
+
 /* Медиа мобильные */
 
 @media screen and (max-width: 767px) {
