@@ -86,7 +86,7 @@ img{
 
  img{
   width: 100%;
-  
+ }
 }
 .maps{
   height: 384px;
@@ -182,23 +182,19 @@ img{
     text-transform: uppercase;
     color: var(--dark-color);
   }
-
   .location {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-
   .contact {
     display: flex;
     gap: 70px;
   }
-
   .flex {
     display: flex;
     gap: 12px;
   }
   .flexbox {
-    
     display: flex;
     gap: 32px;
     align-items: flex-end;
