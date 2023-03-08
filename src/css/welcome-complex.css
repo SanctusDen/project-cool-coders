@@ -1,5 +1,4 @@
 .welcome-complex {
-  min-width: 320px;
   padding-top: 64px;
   padding-bottom: 64px;
 }
@@ -75,7 +74,7 @@
   .welcome-complex-text-wrapper {
     display: flex;
     column-gap: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
   }
   .welcome-complex-text {
     margin-bottom: 0;

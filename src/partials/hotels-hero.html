@@ -4,12 +4,139 @@
     <div class="left-bloc">
       <h1 class="hero-title">Hotel</h1>
       <div class="option-btns">
-        <button type="button" class="booking-btn button pointer">
+        <button type="button" class="btn-white button pointer">
           Book a Room
         </button>
-        <button type="button" class="viewing-btn button pointer">
+        <button type="button" class="btn-white button pointer">
           View Prices
         </button>
+      </div>
+    </div>
+    <div class="slider-img-block">
+      <div class="hero-imgs">
+        <ul class="hero-images list">
+          <li class="hero-image">
+            <picture class="hotels-hero-slider">
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./img/img_hotel-hero/1image_desk@1x.jpg 1x,
+                  ./img/img_hotel-hero/1image_desk@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/img_hotel-hero/1image_tab@1x.jpg 1x,
+                  ./img/img_hotel-hero/1image_tab@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767.99px)"
+                srcset="
+                  ./img/img_hotel-hero/1image_mob@1x.jpg 1x,
+                  ./img/img_hotel-hero/1image_mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/img_hotel-hero/1image_mob@1x.jpg"
+                alt="hotel-hero-2"
+                class="swiper-slide"
+              />
+            </picture>
+          </li>
+          <li class="hero-image">
+            <picture class="hotels-hero-slider">
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./img/img_hotel-hero/2image_desk@1x.jpg 1x,
+                  ./img/img_hotel-hero/2image_desk@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/img_hotel-hero/2image_tab@1x.jpg 1x,
+                  ./img/img_hotel-hero/2image_tab@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767.99px)"
+                srcset="
+                  ./img/img_hotel-hero/2image_mob@1x.jpg 1x,
+                  ./img/img_hotel-hero/2image_mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/img_hotel-hero/2image_mob@1x.jpg"
+                alt="hotel-hero-2"
+                class="swiper-slide"
+              />
+            </picture>
+          </li>
+          <!-- <li class="hero-image">
+              <picture class="hotels-hero-slider">
+              <source
+                media="(min-width: 1440px)"
+                srcset="
+                  ./img/img_hotel-hero/3image_desk@1x.jpg 1x,
+                  ./img/img_hotel-hero/3image_desk@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(min-width: 768px)"
+                srcset="
+                  ./img/img_hotel-hero/3image_tab@1x.jpg 1x,
+                  ./img/img_hotel-hero/3image_tab@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <source
+                media="(max-width: 767.99px)"
+                srcset="
+                  ./img/img_hotel-hero/3image_mob@1x.jpg 1x,
+                  ./img/img_hotel-hero/3image_mob@2x.jpg 2x
+                "
+                type="image/jpg"
+              />
+              <img
+                src="../img/img_hotel-hero/3image_mob@1x.jpg"
+                alt="hotel-hero-3"
+                class="swiper-slide"
+              />
+            </picture>
+            </li>  -->
+        </ul>
+      </div>
+      <div class="slider-buttons">
+        <ul class="btn-list list">
+          <li class="slider-btn">
+            <button class="btn-arrow btn">
+              <svg class="swipe-icon" width="7" height="14">
+                <use
+                  href="/img/img_hotel-hero/slider.svg#icon-vector-left"
+                ></use>
+              </svg>
+            </button>
+          </li>
+          <li class="slider-btn">
+            <button class="btn-arrow btn">
+              <svg class="swipe-icon" width="7" height="14">
+                <use
+                  href="/img/img_hotel-hero/slider.svg#icon-vector-right"
+                ></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
       </div>
     </div>
     <p class="text">
@@ -17,64 +144,5 @@
       <span class="cursive">a romantic dinner</span>, our menu has something for
       everyone.
     </p>
-
-    <div class="slider-img-block">
-      <div class="hero-imgs">
-        <ul class="hero-images list">
-          <li class="hero-imge">
-            <img
-              src="../img/img_hotel-hero/1image_mob@1x.jpg"
-              alt="hotel1"
-              srcset="../img\img_hotel-hero\1image_mob@1x.jpg 250w, ../img\img_hotel-hero\1image_mob@2x.jpg 500w
-            ../img\img_hotel-hero\1image_tab@1x.jpg 436w, ../img\img_hotel-hero\1image_tab@2x.jpg 872w,
-            ../img\img_hotel-hero\1image_desk@1x.jpg 436w, ../img\img_hotel-hero\1image_desk@2x.jpg 872w"
-              sizes="(min-widt: 1440px) 436px, (min-width: 768px) 436px, (min-width: 320px) 250px, 100vw"
-              width="250"
-            />
-          </li>
-          <li class="hero-imge">
-            <img
-              src="../img/img_hotel-hero/2image_mob@1x.jpg"
-              alt="hotel2"
-              srcset="../img\img_hotel-hero\2image_mob@1x.jpg 250w, ../img\img_hotel-hero\2image_mob@2x.jpg 500w
-            ../img\img_hotel-hero\2image_tab@1x.jpg 436w, ../img\img_hotel-hero\2image_tab@2x.jpg 872w,
-            ../img\img_hotel-hero\2image_desk@1x.jpg 436w, ../img\img_hotel-hero\2image_desk@2x.jpg 872w"
-              sizes="(min-widt: 1440px) 436px, (min-width: 768px) 436px, (min-width: 320px) 250px, 100vw"
-              width="250"
-            />
-          </li>
-          <li class="hero-imge">
-            <img
-              src="../img/img_hotel-hero/3image_mob@1x.jpg"
-              alt="hotel3"
-              srcset="../img\img_hotel-hero\3image_mob@1x.jpg 250w, ../img\img_hotel-hero\3image_mob@2x.jpg 500w
-            ../img\img_hotel-hero\3image_tab@1x.jpg 436w, ../img\img_hotel-hero\3image_tab@2x.jpg 872w,
-            ../img\img_hotel-hero\3image_desk@1x.jpg 436w, ../img\img_hotel-hero\3image_desk@2x.jpg 872w"
-              sizes="(min-widt: 1400px) 436px, (min-width: 768px) 436px, (min-width: 320px) 250px, 100vw"
-              width="250"
-            />
-          </li>
-        </ul>
-      </div>
-
-      <div class="swipe-buttons">
-        <ul class="btn-list list">
-          <li>
-            <button class="btn-arrow button">
-              <svg class="swipe-icon" width="7" height="14">
-                <use href="../img/img_hotel-hero/slider.svg#icon-VectorL"></use>
-              </svg>
-            </button>
-          </li>
-          <li class="slider-btn">
-            <button class="btn-arrow btn">
-              <svg class="swipe-icon" width="7" height="14">
-                <use href="../img/img_hotel-hero/slider.svg#icon-VectorR"></use>
-              </svg>
-            </button>
-          </li>
-        </ul>
-      </div>
-    </div>
   </div>
 </section>
