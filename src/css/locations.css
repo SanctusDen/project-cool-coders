@@ -30,7 +30,9 @@ p {
 }
 
 .maps {
+  mix-blend-mode: luminosity;
   box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+
 }
 
 
@@ -77,6 +79,8 @@ p {
   margin-bottom: 4px;
 }
 
+img{
+  width: 100%;}
 
 @media screen and (max-width: 767px) {
   .container {
@@ -86,8 +90,15 @@ p {
  .map-img{
   width: 100%;
  }
-  
 
+ img{
+  width: 100%;
+  
+}
+.maps{
+  height: 384px;
+  
+}
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
