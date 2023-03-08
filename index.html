@@ -27,7 +27,7 @@
 
     <script type="module" crossorigin src="/project-cool-coders/assets/modulepreload-polyfill-ec808ebb.js"></script>
     <link rel="stylesheet" href="/project-cool-coders/assets/index-825b488d.css">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-703ad5ea.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-3dc17176.css">
   </head>
 
   <body>
@@ -761,22 +761,27 @@
               type=""
             />
 
-            <source
-              media="max-width: 767px"
-              srcset="
-                ./images/maps/mob-map.jpg    1x,
-                ./images/maps/mob-map-2x.jpg 2x
-              "
-              type=""
-            />
 
-            <img
-              class="map-img"
-              src="/project-cool-coders/assets/map-f64cd4bd.jpg"
-              alt="Google maps"
-              width=""
-              height=""
-            />
+        <div class=" maps">
+
+        <picture>
+
+            <source media="(min-width: 1440px)" 
+            srcset="/project-cool-coders/assets/map-f64cd4bd.jpg 1x, /project-cool-coders/assets/map-2x-7f12aac8.jpg 2x"
+            type="image/jpg">
+
+            <source media="(min-width: 768px)"
+            srcset="/project-cool-coders/assets/tab-map-1bcf423d.jpg 1x, /project-cool-coders/assets/tab-map-2x-ad2d5039.jpg 2x"
+            type="image/jpg">
+
+            <source media="(max-width: 767px)"
+            srcset="/project-cool-coders/assets/tab-map-1bcf423d.jpg 1x, /project-cool-coders/assets/tab-map-2x-ad2d5039.jpg 2x"
+            type="image/jpg">
+
+            <img class="map-img"
+            src="../img/location/map.jpg"
+              alt="Google maps">
+
           </picture>
         </div>
       </div>
