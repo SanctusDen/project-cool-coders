@@ -78,7 +78,7 @@ p {
 }
 
 
-@media screen and (min-width: 375px) {
+@media screen and (max-width: 767px) {
   .container {
     width: 375px;
   } 
@@ -98,6 +98,7 @@ p {
     line-height: 1;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-bottom: 32px;
   }
   .map-img{
     max-width: 100%;
