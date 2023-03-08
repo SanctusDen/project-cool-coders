@@ -21,22 +21,27 @@
               type=""
             />
 
-            <source
-              media="max-width: 767px"
-              srcset="
-                ./images/maps/mob-map.jpg    1x,
-                ./images/maps/mob-map-2x.jpg 2x
-              "
-              type=""
-            />
 
-            <img
-              class="map-img"
-              src="./img/location/map.jpg"
-              alt="Google maps"
-              width=""
-              height=""
-            />
+        <div class=" maps">
+
+        <picture>
+
+            <source media="(min-width: 1440px)" 
+            srcset="./img/location/map.jpg 1x, ./img/location/map-2x.jpg 2x"
+            type="image/jpg">
+
+            <source media="(min-width: 768px)"
+            srcset="./img/location/tab-map.jpg 1x, ./img/location/tab-map-2x.jpg 2x"
+            type="image/jpg">
+
+            <source media="(max-width: 767px)"
+            srcset="./img/location/tab-map.jpg 1x, ./img/location/tab-map-2x.jpg 2x"
+            type="image/jpg">
+
+            <img class="map-img"
+            src="../img/location/map.jpg"
+              alt="Google maps">
+
           </picture>
         </div>
       </div>

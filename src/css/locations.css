@@ -30,8 +30,8 @@ p {
 }
 
 .maps {
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
   mix-blend-mode: luminosity;
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 }
 
 .contact {
@@ -71,7 +71,26 @@ p {
   margin-bottom: 4px;
 }
 
+img{
+  width: 100%;}
 
+
+@media screen and (max-width: 767px) {
+  .container {
+    width: 375px;
+  } 
+
+ .map-img{
+  width: 100%;
+ }
+
+ img{
+  width: 100%;
+  
+}
+.maps{
+  height: 384px;
+ }
 @media screen and (min-width: 375px) {
   .mini-map{
     width: 100%;
@@ -90,6 +109,7 @@ p {
   .map-img{
     width: 100%;
   }
+
 }
   .location {
     padding-top: 64px;
@@ -119,6 +139,7 @@ p {
     line-height: 1;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-bottom: 32px;
   }
   .map-img{
     width: 100%;
