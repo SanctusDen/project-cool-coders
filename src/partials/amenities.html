@@ -1,4 +1,165 @@
-<!-- ? -->
-<section>
+<!-- Yulya -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+    <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon/favicon.ico" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cool Coders</title>
+
+    <!--  -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
+<!--  -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css" />
+
+   
+    <link rel="stylesheet" href="../css/amenities.css" />
+    <link rel="stylesheet" href="../css/styles.css"/>
+        <link rel="stylesheet" href="../css/reset.css" />
+</head>
+
+<body>
+<section class="amenities">
+    <div class="container amenities-container">
+
+<div class="container-list">
+
+    <div class="amenities-list-first">
+        <div class="amenities-list-container amenities-list-general">
+            <p class="list-title">General Amenities & Facilities:</p>
+            <ul class="amenities-list">
+                <li class="amenities-item">24-hour front desk service</li>
+                <li class="amenities-item">Daily housekeeping</li>
+                <li class="amenities-item">Free Wi-Fi throughout the hotel</li>
+                <li class="amenities-item">Elevator access</li>
+                <li class="amenities-item">Luggage storage</li>
+                <li class="amenities-item">Non-smoking rooms available</li>
+                <li class="amenities-item">Meeting rooms for business and events</li>
+                <li class="amenities-item">On-site parking (surcharge)</li>
+                <li class="amenities-item">Concierge services</li>
+            </ul>
+        </div>
+        <div class="amenities-list-container amenities-list-bathroom">
+            <p class="list-title">Bathroom:</p>
+            <ul class="amenities-list">
+                <li class="amenities-item">Private bathroom with shower</li>
+                <li class="amenities-item">Complimentary toiletries</li>
+                <li class="amenities-item">Hair dryer</li>
+                <li class="amenities-item">Fresh towels daily</li>
+                <li class="amenities-item">Deluxe bathrobes (in some room categories)</li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <div class="amenities-list-first">
+        <div class="amenities-list-container amenities-list-bedroom">
+            <p class="list-title">Bedroom:</p>
+            <ul class="amenities-list">
+                <li class="amenities-item">In-room kitchenette (in some room categories)</li>
+                <li class="amenities-item">Refrigerator</li>
+                <li class="amenities-item">Microwave</li>
+                <li class="amenities-item">Electric kettle</li>
+                <li class="amenities-item">Cooking utensils and cutlery</li>
+                <li class="amenities-item">Dining table and chairs</li>
+            </ul>
+        </div>
+        <div class="amenities-list-container amenities-list-kitchen">
+            <p class="list-title">Kitchen:</p>
+            <ul class="amenities-list">
+                <li class="amenities-item">In-room kitchenette (in some room categories)</li>
+                <li class="amenities-item">Refrigerator</li>
+                <li class="amenities-item">Microwave</li>
+                <li class="amenities-item">Electric kettle</li>
+                <li class="amenities-item">Cooking utensils and cutlery</li>
+                <li class="amenities-item">Dining table and chairs</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="amenities-list-container amenities-list-media">
+        <p class="list-title">Media:</p>
+        <ul class="amenities-list">
+            <li class="amenities-item">Flat-screen TV with cable channels</li>
+            <li class="amenities-item">High-speed Wi-Fi</li>
+            <li class="amenities-item">iPod docking station</li>
+            <li class="amenities-item">Speaker system</li>
+            <li class="amenities-item">Electrical outlets for charging devices</li>
+        </ul>
+    </div>
+    </div>
+
+<!-- photo -->
+
+<div class="amenities-bathroom">
+
+    <div class="amenities-bathroom1">
+    <picture>
+        <source
+        media="(min-width: 1440px)"
+        srcset="
+        ../img/amenities/gray_bathroom_496.jpg 1x,
+        ../img/amenities/gray_bathroom_992.jpg 2x"
+        type="image/jpg"
+        >
+
+        <source media="(min-width: 768px)" srcset="
+        ../img/amenities/gray_bathroom_408.jpg 1x,
+        ../img/amenities/gray_bathroom_816.jpg 2x
+                " type="image/jpg">
+
+        <source media="(max-width: 767px)" srcset="
+        ../img/amenities/gray_bathroom_259.jpg 1x,
+        ../img/amenities/gray_bathroom_518.jpg 2x
+                        " type="image/jpg">
+
+        <img
+        class="amenities-bathroom-img"
+        src="../img/amenities/gray_bathroom_259.jpg"
+        alt="gray bathroom"
+        >
+    </picture>
+    </div>
+
+<div class="amenities-cosmetics">
+        <picture>
+            <source media="(min-width: 1440px)" srcset="
+                        ../img/amenities/cosmetics_439.jpg 1x,
+                        ../img/amenities/cosmetics_878.jpg 2x" type="image/jpg">
     
+            <source media="(min-width: 768px)" srcset="
+                        ../img/amenities/cosmetics_365.jpg 1x,
+                        ../img/amenities/cosmetics_730.jpg 2x" type="image/jpg">
+    
+            <source media="(max-width: 767px)" srcset="
+                        ../img/amenities/cosmetics_207.jpg 1x,
+                        ../img/amenities/cosmetics_414.jpg 2x" type="image/jpg">
+    
+            <img
+            class="amenities-cosmetics-img"
+             src="../img/amenities/cosmetics_207.jpg" 
+             alt="cosmetics">
+        </picture>
+
+        <button class="btn-black amenities-btn amenities-btn-tablet">book a room</button>
+</div>
+    
+    <button class="btn-black amenities-btn amenities-btn-tel" type="button">book a room</button>
+    </div>
+
+    </div>
 </section>
+
+
+
+</body>
+
+</html>

@@ -1,7 +1,7 @@
 /* Yulya */
 img {
     display: block;
-    max-width: 100%;
+
     height: auto;
 }
 
@@ -247,6 +247,10 @@ p {
     .restaurant-img {
         margin-bottom: 0;
     }
+
+    .restaurant-room-img {
+        margin-right: 54px;
+    }
 }
 
 /* text */
@@ -323,7 +327,6 @@ p {
     .restaurant {
         width: 1200px;
         margin-left: auto;
-        margin-right: auto;
     }
 
     .restaurant-room {
