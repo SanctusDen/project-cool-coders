@@ -10,7 +10,7 @@ link {
   --black-color: #000;
   --dark-color: #121212;
   --white-color: #fff;
-  --background-color: #f6f6f6;
+  --background-color: #f7f7f7;
 }
 p {
   margin: 0;
@@ -30,7 +30,7 @@ p {
 }
 
 .maps {
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.2);
+  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 }
 
 .contact {
@@ -72,9 +72,6 @@ p {
 
 
 @media screen and (min-width: 375px) {
-  /* .container {
-    width: 320px;
-  } */
   .mini-map{
     width: 100%;
 
@@ -92,7 +89,7 @@ p {
   .map-img{
     width: 100%;
   }
-  
+  }
 
   .location {
     padding-top: 64px;
@@ -115,6 +112,7 @@ p {
   }
  
   .section-title {
+
     font-weight: 500;
     font-size: 40px;
     line-height: 1;
@@ -124,6 +122,8 @@ p {
   .map-img{
     width: 100%;
    }
+   
+ 
 }
 /*-----------------------------*/
 @media screen and (min-width: 768px) and (max-width: 1439px) {
