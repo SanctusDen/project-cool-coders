@@ -1,60 +1,69 @@
-
 <!-- Alexey -->
 <section class="location">
   <div class="container">
     <h2 class="section-title">Location</h2>
-      <div class="flexbox">
+    <div class="flexbox">
+      <div class="maps">
+        <div class="box-shadov">
+          <picture>
+            <source
+              media="min-width: 1440px"
+              srcset="./images/maps/map.jpg 1x, ./images/maps/map-2x.jpg 2x"
+              type=""
+            />
 
-        <div class="maps">
-          <div class="box-shadov">
+            <source
+              media="min-width: 768px"
+              srcset="
+                ./images/maps/tab-map.jpg    1x,
+                ./images/maps/tab-map-2x.jpg 2x
+              "
+              type=""
+            />
 
-            <picture>
+            <source
+              media="max-width: 767px"
+              srcset="
+                ./images/maps/mob-map.jpg    1x,
+                ./images/maps/mob-map-2x.jpg 2x
+              "
+              type=""
+            />
 
-                <source media="min-width: 1440px" 
-                srcset="../images/maps/map.jpg 1x, ../images/maps/map-2x.jpg 2x"
-                type="">
-
-                <source media="min-width: 768px"
-                srcset="../images/maps/tab-map.jpg 1x, ../images/maps/tab-map-2x.jpg 2x"
-                type="">
-
-                <source media="max-width: 767px"
-                srcset="../images/maps/mob-map.jpg 1x, ../images/maps/mob-map-2x.jpg 2x"
-                type="">
-
-                <img class="map-img"
-                src="../img/location/map.jpg"
-                  alt="Google maps"
-                  width=""
-                  height="">
-              </picture>
-            
-          </div>
+            <img
+              class="map-img"
+              src="./img/location/map.jpg"
+              alt="Google maps"
+              width=""
+              height=""
+            />
+          </picture>
         </div>
-
-        <ul class="contact">
-          <li class="contact-item">
-            <p class="adress">Ukraine, Poltava,</p>
-            <p class="adress">St. Marshal Biryuzov, 15</p>
-          </li>
-
-          <li>
-            <ul class="flex">
-              <li>
-                <p class="appeal">call us:</p>
-              </li>
-              <li>
-                <p>
-                  <a class="phone" href="tel:+380955559533">(095) 555 95 33</a>
-                </p>
-
-                <p>
-                  <a class="phone" href="tel:+380668491089">(066) 849 10 89</a>
-                </p>
-              </li>
-            </ul>
-          </li>
-        </ul>
       </div>
+
+      <ul class="contact">
+        <li class="contact-item">
+          <p class="adress">Ukraine, Poltava,</p>
+          <p class="adress">St. Marshal Biryuzov, 15</p>
+        </li>
+
+        <li>
+          <ul class="flex">
+            <li>
+              <p class="appeal">call us:</p>
+            </li>
+            <li>
+              <p>
+                <a class="phone" href="tel:+380955559533">(095) 555 95 33</a>
+              </p>
+
+              <p>
+                <a class="phone" href="tel:+380668491089">(066) 849 10 89</a>
+              </p>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </div>
   </div>
 </section>
