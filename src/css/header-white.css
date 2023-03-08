@@ -1,1 +1,280 @@
 /* Pavel */
+.white-header {
+    background: #FFFFFF;
+        border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+    color: #121212;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+
+}
+
+/* @media screen and (min-width:1440px) {
+
+    .home-header {
+        position: fixed;
+        transform: translateX(-0.1.5%);
+        z-index: 1000;
+        background-color: transparent;
+
+    }
+
+} */
+
+.white-header-box {
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+
+
+
+/* Бургер */
+
+.white-header-menu-open {
+    width: 28px;
+    height: 28px;
+    background-color: transparent;
+    padding: 0;
+    line-height: 0;
+}
+
+
+
+
+
+/* Логотип */
+
+.white-header-site-logo {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    gap: 3px;
+}
+
+.white-header-logo-mimino {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.57;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.white-header-logo-complex {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 6px;
+    line-height: 1.33;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+/* Соц-сети */
+
+.white-header-site-social {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-left: auto;
+}
+
+.white-icon {
+    fill: none;
+    stroke: #121212;
+    border: 1.5px solid #121212;
+}
+
+/* Медиа мобильные */
+
+@media screen and (max-width: 767px) {
+    .white-header-site-nav {
+        display: none;
+    }
+
+    .white-header-site-social {
+        display: none;
+    }
+
+    .white-header-site-logo {
+        margin-left: 83px;
+    }
+}
+
+/* Медиа Планшет */
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .white-header-site-nav {
+        display: none;
+    }
+
+    .white-header-site-logo {
+        margin-left: 246px;
+    }
+
+    .white-header-menu-open {
+        width: 32px;
+        height: 32px;
+    }
+
+    .white-header-menu-icon {
+        width: 32px;
+        height: 32px;
+    }
+}
+
+/* Медиа ПК */
+
+@media screen and (min-width: 1440px) {
+    .white-header-menu-open {
+        display: none;
+    }
+
+    .white-header-site-logo {
+        margin-left: 370px;
+    }
+
+    .white-header-site-nav {
+        display: flex;
+        align-items: center;
+        gap: 32px;
+    }
+
+    .white-header-nav-link {
+        position: relative;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #121212;
+    }
+
+
+
+     
+}
+
+
+
+
+
+/* Медиа общие Планшет - ПК */
+
+@media screen and (min-width: 768px) {
+    .white-header-box {
+        justify-content: space-between;
+    }
+
+    .white-header-logo-mimino {
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .white-header-logo-complex {
+        font-size: 8px;
+        line-height: 1.25;
+    }
+}
+
+/* Меню */
+
+/* Header Menu */
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background-color: #121212;
+    transform: translateX(-140%);
+    overflow: scroll;
+}
+
+.is-open {
+    transform: translateX(0);
+}
+
+.header-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+}
+
+.menu-close-button {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 767px) {
+    .home-header-site-logo {
+        margin-left: 83px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .home-header-site-logo {
+        margin-left: 246px;
+    }
+}
+
+/* Main Menu */
+
+.main-menu-box {
+    padding-bottom: 24px;
+}
+
+.menu-site-nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 128px;
+    margin-bottom: auto;
+}
+
+.menu-nav-title {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #f7f7f7;
+}
+
+.header-menu-social-list {
+    position: absolute;
+    bottom: 24px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: auto;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .menu-nav-title {
+        font-size: 28px;
+        line-height: 1.14;
+    }
+
+    .header-menu-social-list {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
