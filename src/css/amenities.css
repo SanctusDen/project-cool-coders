@@ -1,5 +1,5 @@
 /* Yulya */
-img {
+/* img {
     display: block;
 
     height: auto;
@@ -37,8 +37,11 @@ ul {
     .container {
         max-width: 1440px;
     }
-}
+} */
 
+.amenities-title {
+    visibility: hidden;
+}
 
 .amenities {
     padding-top: 40px;
