@@ -24,16 +24,15 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+
     
     
-    
-    
-    <script type="module" crossorigin src="/project-cool-coders/assets/page-2-39708b46.js"></script>
+    <script type="module" crossorigin src="/project-cool-coders/assets/page-2-b7d48b61.js"></script>
     <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-f7f82dfe.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-9dd2a883.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/page-2-58463f13.css">
   </head>
-  
+
   <body>
     <!-- Pavel -->
 <header class="white-header">
@@ -195,10 +194,18 @@
     <div class="left-bloc">
       <h1 class="hero-title">Hotel</h1>
       <div class="option-btns">
-        <button type="button" class="btn-white button pointer" data-modal-open="1">
+        <button
+          type="button"
+          class="btn-white button pointer"
+          data-modal-open="1"
+        >
           Book a Room
         </button>
-        <button type="button" class="btn-white button pointer">
+        <button
+          type="button"
+          class="btn-white button pointer"
+          data-prices-modal-open
+        >
           View Prices
         </button>
       </div>
@@ -320,118 +327,112 @@
   </div>
 </section>
 
- <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button class="btn modal-button" data-modal-close type="button">
-          <svg class="modal-icon" width="11.67" height="11.67">
-            <use href="./images2/close-black.svg#icon-close-black-18dp"></use>
-          </svg>
-        </button>
-        <!-- <p class="modal-title">
+<div class="backdrop is-hidden" data-modal>
+  <div class="modal">
+    <button class="btn modal-button" data-modal-close type="button">
+      <svg class="modal-icon" width="11.67" height="11.67">
+        <use href="./images2/close-black.svg#icon-close-black-18dp"></use>
+      </svg>
+    </button>
+    <!-- <p class="modal-title">
           <span class="mod-style">book&nbsp</span>a room
         </p> -->
-        <form class="order_form" name="order-form">
-          <ul class="person-data list">
-            <li class="order-form-group">
-              <input
-                class="order-form-field"
-                id="user-name"
-                name="user-name"
-                type="text"
-                placeholder="YOUR NAME"
-                required
-              />
-              <label class="order-form-label" for="user-name"
-                >Who should book a table for?</label
-              >
-            </li>
-            <li class="order-form-group">
-              <input
-                class="order-form-field"
-                id="user-phone"
-                name="user-phone"
-                type="text"
-                placeholder="+38 ()"
-                required
-              />
-              <label class="order-form-label" for="user-phone"
-                >phone number</label
-              >
-            </li>
-          </ul>
+    <form class="order_form" name="order-form">
+      <ul class="person-data list">
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-name"
+            name="user-name"
+            type="text"
+            placeholder="YOUR NAME"
+            required
+          />
+          <label class="order-form-label" for="user-name"
+            >Who should book a table for?</label
+          >
+        </li>
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-phone"
+            name="user-phone"
+            type="text"
+            placeholder="+38 ()"
+            required
+          />
+          <label class="order-form-label" for="user-phone">phone number</label>
+        </li>
+      </ul>
 
-          <ul class="option-data list">
-            <li class="order-form-group">
-              <input
-                class="order-form-field"
-                id="user-mail"
-                name="user-mail"
-                type="text" 
-                required
-                 
-              />
-              
-              <label class="order-form-label" for="user-mail"
-                >check-in date</label
-              >
-              <select id="days" name="days" class="text-input">
-                <svg class="select-icon" width="20px" height="20px">
-                  <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
-                </svg>
-                <option value="day" selected>today</option>
-                <option value="tommorow">tomorrow</option>
-                <option value="day">day after tomorrow</option>
-              </select>
-            </li>
-            <li class="order-form-group">
-              <input
-                class="order-form-field"
-                id="user-mail"
-                name="user-mail"
-                type="text" 
-                required
-              />
-              <label class="order-form-label" for="user-mail"
-                >check-in date</label
-              >
-              <select id="calender" name="calender" class="text-input">
-                <svg class="select-icon" width="20px" height="20px">
-                  <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
-                </svg>
-                <option value="date" selected>25.03.2023</option>
-                <option value="date">26.03.2023</option>
-                <option value="date">27.03.2023</option>
-              </select>
-            </li>
-            <li class="order-form-group">
-              <input
-                class="order-form-field"
-                id="user-mail"
-                name="user-mail"
-                type="text"
-                required
-              />
-              <label class="order-form-label" for="user-mail"
-                >number categoty</label
-              >
-              <select id="rooms" name="rooms" class="text-input">
-                <svg class="select-icon" width="20px" height="20px">
-                  <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
-                </svg>
-                <option value="room" selected>double suite</option>
-                <option value="room">Double Luxury Room</option>
-                <option value="room">triple room</option>
-              </select>
-            </li>
-          </ul>
-          <button class="btn-send button pointer" type="submit">
-            make a reservation
-          </button>
-        </form>
-      </div>
-    </div>
+      <ul class="option-data list">
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-mail"
+            name="user-mail"
+            type="text"
+            required
+          />
 
-    <script src="./js/modal.js"></script>
+          <label class="order-form-label" for="user-mail">check-in date</label>
+          <select id="days" name="days" class="text-input">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="day" selected>today</option>
+            <option value="tommorow">tomorrow</option>
+            <option value="day">day after tomorrow</option>
+          </select>
+        </li>
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-mail"
+            name="user-mail"
+            type="text"
+            required
+          />
+          <label class="order-form-label" for="user-mail">check-in date</label>
+          <select id="calender" name="calender" class="text-input">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="date" selected>25.03.2023</option>
+            <option value="date">26.03.2023</option>
+            <option value="date">27.03.2023</option>
+          </select>
+        </li>
+        <li class="order-form-group">
+          <input
+            class="order-form-field"
+            id="user-mail"
+            name="user-mail"
+            type="text"
+            required
+          />
+          <label class="order-form-label" for="user-mail"
+            >number categoty</label
+          >
+          <select id="rooms" name="rooms" class="text-input">
+            <svg class="select-icon" width="20px" height="20px">
+              <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+            </svg>
+            <option value="room" selected>double suite</option>
+            <option value="room">Double Luxury Room</option>
+            <option value="room">triple room</option>
+          </select>
+        </li>
+      </ul>
+      <button class="btn-send button pointer" type="submit">
+        make a reservation
+      </button>
+    </form>
+  </div>
+</div>
+
+<script src="./js/modal.js"></script>
+
     <!-- Alakey -->
 <section class="double-room">
   <div class="container dooble-section">
@@ -528,12 +529,14 @@
         </div>
       </div>
       <div class="wrapper-button-double">
-        <a href="page-4.html">
-          <button class="More-details button btn-white" type="button">
-            More details
-          </button>
+        <a href="page-4.html" class="More-details button btn-white">
+          More details
         </a>
-        <button class="View-prices button btn-white" type="button">
+        <button
+          class="View-prices button btn-white"
+          type="button"
+          data-prices-modal-open
+        >
           View prices
         </button>
       </div>
@@ -632,11 +635,81 @@
       </div>
       <ul class="wrapper-button">
         <li><a href="page-4.html" class="button btn-white">More details</a></li>
-        <li><butoon type="button" class="button btn-white">View prices</butoon></li>
+        <li>
+          <butoon type="button" class="button btn-white" data-prices-modal-open
+            >View prices</butoon
+          >
+        </li>
       </ul>
     </div>
   </div>
 </section>
+<!-- Modal -->
+<!-- Modal window  -->
+<div class="backdrop is-hidden" data-prices-modal>
+  <div class="modal-prices">
+    <button type="button" class="cls-button" data-prices-modal-close>
+      <svg class="icon-cls" width="12" height="12">
+        <use href="/project-cool-coders/assets/symbol-defs-4c669716.svg#icon-Iconcls-btn-1"></use>
+      </svg>
+    </button>
+    <strong class="title-modal">Prices per room</strong>
+    <div class="form-container-prices">
+      <h2 class="title-prices-modal">Double suite</h2>
+      <form class="form-prices" autocomplete="off">
+        <div class="wrapper-price-form">
+          <div class="form-label-prices price-number-night">
+            <select
+              class="dropdown-color-prices"
+              id="number-night"
+              name="number-night"
+            >
+              <option value="xs" selected>1</option>
+              <option value="s">2</option>
+              <option value="m">3</option>
+              <option value="l">4</option>
+            </select>
+            <label class="form-prices-label" for="number-night" required
+              >Number og night</label
+            >
+          </div>
+          <div class="form-label-prices">
+            <select
+              type="date"
+              class="dropdown-color-prices"
+              id="date"
+              name="date"
+            >
+              <option value="25/04/2023" selected>25/04/2023</option>
+              <option value="26/04/2023">26/04/2023</option>
+              <option value="27/04/2023">27/04/2023</option>
+              <option value="28/04/2023">28/04/2023</option>
+              <option value="29/04/2023">29/04/2023</option>
+              <option value="30/04/2023">30/04/2023</option></select
+            ><label class="form-prices-label" for="date" required>
+              Check-in date
+            </label>
+          </div>
+
+          <div class="form-label-prices price-input">
+            <input
+              class="form-input-prices"
+              type="text"
+              name="uan"
+              min="3"
+              placeholder="1000"
+              required
+            />
+            <label class="form-prices-label" for="uan">uan</label>
+          </div>
+        </div>
+        <button class="btn-black btn-send" type="submit">
+          MAKE A RESERVATION
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
 
     <!-- Katerina -->
 <section class="four-seater-room">
@@ -724,14 +797,16 @@
       <div class="button-wrap">
         <ul class="four-seater-room-button">
           <li>
-            <a href="page-4.html">
-              <button type="button" class="button btn-white">
-                More details
-              </button>
-            </a>
+            <a href="page-4.html" class="button btn-white"> More details </a>
           </li>
           <li>
-            <button type="button" class="button btn-white">View prices</button>
+            <button
+              type="button"
+              class="button btn-white"
+              data-prices-modal-open
+            >
+              View prices
+            </button>
           </li>
         </ul>
       </div>
@@ -795,8 +870,7 @@
 </footer>
 
 
-
-
+    
     
     <script
       defer
