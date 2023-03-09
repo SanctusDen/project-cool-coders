@@ -134,26 +134,14 @@
         <use href="./img/svg-sprite/symbol-defs.svg#icon-Iconcls-btn-1"></use>
       </svg>
     </button>
-    <div class="form-container">
-      <strong class="title-modal">Prices per room</strong>
+    <strong class="title-modal">Prices per room</strong>
+    <div class="form-container-prices">
       <h2 class="title-prices-modal">Double suite</h2>
-      <form class="form" autocomplete="off">
-        <div>
-          <div class="order-group">
-            <select class="dropdown-color" id="date" name="date">
-              <option value="25/04/2023" selected>25/04/2023</option>
-              <option value="26/04/2023">26/04/2023</option>
-              <option value="27/04/2023">27/04/2023</option>
-              <option value="28/04/2023">28/04/2023</option>
-              <option value="29/04/2023">29/04/2023</option>
-              <option value="30/04/2023">30/04/2023</option></select
-            ><label class="form-prices-label" for="date" required>
-              Check-in date
-            </label>
-          </div>
-          <div class="order-group">
+      <form class="form-prices" autocomplete="off">
+        <div class="wrapper-price-form">
+          <div class="form-label-prices price-number-night">
             <select
-              class="dropdown-color"
+              class="dropdown-color-prices"
               id="number-night"
               name="number-night"
             >
@@ -166,9 +154,27 @@
               >Number og night</label
             >
           </div>
-          <div class="order-group">
+          <div class="form-label-prices">
+            <select
+              type="date"
+              class="dropdown-color-prices"
+              id="date"
+              name="date"
+            >
+              <option value="25/04/2023" selected>25/04/2023</option>
+              <option value="26/04/2023">26/04/2023</option>
+              <option value="27/04/2023">27/04/2023</option>
+              <option value="28/04/2023">28/04/2023</option>
+              <option value="29/04/2023">29/04/2023</option>
+              <option value="30/04/2023">30/04/2023</option></select
+            ><label class="form-prices-label" for="date" required>
+              Check-in date
+            </label>
+          </div>
+
+          <div class="form-label-prices price-input">
             <input
-              class="form-input"
+              class="form-input-prices"
               type="text"
               name="uan"
               min="3"
