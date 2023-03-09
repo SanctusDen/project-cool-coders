@@ -1,4 +1,4 @@
-/* Alexey */
+h/* Alexey */
 ul {
   list-style: none;
   padding-left: 0;
@@ -20,6 +20,7 @@ p {
 .container {
   padding: 0 20px;
   margin: 0 auto;
+  mix-blend-mode: luminosity;
 }
 
 .location {
@@ -31,7 +32,7 @@ p {
 
 .maps {
   mix-blend-mode: luminosity;
-  box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.12);
+  box-shadow: -10px 20px 30px -16px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -179,9 +180,14 @@ img{
   .container {
     width: 1440px;
     padding: 0 32px;
+    
   }
 
-  
+  .maps {
+    mix-blend-mode: luminosity;
+    box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.12);
+  }
+
   .section-title {
     position: absolute;
     top: 0;
@@ -196,6 +202,7 @@ img{
 
   .location {
     padding: 100px 32px;
+    height: 724px;
   }
 
   .contact {
