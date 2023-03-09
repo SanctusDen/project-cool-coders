@@ -298,16 +298,24 @@ color: var(--color-text);
     right: 24px;
     background-color: inherit;
     border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
+
     padding: 0;
+}
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
 }
 
 
 .cls-button:hover,
 .cls-button:focus{
-    background-color: var(--button-color-off);
-    fill: var(--title-text-color);
-    transition: 250ms var(--timing-cubic);
+    
+    fill: #f7f7f7;
+    transition: 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .title-modal{
@@ -316,6 +324,7 @@ color: var(--color-text);
     line-height: 1.35;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-bottom: 40px;
 
     color: #F7F7F7;
 }
@@ -325,14 +334,13 @@ color: var(--color-text);
 .inputs{
     display: flex;
     flex-flow: column;
-    padding: 72px 24px 0 24px;
+    padding: 24px 24px 0 24px;
 }
 
 
 .form-label{
     display: flex;
     flex-direction: column;
-    margin-bottom: 4px;
 
     position: relative;
 }
@@ -349,13 +357,16 @@ color: var(--color-text);
 }
 
 .boking-label-coment{
-    letter-spacing: 0.01em;
-    color: #8E8F99;
-
     font-weight: 400;
-    font-size: 12px;
-    line-height: 1.33;
+    font-size: 8px;
+    line-height: 1.5;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
 
+    color: #D8D7D7;
+
+    padding-top: 8px;
+    margin-bottom: 32px;
 }
 
 .order-coment{
@@ -388,14 +399,14 @@ color: var(--color-text);
 
 .form-input{
     height: 40px;
-    
+    background-color: inherit;
     outline: transparent;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    padding: 11px 38px;
+    border: 0.8px solid rgba(247, 247, 247, 0.2);
+    border-radius: 68px;
+    /* padding: 11px 38px; */
     order: 1;
 
-    transition: 250ms var(--timing-cubic);
+    transition: 350ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .form-input:focus{
@@ -465,7 +476,6 @@ color: var(--color-text);
 .check-privacy > a {
     text-decoration-line: underline;
     color: #4d5ae5;
-
 }
 
 /* btn-submit */
