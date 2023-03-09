@@ -68,6 +68,7 @@ body {
 .button {
   display: flex;
   align-items: center;
+  justify-content: center;
   font-family: 'DM Sans', sans-serif;
   border: 0.8px solid;
   border-radius: 32px;

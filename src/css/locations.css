@@ -71,18 +71,12 @@ p {
   margin-bottom: 4px;
 }
 
-img{
-  width: 100%;}
-
 
 @media screen and (max-width: 767px) {
   .container {
     width: 375px;
   } 
  .map-img{
-  width: 100%;
- }
- img{
   width: 100%;
  }
  .maps{
