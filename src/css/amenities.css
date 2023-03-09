@@ -1,1 +1,251 @@
-/* ? */
+/* Yulya */
+img {
+    display: block;
+
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    padding: 0px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+}
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+
+.amenities {
+    padding-top: 40px;
+    padding-bottom: 64px;
+    background-color: black;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+.amenities {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .amenities {
+            padding-top: 94px;
+            padding-bottom: 100px;
+        }
+}
+
+.amenities-list {
+    list-style: disc;
+    padding-left: 22px;
+}
+
+
+.amenities-list-container {
+    margin-bottom: 40px;
+}
+
+.amenities-list-container:last-child {
+    margin-bottom: 64px;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+.amenities-list-container:last-child {
+        margin-bottom: 122px;
+    }
+    }
+
+
+.list-title {
+        margin-bottom: 28px;
+
+        font-size: 28px;
+        line-height: 1.10;
+        letter-spacing: -0.02em;
+        text-transform: uppercase;
+         color: #F7F7F7;
+}
+
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .list-title {
+        margin-bottom: 40px;
+
+        font-weight: 700;
+        font-size: 40px;
+    }
+}
+
+.amenities-item {
+    font-size: 14px;
+    line-height: 1.33;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .amenities-item{
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+.amenities-btn
+{   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 175px;
+    height: 34px;
+    border: 0.8px solid #F7F7F7;
+        border-radius: 32px;
+
+
+    background-color: transparent;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
+
+
+.amenities-btn-tablet {
+    display: none;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+.amenities-btn {
+        margin-left: 0;
+        width: 143px;
+        height: 40px;
+    }
+
+.amenities-btn-tablet{
+display: block;
+}
+
+.amenities-btn-tel {
+    display: none;
+}
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+.amenities-btn {
+    width: 170px;
+    height: 42px;
+    }
+}
+
+
+.amenities-bathroom-img {
+    margin-left: auto;
+}
+
+
+.amenities-bathroom {
+    position: relative;
+}
+
+ .amenities-bathroom-img {
+     margin-bottom: 32px;
+ }
+
+ /*  tablet screen */
+ @media screen and (min-width: 768px) {
+    .amenities-bathroom-img {
+         margin-bottom: 0;
+     }
+ }
+
+.amenities-cosmetics {
+    position: absolute;
+        top: 144px;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .amenities-cosmetics {
+            top: 157px;
+        }
+
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .amenities-cosmetics {
+            top: 208px;
+            left: 528px;
+        }
+}
+
+.amenities-cosmetics-img {
+    margin-bottom: 30px;
+}
+
+
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .amenities-list-first {
+        display: flex;
+    }
+
+    .amenities-list-general {
+        margin-right: 70px;
+    }
+
+    .amenities-list-bedroom {
+        margin-right: 230px;
+    }
+
+        .amenities-bathroom {
+            position: absolute;
+            bottom: 240px;
+        }
+
+        .amenities-bathroom{
+            position: relative;
+            
+        }
+
+                .amenities-bathroom {
+                    margin-bottom: -240px;
+                }
+
+}

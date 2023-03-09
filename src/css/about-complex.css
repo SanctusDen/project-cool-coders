@@ -1,1 +1,339 @@
 /* Yulya */
+img {
+    display: block;
+
+    height: auto;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0px;
+}
+
+.container {
+    min-width: 320px;
+    max-width: 375px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding-right: 32px;
+        padding-left: 32px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+
+.section-two {
+    padding-top: 64px;
+    /* padding-bottom: 64px; */
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .section-two {
+        padding-top: 65px;
+        /* padding-bottom: 65px; */
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .section-two {
+        padding-top: 100px;
+        /* padding-bottom: 17px; */
+    }
+
+    .main-room {
+        display: flex;
+    }
+
+}
+
+
+.main-room-img {
+    margin-bottom: 20px;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .main-room-img {
+        margin-bottom: 32px;
+    }
+
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+
+    .main-room-img {
+        margin-right: 364px;
+    }
+}
+
+.bath-room-img {
+    margin-bottom: 32px;
+}
+
+.main-room {
+    position: relative;
+}
+
+.rating {
+    position: absolute;
+    left: 123px;
+    top: 420px;
+}
+
+.rating {
+    padding: 10px 14px;
+    display: flex;
+    width: 212px;
+    height: 61px;
+    background: #121212;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+.rating2 {
+    position: absolute;
+    left: 0px;
+    top: 272px;
+    padding: 10px 14px;
+    display: flex;
+    width: 212px;
+    height: 61px;
+    background: #121212;
+    box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+}
+
+/*  tablet screen */
+@media screen and (min-width: 768px) {
+    .rating2 {
+        left: 67px;
+        top: 303px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+
+    .rating2 {
+        left: 563px;
+        top: 303px;
+    }
+
+
+}
+
+
+.restaurant {
+    position: relative;
+}
+
+.rating-name {
+    margin-bottom: 7px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.0;
+    /* identical to box height, or 100% */
+
+
+    color: #F7F7F7;
+}
+
+.rating-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.3;
+    /* identical to box height, or 16px */
+
+
+    color: #575757;
+}
+
+.rating-img {
+    margin-right: 12px;
+}
+
+.nomber {
+    color: #F7F7F7;
+}
+
+
+@media screen and (min-width: 768px) {
+    .bath-room {
+        position: absolute;
+        left: 300px;
+        top: 209px;
+    }
+
+    .rating {
+        position: absolute;
+        left: 370px;
+        top: 179px;
+        z-index: 10;
+    }
+
+    .container {
+        position: relative;
+    }
+}
+
+.main-room {
+    margin-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+    .main-room {
+        margin-bottom: 65px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .main-room {
+        margin-bottom: 100px;
+    }
+}
+
+
+.restaurant-img {
+    margin-bottom: 54px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .restaurant-img {
+        margin-left: auto;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+
+    .restaurant-room {
+        display: flex;
+        justify-content: left;
+        flex-direction: row-reverse;
+    }
+
+    .restaurant-room-img {
+        margin-right: 32px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+    .restaurant-img {
+        margin-bottom: 0;
+    }
+
+
+    .restaurant-room-img {
+        margin-right: 54px;
+    }
+
+}
+
+/* text */
+
+.about-subtitle {
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+
+    color: #484848;
+}
+
+.about-text {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+
+    color: #121212;
+}
+
+@media screen and (min-width: 768px) {
+    .about-restaurant-hotel-text {
+        font-size: 18px;
+    }
+
+    .about-restaurant-hotel-text2 {
+        font-size: 18px;
+    }
+}
+
+.about-subtitle {
+    margin-bottom: 18px;
+}
+
+.about-restaurant-hotel-text {
+    margin-bottom: 14px;
+}
+
+.about-hotel-text {
+    margin-bottom: 40px;
+}
+
+
+@media screen and (min-width: 768px) {
+    .restaurant-text {
+        width: 472px;
+    }
+
+    .hotel-text {
+        width: 263px;
+    }
+}
+
+/* desktop screen  */
+@media screen and (min-width: 1440px) {
+
+    .restaurant-text {
+        padding-top: 199px;
+    }
+
+    .restaurant {
+        width: 1200px;
+        margin-left: auto;
+    }
+
+    .restaurant-room {
+        position: absolute;
+        left: 0px;
+        top: 127px;
+    }
+
+    .restaurant {
+        position: relative;
+    }
+}

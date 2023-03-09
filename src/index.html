@@ -1,36 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/PATH_TO_STATIC_FAVICON/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="./img/favicon/favicon.ico" type="image/x-icon">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
+    <title>Cool Coders</title>
 
     <!--  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- normalize -->
-    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
+    />
+  <link rel="stylesheet" href="./css/amenities.css" />
+  <link rel="stylesheet" href="./css/styles.css" />
+  <link rel="stylesheet" href="./css/reset.css" />
 
-
-    <link rel="stylesheet" href="./css/styles.css" />
   </head>
 
   <body>
-    <load src="partials/header.html" />
-    <load src="partials/hero.html" />
-    <load src="partials/complex.html" />
-    <load src="partials/restaurants-details.html" />
-    <load src="partials/welcome-complex.html" />
-    <load src="partials/hotels-details.html" />
-    <load src="partials/locations.html" />
-
+    <load ="partials/header.html" />
+    <load ="partials/hero.html" />
+    <load ="partials/complex.html" />
+    <load ="partials/restaurant-swipe.html" />
+    <load ="partials/welcome-complex.html" />
+    <load ="partials/hotels-details.html" />
+    <load ="partials/locations.html" />
 
     <!-- Loads the specified .html file -->
-    <load src="partials/footer.html" />
+    <load ="partials/footer.html" />
 
-    <script type="module" src="/main.js"></script>
-  </body>
+    <script
+        defer
+        src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+        integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+        crossorigin="anonymous">
+    </script>
+    <script defer type="module">
+      (() => {
+    const mobileMenu = document.querySelector('.js-menu-container');
+    const openMenuBtn = document.querySelector('.js-open-menu');
+    const closeMenuBtn = document.querySelector('.js-close-menu');
+  
+    const toggleMenu = () => {
+      const isMenuOpen =
+        openMenuBtn.getAttribute('aria-expanded') === 'true' || false;
+      openMenuBtn.setAttribute('aria-expanded', !isMenuOpen);
+      mobileMenu.classList.toggle('is-open');
+  
+      const scrollLockMethod = !isMenuOpen
+        ? 'disableBodyScroll'
+        : 'enableBodyScroll';
+      bodyScrollLock[scrollLockMethod](document.body);
+    };
+  
+    openMenuBtn.addEventListener('click', toggleMenu);
+    closeMenuBtn.addEventListener('click', toggleMenu);
+  
+    // Close the mobile menu on wider screens if the device orientation changes
+    window.matchMedia('(min-width: 768px)').addEventListener('change', e => {
+      if (!e.matches) return;
+      mobileMenu.classList.remove('is-open');
+      openMenuBtn.setAttribute('aria-expanded', false);
+      bodyScrollLock.enableBodyScroll(document.body);
+    });
+  })();
+    </script>
+    <script src="./js/modal.js"></script>
+
+    <script src="/main.js" type="module"></script>  
+  </load></load></load></load></load></load></load></load></load></body>
 </html>
