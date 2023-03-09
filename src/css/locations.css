@@ -31,8 +31,7 @@ p {
 
 .maps {
   mix-blend-mode: luminosity;
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
-
+  box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.12);
 }
 
 
@@ -94,11 +93,34 @@ img{
  img{
   width: 100%;
   
-}
-.maps{
+ }
+ .maps{
   height: 384px;
-  
+ }
 }
+
+
+
+@media screen and (min-width: 375px) {
+  .mini-map{
+    width: 100%;
+
+  }
+  .mobile-map {
+    display: none;
+  }
+  .tab-map {
+    display: none;
+  }
+  .desktop-map {
+    display: none;
+  }
+
+  .map-img{
+    width: 100%;
+  }
+
+
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
