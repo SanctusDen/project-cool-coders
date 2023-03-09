@@ -78,10 +78,7 @@ p {
   } 
  .map-img{
   width: 100%;
-  height: 384px;
- }
- .maps{
-  height: 384px;
+
  }
  .section-title {
   font-weight: 500;
@@ -112,7 +109,6 @@ p {
 
   .map-img{
     width: 100%;
-    height: 384px;
   }
 
 

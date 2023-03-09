@@ -281,11 +281,6 @@ color: var(--color-text);
     opacity: 1;
 }
 
-.icon-cls{
-    display: block;
-    width: 8px;
-    height: 8px;
-}
 
 .cls-button{
     position: absolute;
@@ -301,10 +296,10 @@ color: var(--color-text);
 
     padding: 0;
 }
-.icon {
+.icon-cls {
     display: inline-block;
-    width: 1em;
-    height: 1em;
+    width: 12px;
+    height: 12px;
     stroke-width: 0;
     stroke: currentColor;
     fill: currentColor;
@@ -341,7 +336,6 @@ color: var(--color-text);
 .form-label{
     display: flex;
     flex-direction: column;
-
     position: relative;
 }
 
@@ -487,4 +481,11 @@ color: var(--color-text);
     margin-bottom: 24px;
 
     transition: background-color 250ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.dropdown-color{
+    background-color: inherit;
+    color: #f7f7f7;
+    border: 0.8px solid rgba(247, 247, 247, 0.2);
+    border-radius: 68px;
+    padding-left: 8px;
 }
