@@ -126,7 +126,7 @@ img{
     color: var(--dark-color);
   }
 
-
+}
 /*--------------------------*/
 @media screen and (min-width: 376px) and (max-width: 767px) {
   .container {
