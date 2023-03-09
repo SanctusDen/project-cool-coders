@@ -339,7 +339,6 @@
   color: #d8d7d7;
 
   padding-top: 8px;
-  margin-bottom: 40px;
 }
 
 .form-input {
@@ -405,21 +404,31 @@
   color: #f7f7f7;
   border: none;
   border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
-  margin-bottom: 32px;
   padding-bottom: 18px;
 }
 
+.modcont{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
 @media screen and (min-width:768px) {
     .order-group{
         width: 266px;
         
     }
-    /* .teblem{
-    display: flex;
-    gap: 32px;
-    } */
+    .modcont{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 32px;
+        height: 150px;
+        flex-direction: column;
+        margin-bottom: 60px;
+    }
 }
 
 .today{
     margin-bottom: 0;
 }
+
