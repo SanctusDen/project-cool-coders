@@ -152,7 +152,8 @@
       
           <p class="title-modal">BOOK A TABLE</p>
           
-          <div class="order-group">
+          <ul class="modcont">
+            <li><div class="order-group">
               <label class="form-label">
                   <span class="boking-label">Your name</span>
                   <input class="form-input" 
@@ -160,11 +161,11 @@
                   name="user_name" minlength="2" required />
                     
               </label>
-          </div>
+          </div></li>
 
           <span class="boking-label-coment">Who should book a table for?</span>
 
-          <div class="order-group">
+            <li><div class="order-group">
             <label class="form-label boking-label" for="number" required>
               <select class="dropdown-color" id="number" name="number">
                 <option value="xs">4</option>
@@ -174,12 +175,12 @@
                 <option value="l">1</option>
               </select>
             </label>
-          </div>
+          </div></li>
 
 
-          <div class="order-group">
+            <li><div class="order-group">
             <label class="form-label boking-label" for="day" required>
-              <select class="dropdown-color" id="day" name="day">
+              <select class="dropdown-color today" id="day" name="day">
                 <option value="xs">Monday</option>
                 <option value="s">Tuesday</option>
                 <option value="m" >Wendsday</option>
@@ -188,13 +189,13 @@
                 <option value="s">Friday</option>
                 <option value="m">Saturday</option>
                 <option value="l">Sunday</option>
-                <span class="boking-label-coment">What date to book?</span>
               </select>
+              <span class="boking-label-coment">What date to book?</span>
             </label>
-          </div>
+          </div></li>
 
 
-          <div class="order-group">
+            <li><div class="order-group">
             <label class="form-label">
                 <span class="boking-label">+ 38()</span>
                 <input class="form-input" 
@@ -203,10 +204,11 @@
                 min="10" 
                 required />
             </label>
-          </div>
+          </div></li>
           <span class="boking-label-coment">What date to book?</span>
-
+          </ul>
           <button class="btn-black btn-send" type="submit">MAKE A RESERVATION</button>
+        
       
       </form>
     </div>

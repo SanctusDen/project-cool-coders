@@ -308,9 +308,9 @@
 
 /* form lable */
 
-.inputs {
-  display: flex;
-  flex-flow: column;
+.inputs{
+    display: flex;
+    flex-direction: column;
 }
 
 .form-label {
@@ -343,7 +343,7 @@
 }
 
 .form-input {
-  height: 40px;
+
   background-color: inherit;
   outline: transparent;
   /* border: 0.8px solid rgba(247, 247, 247, 0.2);
@@ -409,12 +409,17 @@
   padding-bottom: 18px;
 }
 
-@media screen and (min-width: 768px) {
-  .order-group {
-    width: 266px;
-  }
-  /* .teblem{
+@media screen and (min-width:768px) {
+    .order-group{
+        width: 266px;
+        
+    }
+    /* .teblem{
     display: flex;
     gap: 32px;
     } */
+}
+
+.today{
+    margin-bottom: 0;
 }
