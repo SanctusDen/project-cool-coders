@@ -27,7 +27,7 @@
 
     <script type="module" crossorigin src="/project-cool-coders/assets/index-2bda0fd6.js"></script>
     <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-e75f2531.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-4755b265.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/index-825b488d.css">
   </head>
 
@@ -853,6 +853,24 @@
 </footer>
 
 
+
+
+    <script>
+      (() => {
+    const refs = {
+      openModalBtn: document.querySelector("[data-modal-open]"),
+      closeModalBtn: document.querySelector("[data-modal-close]"),
+      modal: document.querySelector("[data-modal]"),
+    };
+  
+    refs.openModalBtn.addEventListener("click", toggleModal);
+    refs.closeModalBtn.addEventListener("click", toggleModal);
+  
+    function toggleModal() {
+      refs.modal.classList.toggle("is-hidden");
+    }
+  })();
+    </script>
     <script
         defer
         src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -860,7 +878,7 @@
         crossorigin="anonymous">
     </script>
     
-    <script src="./js/modal.js"></script>
+    <script src="./public/js-menu/modal.js"></script>
 
       
   </load></load></load></load></load></load></load></load></load></body>
