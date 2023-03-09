@@ -311,13 +311,8 @@
 .inputs {
   display: flex;
   flex-flow: column;
-  padding: 24px;
 }
-@media screen and (min-width: 768px) {
-  .inputs {
-    padding: 32px;
-  }
-}
+
 .form-label {
   display: flex;
   flex-direction: column;
