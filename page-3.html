@@ -30,7 +30,7 @@
     
     <script type="module" crossorigin src="/project-cool-coders/assets/page-3-c2a9ac5f.js"></script>
     <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-c2cda0c8.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-8bd494cb.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/page-3-bb6bc2a2.css">
   </head>
 
@@ -195,14 +195,8 @@
     <h1 class="restaurant-title">Restaurant</h1>
 
     <ul class="rest-list-btn">
-      <li>
-        <button type="button" class="button btn-white" data-modal-open>Book a table</button>
-      </li>
-      <li>
-        <a href="#restaurant-menu-section">
-          <button type="button" class="button btn-white">View a menu</button>
-        </a>
-      </li>
+      <li><button type="button" class="button btn-white" data-modal-open>Book a table</button></li>
+      <li><a href="#restaurant-menu-section" class="button btn-white">View a menu</a></li>
     </ul>
 
     <div class="icon-rest-box">
@@ -313,8 +307,8 @@
 
         <button  class="cls-button" data-modal-close>
             
-            <svg class="icon-cls"  width="8">
-                <use href=""></use>
+            <svg class="icon-cls icon"  width="12" height="12"> 
+                <use href="src/img/svg-sprite/iconcls-btn.svg#icon-Iconcls-btn-1"></use>
             </svg>
             
         </button>
@@ -329,60 +323,47 @@
                 <input class="form-input" 
                 type="name" 
                 name="user_name" minlength="2" required />
-                <svg class="form-icon" width="18" height="18">
-                    <use href=""></use>
-                </svg>
-                
+                  
             </label>
+            
         </div>
 
-        <div class="order-group">
-            <label class="form-label">
-                <span class="boking-label">Phone</span>
-                <input class="form-input" 
-                type="phone" 
-                name="user_phone" 
-                min="10" 
-                required />
-                <svg class="form-icon" width="18" height="24">
-                    <use href=""></use>
-                </svg>
-                
-            </label>
-        </div>
+        <span class="boking-label-coment">Who should book a table for?</span>
+
+        
     
         <div class="order-group">
             <label class="form-label">
-                <span class="boking-label">Email</span>
+                <span class="boking-label">number of people</span>
                 <input class="form-input" 
-                type="email" 
+                type="number" 
                 name="user_email" 
                 required />
-                <svg class="form-icon" width="18" height="24">
-                    <use href=""></use>
-                </svg>
                 
             </label>
         </div>
+        
 
 
-        <label>
+        <!-- <label>
             <span class="order-group">
                 <span class="boking-label-coment">Comment</span>
                 <textarea class="order-coment" name="user_Comment" rows="6" placeholder="Text input"></textarea>
             </span>
             
-        </label>
+        </label> -->
+        <div class="order-group">
+          <label class="form-label">
+              <span class="boking-label">Phone</span>
+              <input class="form-input" 
+              type="phone" 
+              name="user_phone" 
+              min="10" 
+              required />
+          </label>
+      </div>
+      <span class="boking-label-coment">Phone number</span>
 
-
-        <div class="conteiner-policy">
-            <label class="check-privacy">
-                <input class="check-privacy-input" type="checkbox" name="Policy" required />
-                
-                <span class="text-check">I accept the terms and conditions of the </span><a class="text-check-link" href=""> Privacy Policy</a>
-            </label>
-        </div>
-    
         <button class="btn-black button btn-send" type="submit">MAKE A RESERVATION</button>
       
       </form>
