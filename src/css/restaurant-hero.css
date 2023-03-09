@@ -311,6 +311,7 @@ color: var(--color-text);
     .title-modal{
         font-size: 36px;
         line-height: 1.11;
+        margin-bottom: 60px;
     }
 }
 
@@ -321,7 +322,11 @@ color: var(--color-text);
     flex-flow: column;
     padding: 24px;
 }
-
+@media screen and (min-width:768px) {
+    .inputs{
+        padding: 32px;
+    }
+}
 .form-label{
     display: flex;
     flex-direction: column;
@@ -412,16 +417,19 @@ color: var(--color-text);
 .dropdown-color{
     background-color: inherit;
     color: #f7f7f7;
-    border: 0.8px solid rgba(247, 247, 247, 0.2);
-    border-radius: 68px;
+    border: none;
+    border-bottom: 0.8px solid rgba(247, 247, 247, 0.2); ;
     margin-bottom: 32px;
     padding-bottom: 18px;
 }
 
-/* .order-group::after{
-    content: " ";
-    display: block;
-    width: 100%;
-    height: 1px;
-    color: rgba(247, 247, 247, 0.2);
-} */
+@media screen and (min-width:768px) {
+    .order-group{
+        width: 266px;
+    }
+    /* .teblem{
+    display: flex;
+    gap: 32px;
+    } */
+}
+
