@@ -30,7 +30,7 @@
     
     <script type="module" crossorigin src="/project-cool-coders/assets/page-3-c2a9ac5f.js"></script>
     <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-8bd494cb.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-49bb3826.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/page-3-bb6bc2a2.css">
   </head>
 
@@ -307,10 +307,9 @@
 
         <button  class="cls-button" data-modal-close>
             
-            <svg class="icon-cls icon"  width="12" height="12"> 
-                <use href="src/img/svg-sprite/iconcls-btn.svg#icon-Iconcls-btn-1"></use>
+            <svg class="icon-cls"  width="12" height="12"> 
+                <use href="/project-cool-coders/assets/symbol-defs-4c669716.svg#icon-Iconcls-btn-1"></use>
             </svg>
-            
         </button>
 
       <form class="inputs">
@@ -330,17 +329,30 @@
 
         <span class="boking-label-coment">Who should book a table for?</span>
 
-        
-    
         <div class="order-group">
-            <label class="form-label">
-                <span class="boking-label">number of people</span>
-                <input class="form-input" 
-                type="number" 
-                name="user_email" 
-                required />
-                
-            </label>
+          <label class="form-label boking-label" for="number" required>number of people
+            <select class="dropdown-color" id="number" name="number">
+              <option value="xs">4</option>
+              <option value="s">3</option>
+              <option value="m" selected>2</option>
+              <option value="l">1</option>
+            </select>
+          </label>
+        </div>
+
+
+        <div class="order-group">
+          <label class="form-label boking-label" for="day" required>today
+            <select class="dropdown-color" id="day" name="day">
+              <option value="xs">Monday</option>
+              <option value="s">Tuesday</option>
+              <option value="m" selected></option>
+              <option value="l">Thursday</option>
+              <option value="s">Friday</option>
+              <option value="m">Saturday</option>
+              <option value="l">Sunday</option>
+            </select>
+          </label>
         </div>
         
 
@@ -352,6 +364,8 @@
             </span>
             
         </label> -->
+
+        
         <div class="order-group">
           <label class="form-label">
               <span class="boking-label">Phone</span>
