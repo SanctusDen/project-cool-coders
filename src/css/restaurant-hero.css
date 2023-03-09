@@ -425,57 +425,6 @@ color: var(--color-text);
     transition: 250ms var(--timing-cubic);
 }
 
-/* Privacy Policiy */
-
-
-.conteiner-policy {
-    margin-top: 16px;
-    margin-bottom: 24px;
-}
-
-.check-privacy {
-
-    color: #757575;
-    font-size: 12px;
-    line-height: 1.33;
-    letter-spacing: 0.04em;
-}
-
-.check-privacy-input{
-    position: absolute;
-    appearance: none;
-    border-radius: 2px; 
-    border: 1.25px solid #2E2F42;
-    
-    width: 16px;
-    height: 16px;
-    fill: var(--title-text-color);
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Cpath d='M470.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L192 338.7 425.4 105.4c12.5-12.5 32.8-12.5 45.3 0z' fill='%23fff'/%3E%3C/svg%3E");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 10px 8px;
-
-    transition: 250ms var(--timing-cubic);
-}
-
-.check-privacy-input:checked{
-    background-color: var(--title-bgc-text);
-    border-color: var(--title-text-color);
-}
-
-.text-check{
-    margin-left: 24px;
-}
-
-.text-check-link{
-    text-decoration: underline;
-}
-  
-.check-privacy > a {
-    text-decoration-line: underline;
-    color: #4d5ae5;
-}
-
 /* btn-submit */
 
 .btn-send {
