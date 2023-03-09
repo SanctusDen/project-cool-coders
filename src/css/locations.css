@@ -30,7 +30,8 @@ p {
 }
 
 .maps {
-  box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
+  mix-blend-mode: luminosity;
+  box-shadow: -10px 10px 10px -10px rgba(0, 0, 0, 0.12);
 }
 
 .contact {
@@ -71,6 +72,26 @@ p {
 }
 
 
+@media screen and (max-width: 767px) {
+  .container {
+    padding: 0 20px;
+  } 
+ .map-img{
+  width: 100%;
+
+ }
+ .section-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+}
+
+
+
 @media screen and (min-width: 375px) {
   .mini-map{
     width: 100%;
@@ -89,7 +110,8 @@ p {
   .map-img{
     width: 100%;
   }
-}
+
+
   .location {
     padding-top: 64px;
     padding-bottom: 64px;
@@ -104,7 +126,7 @@ p {
     color: var(--dark-color);
   }
 
-
+}
 /*--------------------------*/
 @media screen and (min-width: 376px) and (max-width: 767px) {
   .container {
@@ -118,6 +140,7 @@ p {
     line-height: 1;
     letter-spacing: -0.02em;
     text-transform: uppercase;
+    margin-bottom: 32px;
   }
   .map-img{
     width: 100%;
@@ -160,23 +183,19 @@ p {
     text-transform: uppercase;
     color: var(--dark-color);
   }
-
   .location {
     padding-top: 100px;
     padding-bottom: 100px;
   }
-
   .contact {
     display: flex;
     gap: 70px;
   }
-
   .flex {
     display: flex;
     gap: 12px;
   }
   .flexbox {
-    
     display: flex;
     gap: 32px;
     align-items: flex-end;

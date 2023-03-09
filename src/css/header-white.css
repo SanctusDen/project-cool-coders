@@ -257,13 +257,21 @@
 }
 
 .header-menu-social-list {
-    position: absolute;
-    bottom: 24px;
-    left: 20px;
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-top: auto;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width:767px) {
+
+.header-menu-social-list {
+position: absolute;
+left: 20px;
+bottom: 24px;
+}
+    
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -271,10 +279,9 @@
         font-size: 28px;
         line-height: 1.14;
     }
+.menu-site-nav {
 
-    .header-menu-social-list {
-        position: absolute;
-        top: 0;
-        left: 0;
-    }
+padding-top: 240px;
+}
+   
 }
