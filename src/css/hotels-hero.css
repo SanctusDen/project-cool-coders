@@ -203,3 +203,228 @@
 .swipe-icon:focus {
   stroke: #121212;
 }
+
+.backdrop {
+position: fixed;
+top: 0;
+left: 0;
+z-index: 1000;
+width: 100%;
+height: 100%;
+background-color: rgba(46, 47, 66, 0.4);
+transition: opacity 250ms,visibility 250ms;
+}
+.backdrop.is-hidden {
+opacity: 0;
+visibility: hidden;
+pointer-events: none;
+}
+.backdrop.is-hidden .modal {
+opacity: 0;
+transition-delay: 250ms;
+transform: translate(-50%, -50%);
+}
+.modal {
+position: absolute;
+top: 50%;
+left: 50%;
+width: 335px;
+height: 636px;
+padding-top: 24px;
+padding-right: 24px;
+padding-left: 24px;
+padding-bottom: 40px;
+border-radius: 2px;
+caret-color: #f6f6f6;
+color: #f4f4fd;
+background-color: #121212;
+box-shadow: 0px 2px rgba(0, 0, 0, 0.2),
+ 0px 1px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.14); 
+transition: transform 250ms;
+transition-delay: 250ms;
+transform: translate(-50%, -50%);
+} 
+
+@media screen and (min-width: 768px) {
+    .modal {
+        width: 628px;
+        height: 572px;
+        padding-top: 32px;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-bottom: 60px;
+    }
+    
+}
+
+.modal-title {
+    margin-bottom: 40px;
+   font-size: 28px;
+   font-family: 500;
+   font-style: italic;
+   text-transform: uppercase;
+   letter-spacing: -0.02;
+}
+
+@media screen and (min-width: 768px) {
+    .modal-title {
+        margin-bottom: 60px;
+    }
+}
+
+.btn.modal-button {
+position: absolute;
+top: 24px;
+right: 24px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 24px;
+height: 24px;
+padding: 0;
+border: 1px solid #0000001A;
+fill: #f6f6f6;
+background-color: transparent;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-property: background-color, fill;
+}
+.btn.modal-button:hover,
+.btn.modal-button:focus {
+    background-color: #f6f6f6;
+    fill: #121212;
+}
+
+.order-contacts {
+    display: block;
+    font-weight: 500;
+    letter-spacing: 2%;
+    text-align: center;
+}
+.order_form {
+    display: flex;
+    flex-direction: column;  
+}
+
+.order-form-label {
+    display: block;
+    margin-top: 8px;
+    font-style: DM sans;
+    font-weight: 400;
+    font-size: 8px;
+    letter-spacing: 0.18em;
+    line-height: 1.5;
+    color: #D8D7D7;     
+} 
+
+.person-data.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+@media screen and (min-width: 768px) {
+    .person-data.list {
+    flex-direction: row;
+        
+    }
+}
+
+.option-data.list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+    .option-data.list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+        margin-top: 40px;
+        row-gap: 40px;
+    }
+}
+
+.order-form-group {
+    position: relative;  
+}
+
+.text-input {
+    position: absolute;
+    top: 0;
+    width: 287px;
+    height: 36;
+    right: 0;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    color: #D8D7D7;
+}
+@media screen and (min-width: 768px) {
+    .text-input {
+        width: 266px;
+    height: 36;
+    }
+}
+
+.order-form-field {
+    display: block;
+    width: 287px;
+    height: 36px;
+    background-color: transparent;
+    padding: 0;
+     border: none;
+    border-bottom: 0.8px solid #F6F6F633;
+   color: #f4f4fd;
+    
+    outline: transparent;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 250ms;
+    transition-property: border; 
+}
+@media screen and (min-width: 768px) {
+    .order-form-field {
+        width: 266px;
+    height: 36;
+    }
+}
+.order-form-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    pointer-events: none;
+    transform: translateY(-50%);
+}
+
+.btn-send.button {
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 32px;
+width: 235px;
+height: 46px;
+border-color: #e7e9fc;
+padding: 0;
+margin: 0 auto;
+text-transform: uppercase;
+background-color: transparent;
+color: var(--background-color);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+    .btn-send.button {
+        width: 399px;
+        height: 52px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .btn-send.button {
+        width: 444px;
+        height: 52px;
+    }
+}
+.mod-style {
+    font-style: normal;
+}
