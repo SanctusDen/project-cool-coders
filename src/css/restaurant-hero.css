@@ -348,7 +348,7 @@ color: var(--color-text);
     color: #D8D7D7;
 
     padding-top: 8px;
-    margin-bottom: 32px;
+    margin-bottom: 40px;
 }
 
 .form-input{
@@ -413,4 +413,6 @@ color: var(--color-text);
     color: #f7f7f7;
     border: 0.8px solid rgba(247, 247, 247, 0.2);
     border-radius: 68px;
+    margin-bottom: 32px;
+    padding-bottom: 18px;
 }
