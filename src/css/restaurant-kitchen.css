@@ -63,7 +63,11 @@
     column-gap: 32px;
   }
 }
+
 @media screen and (min-width: 1440px) {
+  .about-kitchen-container {
+    height: 598px;
+  }
   .about-kitchen-text-wrapper {
     transform: translateX(543px) translateY(-144px);
   }
