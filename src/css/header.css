@@ -1,4 +1,6 @@
+
 /* Шапка */
+
 
 
 
@@ -7,6 +9,9 @@
     color: #F7F7F7;
     border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
     width: 100%;
+     
+   
+    
 
 
 }
@@ -18,9 +23,20 @@
         transform: translateX(-0.1.5%);
         z-index: 1000;
         background-color: transparent;
+      
         
         
 
+    }
+    .home-header.no-transparency {
+        
+    
+        background: linear-gradient(to right, #3c3b3f, #605c3c);
+        backdrop-filter: blur(400px);
+        
+    
+    
+    
     }
 
 }
@@ -207,10 +223,20 @@ border: 1.5px solid #F7F7F7;
     background-color: #121212;
     transform: translateX(-140%);
     overflow: scroll;
+    transition: translate , 750ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    overflow: hidden;
+    
+    
+    
 }
 
 .is-open {
-    transform: translateX(0);
+ transform: translate(0);
+ 
+
+
+    
+
 }
 
 .header-menu {
@@ -274,6 +300,7 @@ padding-bottom: 20px;
     display: flex;
     align-items: center;
     gap: 14px;
+    margin-left: auto ;
 }
 
 @media screen and (max-width:767px) {
@@ -297,9 +324,7 @@ padding-bottom: 20px;
 @media screen and (min-width:1440px) {
     .menu {
     display: none;}
+
     
-}
-
-.menu{
-
+    
 }
