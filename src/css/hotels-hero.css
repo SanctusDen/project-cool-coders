@@ -67,7 +67,11 @@
 
 @media screen and (min-width: 1440px) {
   .hero-title {
+<<<<<<< Updated upstream
     margin-bottom: 32px;
+=======
+    
+>>>>>>> Stashed changes
     font-size: 90px;
   }
 }
