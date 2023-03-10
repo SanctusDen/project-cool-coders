@@ -323,7 +323,8 @@ transition-property: background-color, fill;
     font-size: 8px;
     letter-spacing: 0.18em;
     line-height: 1.5;
-    color: #D8D7D7;     
+    color: #D8D7D7;
+    text-transform: uppercase;     
 } 
 
 .person-data.list {
@@ -369,6 +370,7 @@ transition-property: background-color, fill;
     outline: none;
     background-color: inherit;
     color: #D8D7D7;
+    text-transform: uppercase;
 }
 @media screen and (min-width: 768px) {
     .text-input {
