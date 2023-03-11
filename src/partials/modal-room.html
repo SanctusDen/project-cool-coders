@@ -1,0 +1,87 @@
+
+<div class="backdrop is-hidden" data-room-modal-open>
+    <div class="modal">
+      <button  class="cls-button" data-room-modal-close>
+              
+        <svg class="icon-cls"  width="12" height="12"> 
+            <use href="./img/svg-sprite/symbol-defs.svg#icon-Iconcls-btn-1"></use>
+        </svg>
+    </button>
+          <p class="modal-title">
+            <span class="mod-style">book&nbsp;</span>a room
+          </p>
+      <form class="order_form" name="order-form">
+        <ul class="person-data list">
+          <li class="order-form-group">
+            <input
+              class="order-form-field"
+              id="user-name"
+              name="user-name"
+              type="text"
+              placeholder="YOUR NAME"
+              required
+            />
+            <label class="order-form-label" for="user-name"
+              >Who should book a table for?</label
+            >
+          </li>
+          <li class="order-form-group">
+            <input
+              class="order-form-field"
+              id="phone"
+              name="phone"
+              type="tel"
+              placeholder="+38 (___) ___-__-__"
+              required 
+              pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
+              minlength="7" maxlength="19" 
+            />
+            <label class="order-form-label" for="user-phone">phone number</label>
+          </li>
+        </ul>
+  
+        <ul class="option-data list">
+          <li class="order-form-group">
+            <select id="days" name="days" class="order-form-field">
+              <svg class="select-icon" width="20px" height="20px">
+                <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+              </svg>
+              <option value="date" selected>today</option>
+              <option value="date">tomorrow</option>
+              <option value="date">day after tomorrow</option>
+            </select> 
+           <label class="order-form-label" for="user-mail">check-in date</label> 
+          </li>
+          <li class="order-form-group">
+            <select id="calender" name="calender" class="order-form-field">
+              <svg class="select-icon" width="20px" height="20px">
+                <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+              </svg>
+              <option value="date" selected>25.03.2023</option>
+              <option value="date">26.03.2023</option>
+              <option value="date">27.03.2023</option>
+            </select>
+            <label class="order-form-label" for="user-mail">check-out date</label>
+          </li>
+          <li class="order-form-group">
+            <select id="rooms" name="rooms" class="order-form-field">
+              <svg class="select-icon" width="20px" height="20px">
+                <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
+              </svg>
+              <option value="room" selected>double suite</option>
+              <option value="room">Double Luxury Room</option>
+              <option value="room">triple room</option>
+            </select>
+            <label class="order-form-label" for="user-mail"
+              >number categoty</label
+            >
+          </li>
+        </ul>
+        <button class="btn-send button pointer" type="submit">
+          make a reservation
+        </button>
+      </form>
+    </div>
+  </div>
+  
+  
