@@ -11,7 +11,7 @@
 }
 @media screen and (min-width: 1440px) {
   .hotel-hero-2 {
-    padding-top: 30px;
+    padding-top: 105px;
     padding-bottom: 130px;
   }
 }
@@ -164,6 +164,8 @@
 }
 
 .btn-arrow.btn {
+  display: inline-block;
+  text-align: center;
   width: 36px;
   height: 36px;
 }
@@ -198,7 +200,11 @@
 }
 
 .btn-arrow.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: transparent;
+  padding: 0;
 }
 
 .swipe-icon {
@@ -384,7 +390,7 @@ transition-property: background-color, fill;
     display: block;
     width: 287px;
     height: 36px;
-    background-color: var(--black-color);
+    background-color: #121212;
     padding: 0;
      border: none;
     border-bottom: 0.8px solid #F6F6F633;
