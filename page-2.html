@@ -29,7 +29,7 @@
     
     <script type="module" crossorigin src="/project-cool-coders/assets/page-2-b7d48b61.js"></script>
     <link rel="modulepreload" crossorigin href="/project-cool-coders/assets/styles-fac82e35.js">
-    <link rel="stylesheet" href="/project-cool-coders/assets/styles-74bf20b3.css">
+    <link rel="stylesheet" href="/project-cool-coders/assets/styles-232f4b72.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/page-2-58463f13.css">
   </head>
 
@@ -367,34 +367,35 @@
 
       <ul class="option-data list">
         <li class="order-form-group">
-          <input
+          <!-- <input
             class="order-form-field"
-            id="user-mail"
-            name="user-mail"
-            type="date is hidden" min="2023-01-01" max="2024-01-01"
+            id="calendar"
+            name="calendar"
+            type="text"  
             required
-          />
+          /> -->
 
-          <label class="order-form-label" for="user-mail">check-in date</label>
-          <select id="days" name="days" class="text-input">
+          
+          <select id="days" name="days" class="order-form-field">
             <svg class="select-icon" width="20px" height="20px">
               <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
             </svg>
-           <option value="day" selected>today</option>
+            <option value="date" selected>today</option>
             <option value="date">tomorrow</option>
-            <option value="day">day after tomorrow</option>
-          </select>
+            <option value="date">day after tomorrow</option>
+          </select> 
+         <label class="order-form-label" for="user-mail">check-in date</label> 
         </li>
         <li class="order-form-group">
-          <input
+          <!-- <input
             class="order-form-field"
             id="user-mail"
             name="user-mail"
             type="text"
             required
-          />
-          <label class="order-form-label" for="user-mail">check-in date</label>
-          <select id="calender" name="calender" class="text-input">
+          /> -->
+          
+          <select id="calender" name="calender" class="order-form-field">
             <svg class="select-icon" width="20px" height="20px">
               <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
             </svg>
@@ -402,19 +403,18 @@
             <option value="date">26.03.2023</option>
             <option value="date">27.03.2023</option>
           </select>
+          <label class="order-form-label" for="user-mail">check-out date</label>
         </li>
         <li class="order-form-group">
-          <input
+          <!-- <input
             class="order-form-field"
             id="user-mail"
             name="user-mail"
             type="text"
             required
-          />
-          <label class="order-form-label" for="user-mail"
-            >number categoty</label
-          >
-          <select id="rooms" name="rooms" class="text-input">
+          /> -->
+          
+          <select id="rooms" name="rooms" class="order-form-field">
             <svg class="select-icon" width="20px" height="20px">
               <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
             </svg>
@@ -422,6 +422,9 @@
             <option value="room">Double Luxury Room</option>
             <option value="room">triple room</option>
           </select>
+          <label class="order-form-label" for="user-mail"
+            >number categoty</label
+          >
         </li>
       </ul>
       <button class="btn-send button pointer" type="submit">
