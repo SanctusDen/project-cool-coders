@@ -7,7 +7,7 @@
         <button
           type="button"
           class="btn-white button pointer"
-          data-modal-open="1"
+          data-modal-open
         >
           Book a Room
         </button>
@@ -89,7 +89,7 @@
               />
             </picture>
           </li>
-          <!-- <li class="hero-image">
+          <li class="hero-image">
               <picture class="hotels-hero-slider">
               <source
                 media="(min-width: 1440px)"
@@ -121,7 +121,7 @@
                 class="swiper-slide"
               />
             </picture>
-            </li>  -->
+            </li> 
         </ul>
       </div>
       <div class="slider-buttons">
@@ -184,11 +184,13 @@
         <li class="order-form-group">
           <input
             class="order-form-field"
-            id="user-phone"
-            name="user-phone"
-            type="text"
-            placeholder="+38 ()"
-            required
+            id="phone"
+            name="phone"
+            type="tel"
+            placeholder="+38 (___) ___-__-__"
+            required 
+            pattern="(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){12}(\s*)?"
+            minlength="7" maxlength="19" 
           />
           <label class="order-form-label" for="user-phone">phone number</label>
         </li>
@@ -200,7 +202,7 @@
             class="order-form-field"
             id="user-mail"
             name="user-mail"
-            type="text"
+            type="date is hidden" min="2023-01-01" max="2024-01-01"
             required
           />
 
@@ -209,8 +211,8 @@
             <svg class="select-icon" width="20px" height="20px">
               <use href="../img/img_hotel-hero/select.svg#icon-select"></use>
             </svg>
-            <option value="day" selected>today</option>
-            <option value="tommorow">tomorrow</option>
+           <option value="day" selected>today</option>
+            <option value="date">tomorrow</option>
             <option value="day">day after tomorrow</option>
           </select>
         </li>
@@ -259,5 +261,6 @@
     </form>
   </div>
 </div>
-
+<script src="./main.js" type="modsule"></script> 
 <script src="./js/modal.js"></script>
+ <script src="./public/js-menu/modal.js"></script>
