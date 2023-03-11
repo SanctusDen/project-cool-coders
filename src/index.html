@@ -24,6 +24,8 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css"
     />
+
+    <link rel="stylesheet" href="./">
     <link rel="stylesheet" href="./css/current-restauraunt.css" />
     <link rel="stylesheet" href="./css/styles.css" />
     <link rel="stylesheet" href="./css/reset.css" />
@@ -41,22 +43,7 @@
     <!-- Loads the specified .html file -->
     <load ="partials/footer.html" />
 
-    <script type="module">
-      (() => {
-        const refs = {
-          openModalBtn: document.querySelector('[data-modal-open]'),
-          closeModalBtn: document.querySelector('[data-modal-close]'),
-          modal: document.querySelector('[data-modal]'),
-        };
-
-        refs.openModalBtn.addEventListener('click', toggleModal);
-        refs.closeModalBtn.addEventListener('click', toggleModal);
-
-        function toggleModal() {
-          refs.modal.classList.toggle('is-hidden');
-        }
-      })();
-    </script>
+    
     <script
       defer
       src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
@@ -96,7 +83,9 @@
       })();
     </script>
     <script src="./public/JS-menu/header.js"></script>
-    <script src="./public/js-menu/modal.js"></script>
-    <script src="./main.js" type="modsule"></script>
+    <!-- <script src="./public/js-menu/modal.js"></script> -->
+    <script src="./main.js"></script>
   </body>
+
+
 </html>

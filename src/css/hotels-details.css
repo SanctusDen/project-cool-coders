@@ -47,6 +47,8 @@ font-size: 40px;
 line-height: 1;
 letter-spacing: .02em;
 text-transform: uppercase;
+
+transform: matrix 280ms(20%);
 }
 .hotel-details-description {
     font-weight: 500;

@@ -16,6 +16,8 @@
   color: var(--color-text);
   max-width: 270px;
   margin-bottom: 24px;
+
+  animation: tracking-in-expand .7s cubic-bezier(.215,.61,.355,1) both;
 }
 .luxury-title {
   font-style: italic;
