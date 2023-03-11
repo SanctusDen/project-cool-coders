@@ -25,6 +25,8 @@
   text-transform: uppercase;
 
   color: var(--color-text);
+
+  animation: tracking-in-expand 250ms cubic-bezier(.215,.61,.355,1) both;
 }
 
 @media screen and (min-width: 768px) {
