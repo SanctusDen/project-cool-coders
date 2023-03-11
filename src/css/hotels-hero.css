@@ -56,6 +56,7 @@
   font-size: 40px;
   text-transform: uppercase;
   margin-bottom: 24px;
+  animation: tracking-in-expand .7s cubic-bezier(.215,.61,.355,1) both;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
@@ -383,11 +384,13 @@ transition-property: background-color, fill;
     display: block;
     width: 287px;
     height: 36px;
-    background-color: transparent;
+    background-color: var(--black-color);
     padding: 0;
      border: none;
     border-bottom: 0.8px solid #F6F6F633;
    color: #f4f4fd;
+   text-transform: uppercase; 
+  
     
     outline: transparent;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
