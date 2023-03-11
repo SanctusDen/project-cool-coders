@@ -1,0 +1,79 @@
+<!-- MODAL -->
+
+<div class="backdrop is-hidden" data-open-modal-table>
+
+    <div class="modal" >
+
+        <button  class="cls-button" data-modal-close-table>
+            
+            <svg class="icon-cls"  width="12" height="12"> 
+                <use href="./img/svg-sprite/symbol-defs.svg#icon-Iconcls-btn-1"></use>
+            </svg>
+        </button>
+
+      <form class="inputs">
+      
+          <p class="title-modal">BOOK A TABLE</p>
+          
+          <ul class="modcont">
+            <li><div class="order-group">
+              <label class="form-label">
+                  <span class="boking-label">Your name</span>
+                  <input class="form-input" 
+                  type="name" 
+                  name="user_name" minlength="2" required />
+                    
+              </label>
+              
+          </div><span class="boking-label-coment">Who should book a table for?</span>
+                </li>
+
+          
+
+            <li><div class="order-group">
+            <label class="form-label boking-label" for="number" required>
+              <select class="dropdown-color" id="number" name="number">
+                <option value="xs">4</option>
+                <option value="s">3</option>
+                <option value="m">2</option>
+                <option value="m" selected>NUMBER OF PEOPLE</option>
+                <option value="l">1</option>
+              </select>
+            </label>
+          </div></li>
+
+
+            <li><div class="order-group">
+            <label class="form-label boking-label" for="day" required>
+              <select class="dropdown-color today" id="day" name="day">
+                <option value="xs">Monday</option>
+                <option value="s">Tuesday</option>
+                <option value="m" >Wendsday</option>
+                <option value="m" selected>TODAY</option>
+                <option value="l">Thursday</option>
+                <option value="s">Friday</option>
+                <option value="m">Saturday</option>
+                <option value="l">Sunday</option>
+              </select>
+              <span class="boking-label-coment">What date to book?</span>
+            </label>
+          </div></li>
+
+
+            <li><div class="order-group">
+            <label class="form-label">
+                <span class="boking-label">+ 38()</span>
+                <input class="form-input" 
+                type="phone" 
+                name="user_phone" 
+                min="10" 
+                required />
+            </label>
+          </div><span class="boking-label-coment">What date to book?</span></li>
+          
+          </ul>
+          <button class="btn-black btn-send" type="submit">MAKE A RESERVATION</button>
+      
+      </form>
+    </div>
+</div>
