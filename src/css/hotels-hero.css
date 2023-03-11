@@ -156,8 +156,8 @@
 @media screen and (min-width: 1440px) {
   .hero-images.list {
     position: relative;
-    justify-content: end;
-    
+    justify-content: center;
+    align-items: center;
     column-gap: 32px;
     left: 702px;
   }
