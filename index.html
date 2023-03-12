@@ -27,8 +27,10 @@
 
     
     
-    <script type="module" crossorigin src="/project-cool-coders/assets/modal-table-58aea070.js"></script>
-    <link rel="stylesheet" href="/project-cool-coders/assets/modal-table-5a26c7fa.css">
+    <script type="module" crossorigin src="/project-cool-coders/assets/mobile-menu-9f152d2a.js"></script>
+    <script type="module" crossorigin src="/project-cool-coders/assets/modal-room-fe89536d.js"></script>
+    <script type="module" crossorigin src="/project-cool-coders/assets/modal-table-b128ff70.js"></script>
+    <link rel="stylesheet" href="/project-cool-coders/assets/mobile-menu-5a26c7fa.css">
     <link rel="stylesheet" href="/project-cool-coders/assets/index-a98045f5.css">
   </head>
 
@@ -693,16 +695,9 @@
       </li>
     </ul>
     <ul class="buttons-list desktop-hidden">
-      <li>
-        <button type="button" class="hotel-details-button" data-room-modal-open>Book a room</button>
-      </li>
-      <li>
-        <a
-          class="hotel-details-link hotel-details-button"
-          href="page-2.html" 
-          >View rooms</a
-        >
-      </li>
+      <li><button class="hotel-details-button" type="button" data-room-modal-open>Book a room</button></li>
+      
+      <li><a class="hotel-details-link hotel-details-button" href="page-2.html" >View rooms</a></li>
     </ul>
   </div>
 </section>
@@ -820,7 +815,7 @@
 
 
     
-<div class="backdrop is-hidden" data-room-modal-open>
+<div class="backdrop is-hidden" data-modal-room>
     <div class="modal">
       <button  class="cls-button" data-room-modal-close>
               
@@ -908,7 +903,7 @@
   
     <!-- MODAL -->
 
-<div class="backdrop is-hidden" data-open-modal-table>
+<div class="backdrop is-hidden" data-modal-table>
 
     <div class="modal" >
 
@@ -986,7 +981,8 @@
     </div>
 </div>
     
-  
+    
+    
     
   </body>
 

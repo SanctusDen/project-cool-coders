@@ -1,0 +1,1 @@
+(()=>{const o={openModalBtn:document.querySelectorAll("[data-room-modal-open]"),closeModalBtn:document.querySelector("[data-room-modal-close]"),modal:document.querySelector("[data-modal-room]")};o.openModalBtn.forEach(l=>{l.addEventListener("click",e)}),o.closeModalBtn.addEventListener("click",e);function e(){o.modal.classList.toggle("is-hidden")}})();
