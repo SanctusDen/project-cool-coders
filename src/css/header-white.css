@@ -1,4 +1,23 @@
 /* Pavel */
+
+/* Кейффреймы для хедер */
+
+
+
+@keyframes slide-fwd-center {
+    0% {
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
+    }
+
+    100% {
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
+    }
+}
+
+
+
 .white-header {
     background: #FFFFFF;
         border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
@@ -6,6 +25,7 @@
     padding-top: 20px;
     padding-bottom: 20px;
     width: 100%;
+
 
 }
 
@@ -53,6 +73,8 @@
     flex-direction: column;
     text-align: center;
     gap: 3px;
+
+    
 }
 
 .white-header-logo-mimino {
@@ -64,6 +86,7 @@
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: #121212;
+  
 }
 
 .white-header-logo-complex {
@@ -157,6 +180,7 @@
         letter-spacing: 0.05em;
         text-transform: uppercase;
         color: #121212;
+        animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
     }
 
 
