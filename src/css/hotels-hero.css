@@ -449,5 +449,15 @@ color: var(--background-color);
     font-style: normal;
 }
 
-
-
+.hotel-current::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 20px;
+  left: 19.5px;
+  display: block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #121212;
+}
